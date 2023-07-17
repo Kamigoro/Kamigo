@@ -17,14 +17,16 @@
         <Authorized>
             @if (playerGames is null || !playerGames.Any())
             {
-                <p>Vous n'avez pas encore de jeux.</p>
+                <p>Oops ! Vous n'avez pas encore de jeux.</p>
+                <p>Souhaitez vous en ajouter ?</p>
+
             }else
             {
                 var gamesPerGeneration = playerGames.GroupBy(p => p.Generation);
                 foreach (var gameGeneration in gamesPerGeneration)
                 {
+                    <h2>Génération @gameGeneration.Key</h2>
                     <div class="container">
-                        <h2>Génération @gameGeneration.Key</h2>
                         <div class="row justify-content-around">
                             @foreach (var game in gameGeneration)
                             {
@@ -35,6 +37,10 @@
                                         <p class="card-text">@game.Description</p>
                                         <a href="#" class="btn btn-primary">Mon Pokédex</a>
                                     </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Region : @game.Region</li>
+                                        <li class="list-group-item">Sortie : @game.ReleaseDate.ToLocalTime()</li>
+                                    </ul>
                                 </div>
                             }
                         </div>
