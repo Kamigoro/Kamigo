@@ -1,11 +1,8 @@
 using Kamigo.Data.Repositories;
 using Kamigo.PokeShow.Areas.Identity;
 using Kamigo.PokeShow.Data;
-using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Authorization;
-using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.EntityFrameworkCore;
 
 namespace Kamigo.PokeShow
@@ -26,7 +23,6 @@ namespace Kamigo.PokeShow
             builder.Services.AddRazorPages();
             builder.Services.AddServerSideBlazor();
             builder.Services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();
-            builder.Services.AddSingleton<WeatherForecastService>();
             builder.Services.AddSingleton<IPlayerGameRepository, InMemoryPlayerGamesRepository>();
             builder.Services.AddSingleton<PlayerGamesService>();
 
