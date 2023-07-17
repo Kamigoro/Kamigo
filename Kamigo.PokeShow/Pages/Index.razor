@@ -1,0 +1,68 @@
+﻿@page "/"
+@using Kamigo.Data.Models;
+@using Kamigo.PokeShow.Data;
+@using Microsoft.AspNetCore.Identity;
+@inject PlayerGamesService PlayerGamesService;
+
+<PageTitle>Mes jeux</PageTitle>
+
+<h1>Liste de vos jeux</h1>
+
+<CascadingAuthenticationState>
+    <AuthorizeView>
+        <NotAuthorized>
+            <p>Vous devez être connecté pour accéder à cette page.</p>
+            <a href="Identity/Account/Login">Se connecter</a>
+        </NotAuthorized>
+        <Authorized>
+            @if (playerGames is null || !playerGames.Any())
+            {
+                <p>Vous n'avez pas encore de jeux.</p>
+            }else
+            {
+                var gamesPerGeneration = playerGames.GroupBy(p => p.Generation);
+                foreach (var gameGeneration in gamesPerGeneration)
+                {
+                    <div class="container">
+                        <h2>Génération @gameGeneration.Key</h2>
+                        <div class="row justify-content-around">
+                            @foreach (var game in gameGeneration)
+                            {
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src=@game.ImageUrl alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">@game.Name</h5>
+                                        <p class="card-text">@game.Description</p>
+                                        <a href="#" class="btn btn-primary">Mon Pokédex</a>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                }
+            }
+        </Authorized>
+    </AuthorizeView>
+</CascadingAuthenticationState>
+
+@code{
+
+    [CascadingParameter]
+    private Task<AuthenticationState> authenticationStateTask { get; set; }
+    [Inject]
+    UserManager<IdentityUser> userManager { get; set; }
+
+    private PokemonGame[]? playerGames;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var user = (await authenticationStateTask).User;
+
+        if (user.Identity.IsAuthenticated)
+        {
+            var currentUser = await userManager.GetUserAsync(user);
+            var enumerablePlayerGames = await PlayerGamesService.GetPlayerGamesAsync(currentUser.Id);
+            playerGames = enumerablePlayerGames.ToArray();
+        }
+    }
+}
