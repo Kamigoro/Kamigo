@@ -15,36 +15,46 @@
             <a href="Identity/Account/Login">Se connecter</a>
         </NotAuthorized>
         <Authorized>
-            @if (playerGames is null || !playerGames.Any())
+
+            <select class="custom-select" multiple @onchange="@OnSelect">
+                @foreach (var game in FullPokemonGamesList)
+                {
+                    <option value="@game.Id">@game.Name</option>
+                }
+            </select>
+            <button class="btn btn-primary" @onclick="@AddGames">Ajouter</button>
+
+            @if (PlayerGames is null || !PlayerGames.Any())
             {
                 <p>Oops ! Vous n'avez pas encore de jeux.</p>
-                <p>Souhaitez vous en ajouter ?</p>
-
+                
             }else
             {
-                var gamesPerGeneration = playerGames.GroupBy(p => p.Generation);
+                var gamesPerGeneration = PlayerGames.GroupBy(p => p.Generation);
                 foreach (var gameGeneration in gamesPerGeneration)
                 {
-                    <h2>Génération @gameGeneration.Key</h2>
                     <div class="container">
                         <div class="row justify-content-around">
                             @foreach (var game in gameGeneration)
                             {
                                 <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src=@game.ImageUrl alt="Card image cap">
+                                    <img class="card-img-top" src=@game.ImageUrl alt="Couverture du jeu @game.Name">
                                     <div class="card-body">
                                         <h5 class="card-title">@game.Name</h5>
                                         <p class="card-text">@game.Description</p>
-                                        <a href="#" class="btn btn-primary">Mon Pokédex</a>
                                     </div>
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">Region : @game.Region</li>
+                                        <li class="list-group-item">Génération : @gameGeneration.Key</li>
+                                        <li class="list-group-item">Région : @game.Region</li>
                                         <li class="list-group-item">Sortie : @game.ReleaseDate.ToLocalTime()</li>
                                     </ul>
+                                    <a href="#" class="btn btn-primary">Mon Pokédex</a>
+                                    <a href="#" class="btn btn-danger" id="@game.Id">Supprimer</a>
                                 </div>
                             }
                         </div>
                     </div>
+                    <p></p>
                 }
             }
         </Authorized>
@@ -54,21 +64,46 @@
 @code{
 
     [CascadingParameter]
-    private Task<AuthenticationState> authenticationStateTask { get; set; }
-    [Inject]
-    UserManager<IdentityUser> userManager { get; set; }
+    private Task<AuthenticationState> AuthenticationStateTask { get; set; }
 
-    private PokemonGame[]? playerGames;
+    [Inject]
+    private UserManager<IdentityUser> UserManager { get; set; }
+
+    private IEnumerable<PokemonGame> PlayerGames { get; set; }
+
+    private IEnumerable<PokemonGame> FullPokemonGamesList { get; set; } = new List<PokemonGame>();
+
+    private string CurrentUserId { get; set; }
+
+    private int[] SelectedGameIds { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
-        var user = (await authenticationStateTask).User;
+        var authenticationState = await AuthenticationStateTask;
+        var user = authenticationState.User;
 
         if (user.Identity.IsAuthenticated)
         {
-            var currentUser = await userManager.GetUserAsync(user);
-            var enumerablePlayerGames = await PlayerGamesService.GetPlayerGamesAsync(currentUser.Id);
-            playerGames = enumerablePlayerGames.ToArray();
+            var currentUser = await UserManager.GetUserAsync(user);
+            CurrentUserId = currentUser.Id;
+            var playerGames = await PlayerGamesService.GetPlayerGamesAsync(CurrentUserId);
+            PlayerGames = playerGames;
+            FullPokemonGamesList = PokemonGamesList.Games.Where(g => !PlayerGames.Any(p => p.Id == g.Id));
+        }
+    }
+
+    private void OnSelect(ChangeEventArgs e)
+    {
+        var selectedIdsAsStrings = (string[])e.Value;
+        SelectedGameIds = selectedIdsAsStrings.Select(int.Parse).ToArray();
+    }
+
+    private async Task AddGames()
+    {
+        if (SelectedGameIds.Any())
+        {
+            PlayerGames = await PlayerGamesService.AddGamesToPlayerAsync(CurrentUserId, SelectedGameIds);
+            FullPokemonGamesList = PokemonGamesList.Games.Where(g => !PlayerGames.Any(p => p.Id == g.Id));
         }
     }
 }

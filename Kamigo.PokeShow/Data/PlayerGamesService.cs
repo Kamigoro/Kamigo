@@ -17,5 +17,11 @@ namespace Kamigo.PokeShow.Data
         {
             return await _playerGameRepository.GetPlayerGamesAsync(playerId);
         }
+
+        [Authorize]
+        public async Task<IEnumerable<PokemonGame>> AddGamesToPlayerAsync(string playerId, int[] gamesIds)
+        {
+            return await _playerGameRepository.AddGamesToPlayerAsync(playerId, gamesIds);
+        }
     }
 }
