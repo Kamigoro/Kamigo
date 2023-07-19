@@ -25,5 +25,12 @@ namespace Kamigo.PokeShow.Data
             var player = await _playerGameRepository.AddGamesToPlayerAsync(playerId, gamesIds);
             return player.GamesOwned;
         }
+
+        [Authorize]
+        public async Task<IEnumerable<PokemonGame>> DeleteGameFromPlayerAsync(string playerId, int gameId)
+        {
+            var player = await _playerGameRepository.DeleteGameFromPlayerAsync(playerId, gameId);
+            return player.GamesOwned;
+        }
     }
 }

@@ -50,5 +50,21 @@ namespace Kamigo.Data.Repositories
                 return Player.FromPlayerEntity(playerEntity);
             }
         }
+
+        public async Task<Player> DeleteGameFromPlayerAsync(string playerId, int gameId)
+        {
+            var player = await GetPlayerAsync(playerId);
+            if(player is null)
+            {
+                return null;
+            }
+            else
+            {
+                var playerEntity = Player.ToPlayerEntity(player);
+                playerEntity.GamesOwnedIds.Remove(gameId);
+                await _playerGamesContainer.UpsertItemAsync(playerEntity);
+                return Player.FromPlayerEntity(playerEntity);
+            }
+        }
     }
 }
