@@ -6,8 +6,8 @@ namespace Kamigo.PokeShow.Data
 {
     public class PlayerGamesService
     {
-        private readonly IPlayerGameRepository _playerGameRepository;
-        public PlayerGamesService(IPlayerGameRepository playerGameRepository)
+        private readonly IPlayerRepository _playerGameRepository;
+        public PlayerGamesService(IPlayerRepository playerGameRepository)
         {
             _playerGameRepository = playerGameRepository;
         }
@@ -15,13 +15,15 @@ namespace Kamigo.PokeShow.Data
         [Authorize]
         public async Task<IEnumerable<PokemonGame>> GetPlayerGamesAsync(string playerId)
         {
-            return await _playerGameRepository.GetPlayerGamesAsync(playerId);
+            var player = await _playerGameRepository.GetPlayerAsync(playerId);
+            return player?.GamesOwned ?? Enumerable.Empty<PokemonGame>();
         }
 
         [Authorize]
         public async Task<IEnumerable<PokemonGame>> AddGamesToPlayerAsync(string playerId, int[] gamesIds)
         {
-            return await _playerGameRepository.AddGamesToPlayerAsync(playerId, gamesIds);
+            var player = await _playerGameRepository.AddGamesToPlayerAsync(playerId, gamesIds);
+            return player.GamesOwned;
         }
     }
 }

@@ -5,7 +5,12 @@ VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kamigo.PokeShow", "Kamigo.PokeShow\Kamigo.PokeShow.csproj", "{BAAC818E-709B-4D8A-ACB3-A68D6D888E77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kamigo.Data", "Kamigo.Data\Kamigo.Data.csproj", "{9DF2453F-4F4B-4CDF-87EF-96F954ADF8EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kamigo.Data", "Kamigo.Data\Kamigo.Data.csproj", "{9DF2453F-4F4B-4CDF-87EF-96F954ADF8EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B12F307B-4F52-40EA-BD41-50E83965F2DD}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

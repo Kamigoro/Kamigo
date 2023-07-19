@@ -3,6 +3,7 @@ using Kamigo.PokeShow.Areas.Identity;
 using Kamigo.PokeShow.Data;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.Azure.Cosmos;
 using Microsoft.EntityFrameworkCore;
 
 namespace Kamigo.PokeShow
@@ -23,7 +24,19 @@ namespace Kamigo.PokeShow
             builder.Services.AddRazorPages();
             builder.Services.AddServerSideBlazor();
             builder.Services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();
-            builder.Services.AddSingleton<IPlayerGameRepository, InMemoryPlayerGamesRepository>();
+            builder.Services.AddSingleton<IPlayerRepository>(b =>
+            {
+                var clientOptions = new CosmosClientOptions()
+                {
+                    SerializerOptions = new CosmosSerializationOptions()
+                    {
+                        PropertyNamingPolicy = CosmosPropertyNamingPolicy.CamelCase
+                    }
+                };
+                var cosmosClient = new CosmosClient(builder.Configuration.GetConnectionString("CosmosConnection"), clientOptions);
+                var container = cosmosClient.GetContainer("players", "configuration");
+                return new CosmosPlayerGameRepository(container);
+            });
             builder.Services.AddSingleton<PlayerGamesService>();
 
             var app = builder.Build();
