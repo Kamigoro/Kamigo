@@ -1,0 +1,21 @@
+﻿@page "/pokedex/{gameId}"
+@using Kamigo.Data.Models;
+
+
+<PageTitle>Pokédex</PageTitle>
+
+<p>Vous êtes sur le pokédex de @CurrentPokemonGame.Name</p>
+
+@code{
+
+    [Parameter]
+    public string gameId { get; set; }
+
+    public PokemonGame CurrentPokemonGame { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+        CurrentPokemonGame = PokemonGamesList.Games.FirstOrDefault(g => g.Id == int.Parse(gameId));
+    }
+}

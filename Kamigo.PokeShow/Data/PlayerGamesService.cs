@@ -13,21 +13,21 @@ namespace Kamigo.PokeShow.Data
         }
 
         [Authorize]
-        public async Task<IEnumerable<PokemonGame>> GetPlayerGamesAsync(string playerId)
+        public async Task<List<PokemonGame>> GetPlayerGamesAsync(string playerId)
         {
             var player = await _playerGameRepository.GetPlayerAsync(playerId);
-            return player?.GamesOwned ?? Enumerable.Empty<PokemonGame>();
+            return player?.GamesOwned ?? new List<PokemonGame>();
         }
 
         [Authorize]
-        public async Task<IEnumerable<PokemonGame>> AddGamesToPlayerAsync(string playerId, int[] gamesIds)
+        public async Task<List<PokemonGame>> AddGamesToPlayerAsync(string playerId, int[] gamesIds)
         {
             var player = await _playerGameRepository.AddGamesToPlayerAsync(playerId, gamesIds);
             return player.GamesOwned;
         }
 
         [Authorize]
-        public async Task<IEnumerable<PokemonGame>> DeleteGameFromPlayerAsync(string playerId, int gameId)
+        public async Task<List<PokemonGame>> DeleteGameFromPlayerAsync(string playerId, int gameId)
         {
             var player = await _playerGameRepository.DeleteGameFromPlayerAsync(playerId, gameId);
             return player.GamesOwned;

@@ -48,8 +48,8 @@
                                         <li class="list-group-item">Région : @game.Region</li>
                                         <li class="list-group-item">Sortie : @game.ReleaseDate.ToLocalTime()</li>
                                     </ul>
-                                    <a href="#" class="btn btn-primary">Mon Pokédex</a>
-                                    <a href="#" class="btn btn-danger" @onclick="@(() => DeleteGameFromPlayer(game.Id))">Supprimer</a>
+                                    <a href="/pokedex/@game.Id" class="btn btn-primary">Mon Pokédex</a>
+                                    <a class="btn btn-danger" @onclick="@(() => DeleteGameFromPlayer(game.Id))">Supprimer</a>
                                 </div>
                             }
                         </div>
@@ -69,9 +69,9 @@
     [Inject]
     private UserManager<IdentityUser> UserManager { get; set; }
 
-    private IEnumerable<PokemonGame> PlayerGames { get; set; }
+    private List<PokemonGame> PlayerGames { get; set; }
 
-    private IEnumerable<PokemonGame> FullPokemonGamesList { get; set; } = new List<PokemonGame>();
+    private List<PokemonGame> FullPokemonGamesList { get; set; } = new List<PokemonGame>();
 
     private string CurrentUserId { get; set; }
 
