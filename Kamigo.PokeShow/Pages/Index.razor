@@ -44,32 +44,27 @@
                 
             }else
             {
-                var gamesPerGeneration = PlayerGames.GroupBy(p => p.Generation);
-                foreach (var gameGeneration in gamesPerGeneration)
-                {
-                    <div class="container">
-                        <div class="row justify-content-around">
-                            @foreach (var game in gameGeneration)
-                            {
-                                <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src=@game.ImageUrl alt="Couverture du jeu @game.Name">
-                                    <div class="card-body">
-                                        <h5 class="card-title">@game.Name</h5>
-                                        <p class="card-text">@game.Description</p>
-                                    </div>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">@Localizer["game-generation_label"] : @gameGeneration.Key</li>
-                                        <li class="list-group-item">@Localizer["game-region_label"] : @game.Region</li>
-                                        <li class="list-group-item">@Localizer["game-release-date_label"] : @game.ReleaseDate.ToShortDateString()</li>
-                                    </ul>
-                                    <a href="/pokedex/@game.Id" class="btn btn-primary">@Localizer["my-pokedex_button"]</a>
-                                    <a class="btn btn-danger" @onclick="@(() => DeleteGameFromPlayer(game.Id))">@Localizer["delete-game_button"]</a>
+                <div class="container">
+                    <div class="row justify-content-around">
+                        @foreach (var game in PlayerGames.OrderBy(g => g.Id))
+                        {
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src=@game.ImageUrl alt="@game.Name">
+                                <div class="card-body">
+                                    <h5 class="card-title">@game.Name</h5>
+                                    <p class="card-text">@game.Description</p>
                                 </div>
-                            }
-                        </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">@Localizer["game-generation_label"] : @game.Generation</li>
+                                    <li class="list-group-item">@Localizer["game-region_label"] : @game.Region</li>
+                                    <li class="list-group-item">@Localizer["game-release-date_label"] : @game.ReleaseDate.ToShortDateString()</li>
+                                </ul>
+                                <a href="/pokedex/@game.Id" class="btn btn-primary">@Localizer["my-pokedex_button"]</a>
+                                <a class="btn btn-danger" @onclick="@(() => DeleteGameFromPlayer(game.Id))">@Localizer["delete-game_button"]</a>
+                            </div>
+                        }
                     </div>
-                    <p></p>
-                }
+                </div>
             }
         </Authorized>
     </AuthorizeView>
