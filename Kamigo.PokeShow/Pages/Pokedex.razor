@@ -1,10 +1,12 @@
 ﻿@page "/pokedex/{gameId}"
+@using Microsoft.Extensions.Localization;
 @using Kamigo.Data.Models;
+@inject IStringLocalizer<App> Localizer;
 
 
-<PageTitle>Pokédex</PageTitle>
+<PageTitle>@Localizer["pokedex_label"]</PageTitle>
 
-<p>Vous êtes sur le pokédex de @CurrentPokemonGame.Name</p>
+<p>@Localizer["current-pokedex-landing_label"] @CurrentPokemonGame.Generation</p>
 
 @code{
 

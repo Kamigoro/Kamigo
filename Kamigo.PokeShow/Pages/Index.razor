@@ -2,31 +2,45 @@
 @using Kamigo.Data.Models;
 @using Kamigo.PokeShow.Data;
 @using Microsoft.AspNetCore.Identity;
+@using Microsoft.Extensions.Localization;
+@inject IStringLocalizer<App> Localizer;
 @inject PlayerGamesService PlayerGamesService;
 
-<PageTitle>Mes jeux</PageTitle>
+<PageTitle>@Localizer["my-games_page_title"]</PageTitle>
 
-<h1>Liste de vos jeux</h1>
+<h1>@Localizer["your-game-list_label"]</h1>
 
 <CascadingAuthenticationState>
     <AuthorizeView>
         <NotAuthorized>
-            <p>Vous devez être connecté pour accéder à cette page.</p>
-            <a href="Identity/Account/Login">Se connecter</a>
+            <p>@Localizer["have-to-be-connected_warning"]</p>
+            <a href="Identity/Account/Login">@Localizer["login_button"]</a>
         </NotAuthorized>
         <Authorized>
 
-            <select class="custom-select" multiple @onchange="@OnSelect">
-                @foreach (var game in FullPokemonGamesList)
-                {
-                    <option value="@game.Id">@game.Name</option>
-                }
-            </select>
-            <button class="btn btn-primary" @onclick="@AddGames">Ajouter</button>
+            @if(FullPokemonGamesList.Any())
+            {
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <select class="form-select" multiple @onchange="@OnSelect">
+                                @foreach (var game in FullPokemonGamesList)
+                                {
+                                    <option value="@game.Id">@game.Name</option>
+                                }
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <button class="btn btn-primary" @onclick="@AddGames">@Localizer["add-game_button"]</button>
+                        </div>
+                    </div>
+                </div>
+            }
+            
 
             @if (PlayerGames is null || !PlayerGames.Any())
             {
-                <p>Oops ! Vous n'avez pas encore de jeux.</p>
+                <p>@Localizer["no-game-in-collection_warning"]</p>
                 
             }else
             {
@@ -44,12 +58,12 @@
                                         <p class="card-text">@game.Description</p>
                                     </div>
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">Génération : @gameGeneration.Key</li>
-                                        <li class="list-group-item">Région : @game.Region</li>
-                                        <li class="list-group-item">Sortie : @game.ReleaseDate.ToLocalTime()</li>
+                                        <li class="list-group-item">@Localizer["game-generation_label"] : @gameGeneration.Key</li>
+                                        <li class="list-group-item">@Localizer["game-region_label"] : @game.Region</li>
+                                        <li class="list-group-item">@Localizer["game-release-date_label"] : @game.ReleaseDate.ToShortDateString()</li>
                                     </ul>
-                                    <a href="/pokedex/@game.Id" class="btn btn-primary">Mon Pokédex</a>
-                                    <a class="btn btn-danger" @onclick="@(() => DeleteGameFromPlayer(game.Id))">Supprimer</a>
+                                    <a href="/pokedex/@game.Id" class="btn btn-primary">@Localizer["my-pokedex_button"]</a>
+                                    <a class="btn btn-danger" @onclick="@(() => DeleteGameFromPlayer(game.Id))">@Localizer["delete-game_button"]</a>
                                 </div>
                             }
                         </div>
@@ -88,7 +102,7 @@
             CurrentUserId = currentUser.Id;
             var playerGames = await PlayerGamesService.GetPlayerGamesAsync(CurrentUserId);
             PlayerGames = playerGames;
-            FullPokemonGamesList = PokemonGamesList.Games.Where(g => !PlayerGames.Any(p => p.Id == g.Id));
+            FullPokemonGamesList = PokemonGamesList.Games.Where(g => !PlayerGames.Any(p => p.Id == g.Id)).ToList();
         }
     }
 
@@ -103,13 +117,13 @@
         if (SelectedGameIds.Any())
         {
             PlayerGames = await PlayerGamesService.AddGamesToPlayerAsync(CurrentUserId, SelectedGameIds);
-            FullPokemonGamesList = PokemonGamesList.Games.Where(g => !PlayerGames.Any(p => p.Id == g.Id));
+            FullPokemonGamesList = PokemonGamesList.Games.Where(g => !PlayerGames.Any(p => p.Id == g.Id)).ToList();
         }
     }
 
     private async Task DeleteGameFromPlayer(int gameId)
     {
         PlayerGames = await PlayerGamesService.DeleteGameFromPlayerAsync(CurrentUserId, gameId);
-        FullPokemonGamesList = PokemonGamesList.Games.Where(g => !PlayerGames.Any(p => p.Id == g.Id));
+        FullPokemonGamesList = PokemonGamesList.Games.Where(g => !PlayerGames.Any(p => p.Id == g.Id)).ToList();
     }
 }

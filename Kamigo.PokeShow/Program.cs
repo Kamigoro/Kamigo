@@ -16,11 +16,14 @@ namespace Kamigo.PokeShow
 
             // Add services to the container.
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+            
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(connectionString));
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
             builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            builder.Services.AddControllers();
+            builder.Services.AddLocalization(options => options.ResourcesPath = "Resources");
             builder.Services.AddRazorPages();
             builder.Services.AddServerSideBlazor();
             builder.Services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();
@@ -33,7 +36,8 @@ namespace Kamigo.PokeShow
                         PropertyNamingPolicy = CosmosPropertyNamingPolicy.CamelCase
                     }
                 };
-                var cosmosClient = new CosmosClient(builder.Configuration.GetConnectionString("CosmosConnection"), clientOptions);
+                var cosmosConnectionString = Environment.GetEnvironmentVariable("POKESHOW_cosmos-connection-string", EnvironmentVariableTarget.Machine);
+                var cosmosClient = new CosmosClient(cosmosConnectionString, clientOptions);
                 var container = cosmosClient.GetContainer("players", "configuration");
                 return new CosmosPlayerGameRepository(container);
             });
@@ -57,6 +61,8 @@ namespace Kamigo.PokeShow
 
             app.UseStaticFiles();
 
+            app.UseRequestLocalization(GetLocalizationOptions(builder.Configuration));
+
             app.UseRouting();
 
             app.UseAuthorization();
@@ -66,6 +72,21 @@ namespace Kamigo.PokeShow
             app.MapFallbackToPage("/_Host");
 
             app.Run();
+        }
+
+        private static RequestLocalizationOptions GetLocalizationOptions(IConfiguration configuration)
+        {
+            var cultures = configuration.GetSection("Cultures")
+                .GetChildren()
+                .ToDictionary(x => x.Key, x => x.Value);
+
+            var supportedCultures = cultures.Keys.ToArray();
+
+            var localizationOptions = new RequestLocalizationOptions()
+                .AddSupportedCultures(supportedCultures)
+                .AddSupportedUICultures(supportedCultures);
+
+            return localizationOptions;
         }
     }
 }
