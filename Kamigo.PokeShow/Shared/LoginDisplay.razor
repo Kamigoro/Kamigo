@@ -3,13 +3,11 @@
 
 <AuthorizeView>
     <Authorized>
-        <a href="Identity/Account/Manage">@context.User.Identity?.Name</a>
-        <form method="post" action="Identity/Account/Logout">
-            <button type="submit" class="nav-link btn btn-link">@Localizer["logout_button"]</button>
-        </form>
+        <a href="Account/Manage">@context.User.Identity?.Name</a>
+        <a href="Account/Logout">@Localizer["logout_button"]</a>
     </Authorized>
     <NotAuthorized>
-        <a href="Identity/Account/Register">@Localizer["register_button"]</a>
-        <a href="Identity/Account/Login">@Localizer["login_button"]</a>
+        <a href="Account/Register">@Localizer["register_button"]</a>
+        <a href="Account/Login">@Localizer["login_button"]</a>
     </NotAuthorized>
 </AuthorizeView>

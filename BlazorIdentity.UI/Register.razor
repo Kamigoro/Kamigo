@@ -1,0 +1,154 @@
+﻿@typeparam TUser where TUser : class
+
+@inject IBlazorSignInManager<TUser> SignInManager
+@inject IBlazorUserManager<TUser> UserManager
+@inject IBlazorUserStore<TUser> UserStore
+
+<EditForm class="col-5" EditContext="editContext" OnSubmit="@HandleSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <label for="username" class="form-label">@UsernameLabel</label>
+        <InputText id="username" class="form-control" @bind-Value="registerModel.UserName" />
+    </div>
+    <div class="mb-3">
+        <label for="email" class="form-label">@EmailLabel</label>
+        <InputText id="email" class="form-control" @bind-Value="registerModel.Email" />
+    </div>
+    <div class="mb-3">
+        <label for="password" class="form-label">@PasswordLabel</label>
+        <InputText id="password" type="password" class="form-control" @bind-Value="registerModel.Password" />
+    </div>
+    <div class="mb-3">
+        <label for="confirmPassword" class="form-label">@ConfirmPasswordLabel</label>
+        <InputText id="confirmPassword" type="password" class="form-control" @bind-Value="registerModel.ConfirmPassword" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">@RegisterButton</button>
+</EditForm>
+
+@code {
+    private EditContext? editContext;
+    private RegisterModel registerModel = new();
+    private ValidationMessageStore? messageStore;
+    private IBlazorUserEmailStore<TUser>? emailStore;
+
+    [Parameter]
+    public string UsernameLabel { get; set; }
+
+    [Parameter]
+    public string EmailLabel { get; set; }
+
+    [Parameter]
+    public string PasswordLabel { get; set; }
+
+    [Parameter]
+    public string ConfirmPasswordLabel { get; set; }
+
+    [Parameter]
+    public string RegisterButton { get; set; }
+
+    [Parameter]
+    public EventCallback<bool> OnRegistered { get; set; }
+
+    [Parameter]
+    public Func<TUser>? OnCreateUser { get; set; }
+
+    protected override void OnInitialized()
+    {
+        editContext = new(registerModel);
+        messageStore = new(editContext);
+
+        if (!UserManager.SupportsUserEmail)
+        {
+            throw new NotSupportedException("The UI requires a user store with email support.");
+        }
+
+        emailStore = (IBlazorUserEmailStore<TUser>)UserStore;
+    }
+
+    private async Task HandleSubmit()
+    {
+        messageStore?.Clear();
+
+        if (editContext?.Validate() != true)
+        {
+            return;
+        }
+
+        if (emailStore is null) throw new InvalidOperationException("Component not initialized");
+
+        var user = OnCreateUser is not null ? OnCreateUser() : DefaultCreateUser();
+
+        await UserStore.SetUserNameAsync(user, registerModel.UserName, CancellationToken.None);
+        await emailStore.SetEmailAsync(user, registerModel.Email, CancellationToken.None);
+        var result = await UserManager.CreateAsync(user, registerModel.Password!);
+
+        if (result.Succeeded)
+        {
+            var userId = await UserManager.GetUserIdAsync(user);
+            // TODO: Generate & send email confirmation stuff
+            //var code = await UserManager.GenerateEmailConfirmationTokenAsync(user);
+
+            if (UserManager.Options.SignIn.RequireConfirmedAccount)
+            {
+                await OnRegistered.InvokeAsync(true);
+            }
+            else
+            {
+                await SignInManager.SignInAsync(user, isPersistent: false);
+
+                // TODO: Implement return url?
+                await OnRegistered.InvokeAsync(false);
+            }
+        }
+        else
+        {
+            foreach (var error in result.Errors)
+            {
+                messageStore?.Add(() => registerModel, error.Description);
+            }
+            editContext.NotifyValidationStateChanged();
+        }
+    }
+
+    private TUser DefaultCreateUser()
+    {
+        try
+        {
+            return Activator.CreateInstance<TUser>();
+        }
+        catch
+        {
+            throw new InvalidOperationException($"Can't create an instance of '{nameof(TUser)}'. " +
+                $"Ensure that '{nameof(TUser)}' is not an abstract class and has a parameterless " +
+                $"constructor or set the '{nameof(OnCreateUser)}' parameter to a delegate that can " +
+                "create an instance.");
+        }
+    }
+
+    public class RegisterModel
+    {
+        [Required]
+        [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 3)]
+        [Display(Name = "Username")]
+        public string? UserName { get; set; }
+
+        [Required]
+        [DataType(DataType.EmailAddress)]
+        [Display(Name = "Email address")]
+        public string? Email { get; set; }
+
+        [Required]
+        [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
+        [DataType(DataType.Password)]
+        public string? Password { get; set; }
+
+        [Required]
+        [Compare(nameof(Password))]
+        [DataType(DataType.Password)]
+        [Display(Name = "Confirm password")]
+        public string? ConfirmPassword { get; set; }
+    }
+}

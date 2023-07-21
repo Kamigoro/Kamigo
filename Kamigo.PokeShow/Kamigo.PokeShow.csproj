@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="BlazorStrap" Version="5.0.105.4262022" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.9" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.9" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.9" />
@@ -20,9 +21,13 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.9" />
     <PackageReference Include="Microsoft.Extensions.Localization" Version="7.0.9" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.18.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.8" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BlazorIdentity.Server\BlazorIdentity.Server.csproj" />
+    <ProjectReference Include="..\BlazorIdentity.UI\BlazorIdentity.UI.csproj" />
+    <ProjectReference Include="..\BlazorIdentity\BlazorIdentity.csproj" />
     <ProjectReference Include="..\Kamigo.Data\Kamigo.Data.csproj" />
   </ItemGroup>
 

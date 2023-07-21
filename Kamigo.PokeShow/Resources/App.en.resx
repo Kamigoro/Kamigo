@@ -123,11 +123,17 @@
   <data name="change-language_button" xml:space="preserve">
     <value>Change</value>
   </data>
+  <data name="confirm-password_label" xml:space="preserve">
+    <value>Confirm password</value>
+  </data>
   <data name="current-pokedex-landing_label" xml:space="preserve">
     <value>You are on the Pokedex of generation</value>
   </data>
   <data name="delete-game_button" xml:space="preserve">
     <value>Remove</value>
+  </data>
+  <data name="email-address_label" xml:space="preserve">
+    <value>Mail address</value>
   </data>
   <data name="game-generation_label" xml:space="preserve">
     <value>Generation</value>
@@ -140,6 +146,9 @@
   </data>
   <data name="have-to-be-connected_warning" xml:space="preserve">
     <value>You have to be logged in to access this page.</value>
+  </data>
+  <data name="logging-out_label" xml:space="preserve">
+    <value>Logging out...</value>
   </data>
   <data name="login_button" xml:space="preserve">
     <value>Login</value>
@@ -156,11 +165,20 @@
   <data name="no-game-in-collection_warning" xml:space="preserve">
     <value>Oops ! You don't have any game yet.</value>
   </data>
+  <data name="password_label" xml:space="preserve">
+    <value>Password</value>
+  </data>
   <data name="pokedex_label" xml:space="preserve">
     <value>Pokedex</value>
   </data>
   <data name="register_button" xml:space="preserve">
     <value>Register</value>
+  </data>
+  <data name="remember-me_label" xml:space="preserve">
+    <value>Remember me</value>
+  </data>
+  <data name="username_label" xml:space="preserve">
+    <value>User name</value>
   </data>
   <data name="your-game-list_label" xml:space="preserve">
     <value>Your games list</value>

@@ -1,4 +1,5 @@
 ﻿@page "/"
+@using BlazorIdentity;
 @using Kamigo.Data.Models;
 @using Kamigo.PokeShow.Data;
 @using Microsoft.AspNetCore.Identity;
@@ -14,17 +15,17 @@
     <AuthorizeView>
         <NotAuthorized>
             <p>@Localizer["have-to-be-connected_warning"]</p>
-            <a href="Identity/Account/Login">@Localizer["login_button"]</a>
+            <a href="Account/Login">@Localizer["login_button"]</a>
         </NotAuthorized>
         <Authorized>
 
-            @if(FullPokemonGamesList.Any())
+            @if(NotOwnedGamesList.Any())
             {
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
                             <select class="form-select" multiple @onchange="@OnSelect">
-                                @foreach (var game in FullPokemonGamesList)
+                                @foreach (var game in NotOwnedGamesList)
                                 {
                                     <option value="@game.Id">@game.Name</option>
                                 }
@@ -38,7 +39,7 @@
             }
             
 
-            @if (PlayerGames is null || !PlayerGames.Any())
+            @if (GamesPlayerOwns is null || !GamesPlayerOwns.Any())
             {
                 <p>@Localizer["no-game-in-collection_warning"]</p>
                 
@@ -46,7 +47,7 @@
             {
                 <div class="container">
                     <div class="row justify-content-around">
-                        @foreach (var game in PlayerGames.OrderBy(g => g.Id))
+                        @foreach (var game in GamesPlayerOwns.OrderBy(g => g.Id))
                         {
                             <PokemonGameCard Game="@game" DeleteMethod="@(() => DeleteGameFromPlayer(game.Id))" />
                         }
@@ -63,11 +64,11 @@
     private Task<AuthenticationState> AuthenticationStateTask { get; set; }
 
     [Inject]
-    private UserManager<IdentityUser> UserManager { get; set; }
+    private IBlazorUserManager<AppUser> UserManager { get; set; }
 
-    private List<PokemonGame> PlayerGames { get; set; }
+    private List<PokemonGame> GamesPlayerOwns { get; set; }
 
-    private List<PokemonGame> FullPokemonGamesList { get; set; } = new List<PokemonGame>();
+    private List<PokemonGame> NotOwnedGamesList { get; set; } = new List<PokemonGame>();
 
     private string CurrentUserId { get; set; }
 
@@ -83,8 +84,8 @@
             var currentUser = await UserManager.GetUserAsync(user);
             CurrentUserId = currentUser.Id;
             var playerGames = await PlayerGamesService.GetPlayerGamesAsync(CurrentUserId);
-            PlayerGames = playerGames;
-            FullPokemonGamesList = PokemonGamesList.Games.Where(g => !PlayerGames.Any(p => p.Id == g.Id)).ToList();
+            GamesPlayerOwns = playerGames;
+            NotOwnedGamesList = PokemonGamesList.Games.Where(g => !GamesPlayerOwns.Any(p => p.Id == g.Id)).ToList();
         }
     }
 
@@ -98,14 +99,14 @@
     {
         if (SelectedGameIds.Any())
         {
-            PlayerGames = await PlayerGamesService.AddGamesToPlayerAsync(CurrentUserId, SelectedGameIds);
-            FullPokemonGamesList = PokemonGamesList.Games.Where(g => !PlayerGames.Any(p => p.Id == g.Id)).ToList();
+            GamesPlayerOwns = await PlayerGamesService.AddGamesToPlayerAsync(CurrentUserId, SelectedGameIds);
+            NotOwnedGamesList = PokemonGamesList.Games.Where(g => !GamesPlayerOwns.Any(p => p.Id == g.Id)).ToList();
         }
     }
 
     private async Task DeleteGameFromPlayer(int gameId)
     {
-        PlayerGames = await PlayerGamesService.DeleteGameFromPlayerAsync(CurrentUserId, gameId);
-        FullPokemonGamesList = PokemonGamesList.Games.Where(g => !PlayerGames.Any(p => p.Id == g.Id)).ToList();
+        GamesPlayerOwns = await PlayerGamesService.DeleteGameFromPlayerAsync(CurrentUserId, gameId);
+        NotOwnedGamesList = PokemonGamesList.Games.Where(g => !GamesPlayerOwns.Any(p => p.Id == g.Id)).ToList();
     }
 }

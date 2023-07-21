@@ -1,0 +1,25 @@
+﻿@page "/Account/Login"
+
+@using BlazorIdentity.Server;
+@using Kamigo.PokeShow.Data;
+@using Microsoft.Extensions.Localization;
+
+@inject NavigationManager Navigation
+@inject IStringLocalizer<App> Localizer;
+
+<PageTitle>@Localizer["login_button"]</PageTitle>
+
+<h3>@Localizer["login_button"]</h3>
+
+<BlazorIdentity.UI.Login TUser="AppUser" OnLogin="HandleLogin"
+                         LoginButton="@Localizer["login_button"]" 
+                         PasswordLabel="@Localizer["password_label"]"
+                         UsernameLabel="@Localizer["username_label"]" 
+                         RememberMeLabel="@Localizer["remember-me_label"]"/>
+
+@code {
+    private void HandleLogin()
+    {
+        Navigation.NavigateTo("/");
+    }
+}

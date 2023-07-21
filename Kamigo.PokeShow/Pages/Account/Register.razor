@@ -1,0 +1,32 @@
+﻿@page "/Account/Register"
+
+@using Kamigo.PokeShow.Data;
+@using Microsoft.Extensions.Localization;
+
+@inject NavigationManager Navigation
+@inject IStringLocalizer<App> Localizer;
+
+<PageTitle>@Localizer["register_button"]</PageTitle>
+
+<h3>@Localizer["register_button"]</h3>
+
+<BlazorIdentity.UI.Register TUser="AppUser" OnRegistered="HandleRegistered"
+                            UsernameLabel="@Localizer["username_label"]"
+                            EmailLabel="@Localizer["email-address_label"]"
+                            PasswordLabel="@Localizer["password_label"]"
+                            ConfirmPasswordLabel="@Localizer["confirm-password_label"]"
+                            RegisterButton="@Localizer["register_button"]"/>
+
+@code {
+    private void HandleRegistered(bool requireConfirmedAccount)
+    {
+        if (requireConfirmedAccount)
+        {
+            // TODO: Handle account confirmation
+        }
+        else
+        {
+            Navigation.NavigateTo("/");
+        }
+    }
+}

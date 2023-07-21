@@ -1,0 +1,29 @@
+﻿@page "/games"
+
+@using Kamigo.Data.Models;
+@using Microsoft.Extensions.Localization;
+@inject IStringLocalizer<App> Localizer;
+
+<h3>Games Management</h3>
+
+@foreach (var gamesPerGeneration in PokemonGamesList.Games.GroupBy(g => g.Generation))
+{
+    <div style="margin-bottom:50px">
+        <h2>Génération @gamesPerGeneration.Key</h2>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                @foreach (var game in gamesPerGeneration.OrderBy(g => g.Id))
+                {
+                    <PokemonGameCard Game="@game" />
+                }
+            </div>
+        </div>
+    </div>
+    
+}
+
+
+
+@code {
+
+}

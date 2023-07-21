@@ -1,0 +1,18 @@
+﻿@page "/Account/Logout"
+
+@using Kamigo.PokeShow.Data;
+@using Microsoft.Extensions.Localization;
+
+@inject NavigationManager Navigation
+@inject IStringLocalizer<App> Localizer;
+
+<PageTitle>@Localizer["logout_button"]</PageTitle>
+
+<BlazorIdentity.UI.Logout TUser="AppUser" OnLogout="HandleLogout" LoggingOutLabel="@Localizer["logging-out_label"]" />
+
+@code {
+    private void HandleLogout()
+    {
+        Navigation.NavigateTo("/");
+    }
+}

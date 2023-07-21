@@ -1,6 +1,7 @@
+using BlazorStrap;
 using Kamigo.Data.Repositories;
-using Kamigo.PokeShow.Areas.Identity;
 using Kamigo.PokeShow.Data;
+using Kamigo.PokeShow.Identity;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Azure.Cosmos;
@@ -20,13 +21,18 @@ namespace Kamigo.PokeShow
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(connectionString));
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
-            builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            builder.Services.AddBlazorServerIdentity<AppUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = false)
+            .AddEntityFrameworkStores<ApplicationDbContext>()
+            .AddDefaultTokenProviders();
+
             builder.Services.AddControllers();
             builder.Services.AddLocalization(options => options.ResourcesPath = "Resources");
             builder.Services.AddRazorPages();
             builder.Services.AddServerSideBlazor();
-            builder.Services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();
+            builder.Services.AddBlazorStrap();
+            builder.Services.AddHttpContextAccessor();
+            builder.Services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<AppUser>>();
             builder.Services.AddSingleton<IPlayerRepository>(b =>
             {
                 var clientOptions = new CosmosClientOptions()
@@ -70,6 +76,7 @@ namespace Kamigo.PokeShow
             app.MapControllers();
             app.MapBlazorHub();
             app.MapFallbackToPage("/_Host");
+            app.MapBlazorServerIdentityApi<AppUser>();
 
             app.Run();
         }
