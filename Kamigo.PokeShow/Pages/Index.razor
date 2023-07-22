@@ -7,8 +7,6 @@
 @inject IStringLocalizer<App> Localizer;
 @inject PlayerGamesService PlayerGamesService;
 
-<PageTitle>@Localizer["my-games_page_title"]</PageTitle>
-
 <h1>@Localizer["your-game-list_label"]</h1>
 
 <CascadingAuthenticationState>
@@ -17,39 +15,19 @@
             <p>@Localizer["have-to-be-connected_warning"]</p>
             <a href="Account/Login">@Localizer["login_button"]</a>
         </NotAuthorized>
+
         <Authorized>
-
-            @if(NotOwnedGamesList.Any())
-            {
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <select class="form-select" multiple @onchange="@OnSelect">
-                                @foreach (var game in NotOwnedGamesList)
-                                {
-                                    <option value="@game.Id">@game.Name</option>
-                                }
-                            </select>
-                        </div>
-                        <div class="col-md-6">
-                            <button class="btn btn-primary" @onclick="@AddGames">@Localizer["add-game_button"]</button>
-                        </div>
-                    </div>
-                </div>
-            }
-            
-
             @if (GamesPlayerOwns is null || !GamesPlayerOwns.Any())
             {
                 <p>@Localizer["no-game-in-collection_warning"]</p>
                 
             }else
             {
-                <div class="container">
-                    <div class="row justify-content-around">
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
                         @foreach (var game in GamesPlayerOwns.OrderBy(g => g.Id))
                         {
-                            <PokemonGameCard Game="@game" DeleteMethod="@(() => DeleteGameFromPlayer(game.Id))" />
+                            <PokemonGameCard Game="@game" />
                         }
                     </div>
                 </div>
@@ -68,11 +46,7 @@
 
     private List<PokemonGame> GamesPlayerOwns { get; set; }
 
-    private List<PokemonGame> NotOwnedGamesList { get; set; } = new List<PokemonGame>();
-
     private string CurrentUserId { get; set; }
-
-    private int[] SelectedGameIds { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
@@ -85,28 +59,6 @@
             CurrentUserId = currentUser.Id;
             var playerGames = await PlayerGamesService.GetPlayerGamesAsync(CurrentUserId);
             GamesPlayerOwns = playerGames;
-            NotOwnedGamesList = PokemonGamesList.Games.Where(g => !GamesPlayerOwns.Any(p => p.Id == g.Id)).ToList();
         }
-    }
-
-    private void OnSelect(ChangeEventArgs e)
-    {
-        var selectedIdsAsStrings = (string[])e.Value;
-        SelectedGameIds = selectedIdsAsStrings.Select(int.Parse).ToArray();
-    }
-
-    private async Task AddGames()
-    {
-        if (SelectedGameIds.Any())
-        {
-            GamesPlayerOwns = await PlayerGamesService.AddGamesToPlayerAsync(CurrentUserId, SelectedGameIds);
-            NotOwnedGamesList = PokemonGamesList.Games.Where(g => !GamesPlayerOwns.Any(p => p.Id == g.Id)).ToList();
-        }
-    }
-
-    private async Task DeleteGameFromPlayer(int gameId)
-    {
-        GamesPlayerOwns = await PlayerGamesService.DeleteGameFromPlayerAsync(CurrentUserId, gameId);
-        NotOwnedGamesList = PokemonGamesList.Games.Where(g => !GamesPlayerOwns.Any(p => p.Id == g.Id)).ToList();
     }
 }

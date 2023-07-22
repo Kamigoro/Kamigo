@@ -26,7 +26,7 @@ namespace Kamigo.Data.Repositories
             }
         }
 
-        public async Task<Player> AddGamesToPlayerAsync(string playerId, int[] gamesIds)
+        public async Task<Player> AddGameToPlayerAsync(string playerId, int gameId)
         {
             var player = await GetPlayerAsync(playerId);
             if(player is null)
@@ -34,7 +34,7 @@ namespace Kamigo.Data.Repositories
                 var playerEntity = new PlayerEntity
                 {
                     Id = playerId,
-                    GamesOwnedIds = new HashSet<int>(gamesIds)
+                    GamesOwnedIds = new HashSet<int>(gameId)
                 };
                 await _playerGamesContainer.CreateItemAsync(playerEntity);
                 return Player.FromPlayerEntity(playerEntity);
@@ -42,10 +42,7 @@ namespace Kamigo.Data.Repositories
             else
             {
                 var playerEntity = Player.ToPlayerEntity(player);
-                foreach(var gameId in gamesIds)
-                {
-                    playerEntity.GamesOwnedIds.Add(gameId);
-                }
+                playerEntity.GamesOwnedIds.Add(gameId);
                 await _playerGamesContainer.UpsertItemAsync(playerEntity);
                 return Player.FromPlayerEntity(playerEntity);
             }

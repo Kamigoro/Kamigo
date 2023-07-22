@@ -20,9 +20,9 @@ namespace Kamigo.PokeShow.Data
         }
 
         [Authorize]
-        public async Task<List<PokemonGame>> AddGamesToPlayerAsync(string playerId, int[] gamesIds)
+        public async Task<List<PokemonGame>> AddGameToPlayerAsync(string playerId, int gameId)
         {
-            var player = await _playerGameRepository.AddGamesToPlayerAsync(playerId, gamesIds);
+            var player = await _playerGameRepository.AddGameToPlayerAsync(playerId, gameId);
             return player.GamesOwned;
         }
 

@@ -1,29 +1,78 @@
 ﻿@page "/games"
 
+@using BlazorIdentity;
 @using Kamigo.Data.Models;
+@using Kamigo.PokeShow.Data;
+@using Microsoft.AspNetCore.Identity;
 @using Microsoft.Extensions.Localization;
 @inject IStringLocalizer<App> Localizer;
+@inject PlayerGamesService PlayerGamesService;
 
-<h3>Games Management</h3>
+<h3>@Localizer["games-management_label"]</h3>
 
-@foreach (var gamesPerGeneration in PokemonGamesList.Games.GroupBy(g => g.Generation))
-{
-    <div style="margin-bottom:50px">
-        <h2>Génération @gamesPerGeneration.Key</h2>
-        <div class="container-fluid">
-            <div class="row justify-content-center">
-                @foreach (var game in gamesPerGeneration.OrderBy(g => g.Id))
-                {
-                    <PokemonGameCard Game="@game" />
-                }
-            </div>
-        </div>
-    </div>
-    
-}
-
-
+<CascadingAuthenticationState>
+    <AuthorizeView>
+        <NotAuthorized>
+            <p>@Localizer["have-to-be-connected_warning"]</p>
+            <a href="Account/Login">@Localizer["login_button"]</a>
+        </NotAuthorized>
+        <Authorized>
+            @foreach (var gamesPerGeneration in PokemonGamesList.Games.GroupBy(g => g.Generation))
+            {
+                <div class="mb-4">
+                    <h2>Génération @gamesPerGeneration.Key</h2>
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            @foreach (var game in gamesPerGeneration.OrderBy(g => g.Id))
+                            {
+                                <PokemonGameManagementCard Game="@game" 
+                                    AddMethod="@(() => AddGameToPlayer(game))" 
+                                    DeleteMethod="@(() => DeleteGameFromPlayer(game))"
+                                    IsOwned="@GamesPlayerOwns.Contains(game)" />
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+        </Authorized>
+    </AuthorizeView>
+</CascadingAuthenticationState>
 
 @code {
+    [CascadingParameter]
+    private Task<AuthenticationState> AuthenticationStateTask { get; set; }
 
+    [Inject]
+    private IBlazorUserManager<AppUser> UserManager { get; set; }
+
+    private List<PokemonGame> GamesPlayerOwns { get; set; } = new List<PokemonGame>();
+
+    private List<PokemonGame> NotOwnedGamesList { get; set; } = new List<PokemonGame>();
+
+    private string CurrentUserId { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authenticationState = await AuthenticationStateTask;
+        var user = authenticationState.User;
+
+        if (user.Identity.IsAuthenticated)
+        {
+            var currentUser = await UserManager.GetUserAsync(user);
+            CurrentUserId = currentUser.Id;
+            var playerGames = await PlayerGamesService.GetPlayerGamesAsync(CurrentUserId);
+            GamesPlayerOwns = playerGames;
+            NotOwnedGamesList = PokemonGamesList.Games.Where(g => !GamesPlayerOwns.Any(p => p.Id == g.Id)).ToList();
+        }
+    }
+
+    private async Task AddGameToPlayer(PokemonGame game)
+    {
+        GamesPlayerOwns = await PlayerGamesService.AddGameToPlayerAsync(CurrentUserId, game.Id);
+    }
+
+    private async Task DeleteGameFromPlayer(PokemonGame game)
+    {
+        GamesPlayerOwns = await PlayerGamesService.DeleteGameFromPlayerAsync(CurrentUserId, game.Id);
+    }
 }

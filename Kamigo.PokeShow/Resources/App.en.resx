@@ -144,6 +144,9 @@
   <data name="game-release-date_label" xml:space="preserve">
     <value>Release date</value>
   </data>
+  <data name="games-management_label" xml:space="preserve">
+    <value>Games management</value>
+  </data>
   <data name="have-to-be-connected_warning" xml:space="preserve">
     <value>You have to be logged in to access this page.</value>
   </data>
