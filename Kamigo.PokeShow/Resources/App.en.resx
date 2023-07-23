@@ -186,4 +186,910 @@
   <data name="your-game-list_label" xml:space="preserve">
     <value>Your games list</value>
   </data>
+  <data name="gen-1-pokemon-1-name-label" xml:space="preserve">
+    <value>Bulbasaur</value>
+  </data>
+  <data name="gen-1-pokemon-2-name-label" xml:space="preserve">
+    <value>Ivysaur</value>
+  </data>
+  <data name="gen-1-pokemon-3-name-label" xml:space="preserve">
+    <value>Venusaur</value>
+  </data>
+  <data name="gen-1-pokemon-4-name-label" xml:space="preserve">
+    <value>Charmander</value>
+  </data>
+  <data name="gen-1-pokemon-5-name-label" xml:space="preserve">
+    <value>Charmeleon</value>
+  </data>
+  <data name="gen-1-pokemon-6-name-label" xml:space="preserve">
+    <value>Charizard</value>
+  </data>
+  <data name="gen-1-pokemon-7-name-label" xml:space="preserve">
+    <value>Squirtle</value>
+  </data>
+  <data name="gen-1-pokemon-8-name-label" xml:space="preserve">
+    <value>Wartortle</value>
+  </data>
+  <data name="gen-1-pokemon-9-name-label" xml:space="preserve">
+    <value>Blastoise</value>
+  </data>
+  <data name="gen-1-pokemon-10-name-label" xml:space="preserve">
+    <value>Caterpie</value>
+  </data>
+  <data name="gen-1-pokemon-11-name-label" xml:space="preserve">
+    <value>Metapod</value>
+  </data>
+  <data name="gen-1-pokemon-12-name-label" xml:space="preserve">
+    <value>Butterfree</value>
+  </data>
+  <data name="gen-1-pokemon-13-name-label" xml:space="preserve">
+    <value>Weedle</value>
+  </data>
+  <data name="gen-1-pokemon-14-name-label" xml:space="preserve">
+    <value>Kakuna</value>
+  </data>
+  <data name="gen-1-pokemon-15-name-label" xml:space="preserve">
+    <value>Beedrill</value>
+  </data>
+  <data name="gen-1-pokemon-16-name-label" xml:space="preserve">
+    <value>Pidgey</value>
+  </data>
+  <data name="gen-1-pokemon-17-name-label" xml:space="preserve">
+    <value>Pidgeotto</value>
+  </data>
+  <data name="gen-1-pokemon-18-name-label" xml:space="preserve">
+    <value>Pidgeot</value>
+  </data>
+  <data name="gen-1-pokemon-19-name-label" xml:space="preserve">
+    <value>Rattata</value>
+  </data>
+  <data name="gen-1-pokemon-20-name-label" xml:space="preserve">
+    <value>Raticate</value>
+  </data>
+  <data name="gen-1-pokemon-21-name-label" xml:space="preserve">
+    <value>Spearow</value>
+  </data>
+  <data name="gen-1-pokemon-22-name-label" xml:space="preserve">
+    <value>Fearow</value>
+  </data>
+  <data name="gen-1-pokemon-23-name-label" xml:space="preserve">
+    <value>Ekans</value>
+  </data>
+  <data name="gen-1-pokemon-24-name-label" xml:space="preserve">
+    <value>Arbok</value>
+  </data>
+  <data name="gen-1-pokemon-25-name-label" xml:space="preserve">
+    <value>Pikachu</value>
+  </data>
+  <data name="gen-1-pokemon-26-name-label" xml:space="preserve">
+    <value>Raichu</value>
+  </data>
+  <data name="gen-1-pokemon-27-name-label" xml:space="preserve">
+    <value>Sandshrew</value>
+  </data>
+  <data name="gen-1-pokemon-28-name-label" xml:space="preserve">
+    <value>Sandslash</value>
+  </data>
+  <data name="gen-1-pokemon-29-name-label" xml:space="preserve">
+    <value>Nidoran♀</value>
+  </data>
+  <data name="gen-1-pokemon-30-name-label" xml:space="preserve">
+    <value>Nidorina</value>
+  </data>
+  <data name="gen-1-pokemon-31-name-label" xml:space="preserve">
+    <value>Nidoqueen</value>
+  </data>
+  <data name="gen-1-pokemon-32-name-label" xml:space="preserve">
+    <value>Nidoran♂</value>
+  </data>
+  <data name="gen-1-pokemon-33-name-label" xml:space="preserve">
+    <value>Nidorino</value>
+  </data>
+  <data name="gen-1-pokemon-34-name-label" xml:space="preserve">
+    <value>Nidoking</value>
+  </data>
+  <data name="gen-1-pokemon-35-name-label" xml:space="preserve">
+    <value>Clefairy</value>
+  </data>
+  <data name="gen-1-pokemon-36-name-label" xml:space="preserve">
+    <value>Clefable</value>
+  </data>
+  <data name="gen-1-pokemon-37-name-label" xml:space="preserve">
+    <value>Vulpix</value>
+  </data>
+  <data name="gen-1-pokemon-38-name-label" xml:space="preserve">
+    <value>Ninetales</value>
+  </data>
+  <data name="gen-1-pokemon-39-name-label" xml:space="preserve">
+    <value>Jigglypuff</value>
+  </data>
+  <data name="gen-1-pokemon-40-name-label" xml:space="preserve">
+    <value>Wigglytuff</value>
+  </data>
+  <data name="gen-1-pokemon-41-name-label" xml:space="preserve">
+    <value>Zubat</value>
+  </data>
+  <data name="gen-1-pokemon-42-name-label" xml:space="preserve">
+    <value>Golbat</value>
+  </data>
+  <data name="gen-1-pokemon-43-name-label" xml:space="preserve">
+    <value>Oddish</value>
+  </data>
+  <data name="gen-1-pokemon-44-name-label" xml:space="preserve">
+    <value>Gloom</value>
+  </data>
+  <data name="gen-1-pokemon-45-name-label" xml:space="preserve">
+    <value>Vileplume</value>
+  </data>
+  <data name="gen-1-pokemon-46-name-label" xml:space="preserve">
+    <value>Paras</value>
+  </data>
+  <data name="gen-1-pokemon-47-name-label" xml:space="preserve">
+    <value>Parasect</value>
+  </data>
+  <data name="gen-1-pokemon-48-name-label" xml:space="preserve">
+    <value>Venonat</value>
+  </data>
+  <data name="gen-1-pokemon-49-name-label" xml:space="preserve">
+    <value>Venomoth</value>
+  </data>
+  <data name="gen-1-pokemon-50-name-label" xml:space="preserve">
+    <value>Diglett</value>
+  </data>
+  <data name="gen-1-pokemon-51-name-label" xml:space="preserve">
+    <value>Dugtrio</value>
+  </data>
+  <data name="gen-1-pokemon-52-name-label" xml:space="preserve">
+    <value>Meowth</value>
+  </data>
+  <data name="gen-1-pokemon-53-name-label" xml:space="preserve">
+    <value>Persian</value>
+  </data>
+  <data name="gen-1-pokemon-54-name-label" xml:space="preserve">
+    <value>Psyduck</value>
+  </data>
+  <data name="gen-1-pokemon-55-name-label" xml:space="preserve">
+    <value>Golduck</value>
+  </data>
+  <data name="gen-1-pokemon-56-name-label" xml:space="preserve">
+    <value>Mankey</value>
+  </data>
+  <data name="gen-1-pokemon-57-name-label" xml:space="preserve">
+    <value>Primeape</value>
+  </data>
+  <data name="gen-1-pokemon-58-name-label" xml:space="preserve">
+    <value>Growlithe</value>
+  </data>
+  <data name="gen-1-pokemon-59-name-label" xml:space="preserve">
+    <value>Arcanine</value>
+  </data>
+  <data name="gen-1-pokemon-60-name-label" xml:space="preserve">
+    <value>Poliwag</value>
+  </data>
+  <data name="gen-1-pokemon-61-name-label" xml:space="preserve">
+    <value>Poliwhirl</value>
+  </data>
+  <data name="gen-1-pokemon-62-name-label" xml:space="preserve">
+    <value>Poliwrath</value>
+  </data>
+  <data name="gen-1-pokemon-63-name-label" xml:space="preserve">
+    <value>Abra</value>
+  </data>
+  <data name="gen-1-pokemon-64-name-label" xml:space="preserve">
+    <value>Kadabra</value>
+  </data>
+  <data name="gen-1-pokemon-65-name-label" xml:space="preserve">
+    <value>Alakazam</value>
+  </data>
+  <data name="gen-1-pokemon-66-name-label" xml:space="preserve">
+    <value>Machop</value>
+  </data>
+  <data name="gen-1-pokemon-67-name-label" xml:space="preserve">
+    <value>Machoke</value>
+  </data>
+  <data name="gen-1-pokemon-68-name-label" xml:space="preserve">
+    <value>Machamp</value>
+  </data>
+  <data name="gen-1-pokemon-69-name-label" xml:space="preserve">
+    <value>Bellsprout</value>
+  </data>
+  <data name="gen-1-pokemon-70-name-label" xml:space="preserve">
+    <value>Weepinbell</value>
+  </data>
+  <data name="gen-1-pokemon-71-name-label" xml:space="preserve">
+    <value>Victreebel</value>
+  </data>
+  <data name="gen-1-pokemon-72-name-label" xml:space="preserve">
+    <value>Tentacool</value>
+  </data>
+  <data name="gen-1-pokemon-73-name-label" xml:space="preserve">
+    <value>Tentacruel</value>
+  </data>
+  <data name="gen-1-pokemon-74-name-label" xml:space="preserve">
+    <value>Geodude</value>
+  </data>
+  <data name="gen-1-pokemon-75-name-label" xml:space="preserve">
+    <value>Graveler</value>
+  </data>
+  <data name="gen-1-pokemon-76-name-label" xml:space="preserve">
+    <value>Golem</value>
+  </data>
+  <data name="gen-1-pokemon-77-name-label" xml:space="preserve">
+    <value>Ponyta</value>
+  </data>
+  <data name="gen-1-pokemon-78-name-label" xml:space="preserve">
+    <value>Rapidash</value>
+  </data>
+  <data name="gen-1-pokemon-79-name-label" xml:space="preserve">
+    <value>Slowpoke</value>
+  </data>
+  <data name="gen-1-pokemon-80-name-label" xml:space="preserve">
+    <value>Slowbro</value>
+  </data>
+  <data name="gen-1-pokemon-81-name-label" xml:space="preserve">
+    <value>Magnemite</value>
+  </data>
+  <data name="gen-1-pokemon-82-name-label" xml:space="preserve">
+    <value>Magneton</value>
+  </data>
+  <data name="gen-1-pokemon-83-name-label" xml:space="preserve">
+    <value>Farfetch'd</value>
+  </data>
+  <data name="gen-1-pokemon-84-name-label" xml:space="preserve">
+    <value>Doduo</value>
+  </data>
+  <data name="gen-1-pokemon-85-name-label" xml:space="preserve">
+    <value>Dodrio</value>
+  </data>
+  <data name="gen-1-pokemon-86-name-label" xml:space="preserve">
+    <value>Seel</value>
+  </data>
+  <data name="gen-1-pokemon-87-name-label" xml:space="preserve">
+    <value>Dewgong</value>
+  </data>
+  <data name="gen-1-pokemon-88-name-label" xml:space="preserve">
+    <value>Grimer</value>
+  </data>
+  <data name="gen-1-pokemon-89-name-label" xml:space="preserve">
+    <value>Muk</value>
+  </data>
+  <data name="gen-1-pokemon-90-name-label" xml:space="preserve">
+    <value>Shellder</value>
+  </data>
+  <data name="gen-1-pokemon-91-name-label" xml:space="preserve">
+    <value>Cloyster</value>
+  </data>
+  <data name="gen-1-pokemon-92-name-label" xml:space="preserve">
+    <value>Gastly</value>
+  </data>
+  <data name="gen-1-pokemon-93-name-label" xml:space="preserve">
+    <value>Haunter</value>
+  </data>
+  <data name="gen-1-pokemon-94-name-label" xml:space="preserve">
+    <value>Gengar</value>
+  </data>
+  <data name="gen-1-pokemon-95-name-label" xml:space="preserve">
+    <value>Onix</value>
+  </data>
+  <data name="gen-1-pokemon-96-name-label" xml:space="preserve">
+    <value>Drowzee</value>
+  </data>
+  <data name="gen-1-pokemon-97-name-label" xml:space="preserve">
+    <value>Hypno</value>
+  </data>
+  <data name="gen-1-pokemon-98-name-label" xml:space="preserve">
+    <value>Krabby</value>
+  </data>
+  <data name="gen-1-pokemon-99-name-label" xml:space="preserve">
+    <value>Kingler</value>
+  </data>
+  <data name="gen-1-pokemon-100-name-label" xml:space="preserve">
+    <value>Voltorb</value>
+  </data>
+  <data name="gen-1-pokemon-101-name-label" xml:space="preserve">
+    <value>Electrode</value>
+  </data>
+  <data name="gen-1-pokemon-102-name-label" xml:space="preserve">
+    <value>Exeggcute</value>
+  </data>
+  <data name="gen-1-pokemon-103-name-label" xml:space="preserve">
+    <value>Exeggutor</value>
+  </data>
+  <data name="gen-1-pokemon-104-name-label" xml:space="preserve">
+    <value>Cubone</value>
+  </data>
+  <data name="gen-1-pokemon-105-name-label" xml:space="preserve">
+    <value>Marowak</value>
+  </data>
+  <data name="gen-1-pokemon-106-name-label" xml:space="preserve">
+    <value>Hitmonlee</value>
+  </data>
+  <data name="gen-1-pokemon-107-name-label" xml:space="preserve">
+    <value>Hitmonchan</value>
+  </data>
+  <data name="gen-1-pokemon-108-name-label" xml:space="preserve">
+    <value>Lickitung</value>
+  </data>
+  <data name="gen-1-pokemon-109-name-label" xml:space="preserve">
+    <value>Koffing</value>
+  </data>
+  <data name="gen-1-pokemon-110-name-label" xml:space="preserve">
+    <value>Weezing</value>
+  </data>
+  <data name="gen-1-pokemon-111-name-label" xml:space="preserve">
+    <value>Rhyhorn</value>
+  </data>
+  <data name="gen-1-pokemon-112-name-label" xml:space="preserve">
+    <value>Rhydon</value>
+  </data>
+  <data name="gen-1-pokemon-113-name-label" xml:space="preserve">
+    <value>Chansey</value>
+  </data>
+  <data name="gen-1-pokemon-114-name-label" xml:space="preserve">
+    <value>Tangela</value>
+  </data>
+  <data name="gen-1-pokemon-115-name-label" xml:space="preserve">
+    <value>Kangaskhan</value>
+  </data>
+  <data name="gen-1-pokemon-116-name-label" xml:space="preserve">
+    <value>Horsea</value>
+  </data>
+  <data name="gen-1-pokemon-117-name-label" xml:space="preserve">
+    <value>Seadra</value>
+  </data>
+  <data name="gen-1-pokemon-118-name-label" xml:space="preserve">
+    <value>Goldeen</value>
+  </data>
+  <data name="gen-1-pokemon-119-name-label" xml:space="preserve">
+    <value>Seaking</value>
+  </data>
+  <data name="gen-1-pokemon-120-name-label" xml:space="preserve">
+    <value>Staryu</value>
+  </data>
+  <data name="gen-1-pokemon-121-name-label" xml:space="preserve">
+    <value>Starmie</value>
+  </data>
+  <data name="gen-1-pokemon-122-name-label" xml:space="preserve">
+    <value>Mr. Mime</value>
+  </data>
+  <data name="gen-1-pokemon-123-name-label" xml:space="preserve">
+    <value>Scyther</value>
+  </data>
+  <data name="gen-1-pokemon-124-name-label" xml:space="preserve">
+    <value>Jynx</value>
+  </data>
+  <data name="gen-1-pokemon-125-name-label" xml:space="preserve">
+    <value>Electabuzz</value>
+  </data>
+  <data name="gen-1-pokemon-126-name-label" xml:space="preserve">
+    <value>Magmar</value>
+  </data>
+  <data name="gen-1-pokemon-127-name-label" xml:space="preserve">
+    <value>Pinsir</value>
+  </data>
+  <data name="gen-1-pokemon-128-name-label" xml:space="preserve">
+    <value>Tauros</value>
+  </data>
+  <data name="gen-1-pokemon-129-name-label" xml:space="preserve">
+    <value>Magikarp</value>
+  </data>
+  <data name="gen-1-pokemon-130-name-label" xml:space="preserve">
+    <value>Gyarados</value>
+  </data>
+  <data name="gen-1-pokemon-131-name-label" xml:space="preserve">
+    <value>Lapras</value>
+  </data>
+  <data name="gen-1-pokemon-132-name-label" xml:space="preserve">
+    <value>Ditto</value>
+  </data>
+  <data name="gen-1-pokemon-133-name-label" xml:space="preserve">
+    <value>Eevee</value>
+  </data>
+  <data name="gen-1-pokemon-134-name-label" xml:space="preserve">
+    <value>Vaporeon</value>
+  </data>
+  <data name="gen-1-pokemon-135-name-label" xml:space="preserve">
+    <value>Jolteon</value>
+  </data>
+  <data name="gen-1-pokemon-136-name-label" xml:space="preserve">
+    <value>Flareon</value>
+  </data>
+  <data name="gen-1-pokemon-137-name-label" xml:space="preserve">
+    <value>Porygon</value>
+  </data>
+  <data name="gen-1-pokemon-138-name-label" xml:space="preserve">
+    <value>Omanyte</value>
+  </data>
+  <data name="gen-1-pokemon-139-name-label" xml:space="preserve">
+    <value>Omastar</value>
+  </data>
+  <data name="gen-1-pokemon-140-name-label" xml:space="preserve">
+    <value>Kabuto</value>
+  </data>
+  <data name="gen-1-pokemon-141-name-label" xml:space="preserve">
+    <value>Kabutops</value>
+  </data>
+  <data name="gen-1-pokemon-142-name-label" xml:space="preserve">
+    <value>Aerodactyl</value>
+  </data>
+  <data name="gen-1-pokemon-143-name-label" xml:space="preserve">
+    <value>Snorlax</value>
+  </data>
+  <data name="gen-1-pokemon-144-name-label" xml:space="preserve">
+    <value>Articuno</value>
+  </data>
+  <data name="gen-1-pokemon-145-name-label" xml:space="preserve">
+    <value>Zapdos</value>
+  </data>
+  <data name="gen-1-pokemon-146-name-label" xml:space="preserve">
+    <value>Moltres</value>
+  </data>
+  <data name="gen-1-pokemon-147-name-label" xml:space="preserve">
+    <value>Dratini</value>
+  </data>
+  <data name="gen-1-pokemon-148-name-label" xml:space="preserve">
+    <value>Dragonair</value>
+  </data>
+  <data name="gen-1-pokemon-149-name-label" xml:space="preserve">
+    <value>Dragonite</value>
+  </data>
+  <data name="gen-1-pokemon-150-name-label" xml:space="preserve">
+    <value>Mewtwo</value>
+  </data>
+  <data name="gen-1-pokemon-151-name-label" xml:space="preserve">
+    <value>Mew</value>
+  </data>
+  <data name="gen-1-pokemon-1-description-label" xml:space="preserve">
+    <value>There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.</value>
+  </data>
+  <data name="gen-1-pokemon-2-description-label" xml:space="preserve">
+    <value>When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.</value>
+  </data>
+  <data name="gen-1-pokemon-3-description-label" xml:space="preserve">
+    <value>Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.</value>
+  </data>
+  <data name="gen-1-pokemon-4-description-label" xml:space="preserve">
+    <value>It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail.</value>
+  </data>
+  <data name="gen-1-pokemon-5-description-label" xml:space="preserve">
+    <value>It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.</value>
+  </data>
+  <data name="gen-1-pokemon-6-description-label" xml:space="preserve">
+    <value>It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.</value>
+  </data>
+  <data name="gen-1-pokemon-7-description-label" xml:space="preserve">
+    <value>When it retracts its long neck into its shell, it squirts out water with vigorous force.</value>
+  </data>
+  <data name="gen-1-pokemon-8-description-label" xml:space="preserve">
+    <value>It is recognized as a symbol of longevity. If its shell has algae on it, that Wartortle is very old.</value>
+  </data>
+  <data name="gen-1-pokemon-9-description-label" xml:space="preserve">
+    <value>It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell.</value>
+  </data>
+  <data name="gen-1-pokemon-10-description-label" xml:space="preserve">
+    <value>For protection, it releases a horrible stench from the antenna on its head to drive away enemies.</value>
+  </data>
+  <data name="gen-1-pokemon-11-description-label" xml:space="preserve">
+    <value>It is waiting for the moment to evolve. At this stage, it can only harden, so it remains motionless to avoid attack.</value>
+  </data>
+  <data name="gen-1-pokemon-12-description-label" xml:space="preserve">
+    <value>In battle, it flaps its wings at great speed to release highly toxic dust into the air.</value>
+  </data>
+  <data name="gen-1-pokemon-13-description-label" xml:space="preserve">
+    <value>Beware of the sharp stinger on its head. It hides in grass and bushes where it eats leaves.</value>
+  </data>
+  <data name="gen-1-pokemon-14-description-label" xml:space="preserve">
+    <value>Able to move only slightly. When endangered, it may stick out its stinger and poison its enemy.</value>
+  </data>
+  <data name="gen-1-pokemon-15-description-label" xml:space="preserve">
+    <value>It has three poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly.</value>
+  </data>
+  <data name="gen-1-pokemon-16-description-label" xml:space="preserve">
+    <value>Very docile. If attacked, it will often kick up sand to protect itself rather than fight back.</value>
+  </data>
+  <data name="gen-1-pokemon-17-description-label" xml:space="preserve">
+    <value>This Pokémon is full of vitality. It constantly flies around its large territory in search of prey.</value>
+  </data>
+  <data name="gen-1-pokemon-18-description-label" xml:space="preserve">
+    <value>This Pokémon flies at Mach 2 speed, seeking prey. Its large talons are feared as wicked weapons.</value>
+  </data>
+  <data name="gen-1-pokemon-19-description-label" xml:space="preserve">
+    <value>Will chew on anything with its fangs. If you see one, you can be certain that 40 more live in the area.</value>
+  </data>
+  <data name="gen-1-pokemon-20-description-label" xml:space="preserve">
+    <value>Its hind feet are webbed. They act as flippers, so it can swim in rivers and hunt for prey.</value>
+  </data>
+  <data name="gen-1-pokemon-21-description-label" xml:space="preserve">
+    <value>Inept at flying high. However, it can fly around very fast to protect its territory.</value>
+  </data>
+  <data name="gen-1-pokemon-22-description-label" xml:space="preserve">
+    <value>A Pokémon that dates back many years. If it senses danger, it flies high and away, instantly.</value>
+  </data>
+  <data name="gen-1-pokemon-23-description-label" xml:space="preserve">
+    <value>The older it gets, the longer it grows. At night, it wraps its long body around tree branches to rest.</value>
+  </data>
+  <data name="gen-1-pokemon-24-description-label" xml:space="preserve">
+    <value>The frightening patterns on its belly have been studied. Six variations have been confirmed.</value>
+  </data>
+  <data name="gen-1-pokemon-25-description-label" xml:space="preserve">
+    <value>Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.</value>
+  </data>
+  <data name="gen-1-pokemon-26-description-label" xml:space="preserve">
+    <value>Its long tail serves as a ground to protect itself from its own high-voltage power.</value>
+  </data>
+  <data name="gen-1-pokemon-27-description-label" xml:space="preserve">
+    <value>It loves to bathe in the grit of dry, sandy areas. By sand bathing, the Pokémon rids itself of dirt and moisture clinging to its body.</value>
+  </data>
+  <data name="gen-1-pokemon-28-description-label" xml:space="preserve">
+    <value>The drier the area Sandslash lives in, the harder and smoother the Pokémon’s spikes will feel when touched.</value>
+  </data>
+  <data name="gen-1-pokemon-29-description-label" xml:space="preserve">
+    <value>Females are more sensitive to smells than males. While foraging, they’ll use their whiskers to check wind direction and stay downwind of predators.</value>
+  </data>
+  <data name="gen-1-pokemon-30-description-label" xml:space="preserve">
+    <value>The horn on its head has atrophied. It’s thought that this happens so Nidorina’s children won’t get poked while their mother is feeding them.</value>
+  </data>
+  <data name="gen-1-pokemon-31-description-label" xml:space="preserve">
+    <value>Nidoqueen is better at defense than offense. With scales like armor, this Pokémon will shield its children from any kind of attack.</value>
+  </data>
+  <data name="gen-1-pokemon-32-description-label" xml:space="preserve">
+    <value>The horn on a male Nidoran’s forehead contains a powerful poison. This is a very cautious Pokémon, always straining its large ears.</value>
+  </data>
+  <data name="gen-1-pokemon-33-description-label" xml:space="preserve">
+    <value>With a horn that’s harder than diamond, this Pokémon goes around shattering boulders as it searches for a moon stone.</value>
+  </data>
+  <data name="gen-1-pokemon-34-description-label" xml:space="preserve">
+    <value>When it goes on a rampage, it’s impossible to control. But in the presence of a Nidoqueen it’s lived with for a long time, Nidoking calms down.</value>
+  </data>
+  <data name="gen-1-pokemon-35-description-label" xml:space="preserve">
+    <value>It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon.</value>
+  </data>
+  <data name="gen-1-pokemon-36-description-label" xml:space="preserve">
+    <value>A timid fairy Pokémon that is rarely seen, it will run and hide the moment it senses people.</value>
+  </data>
+  <data name="gen-1-pokemon-37-description-label" xml:space="preserve">
+    <value>While young, it has six gorgeous tails. When it grows, several new tails are sprouted.</value>
+  </data>
+  <data name="gen-1-pokemon-38-description-label" xml:space="preserve">
+    <value>It is said to live 1,000 years, and each of its tails is loaded with supernatural powers.</value>
+  </data>
+  <data name="gen-1-pokemon-39-description-label" xml:space="preserve">
+    <value>Jigglypuff has top-notch lung capacity, even by comparison to other Pokémon. It won’t stop singing its lullabies until its foes fall asleep.</value>
+  </data>
+  <data name="gen-1-pokemon-40-description-label" xml:space="preserve">
+    <value>The more air it takes in, the more it inflates. If opponents catch it in a bad mood, it will inflate itself to an enormous size to intimidate them.</value>
+  </data>
+  <data name="gen-1-pokemon-41-description-label" xml:space="preserve">
+    <value>It emits ultrasonic waves from its mouth to check its surroundings. Even in tight caves, Zubat flies around with skill.</value>
+  </data>
+  <data name="gen-1-pokemon-42-description-label" xml:space="preserve">
+    <value>It loves to drink other creatures’ blood. It’s said that if it finds others of its kind going hungry, it sometimes shares the blood it’s gathered.</value>
+  </data>
+  <data name="gen-1-pokemon-43-description-label" xml:space="preserve">
+    <value>If exposed to moonlight, it starts to move. It roams far and wide at night to scatter its seeds.</value>
+  </data>
+  <data name="gen-1-pokemon-44-description-label" xml:space="preserve">
+    <value>Its pistils exude an incredibly foul odor. The horrid stench can cause fainting at a distance of 1.25 miles.</value>
+  </data>
+  <data name="gen-1-pokemon-45-description-label" xml:space="preserve">
+    <value>It has the world’s largest petals. With every step, the petals shake out heavy clouds of toxic pollen.</value>
+  </data>
+  <data name="gen-1-pokemon-46-description-label" xml:space="preserve">
+    <value>Burrows under the ground to gnaw on tree roots. The mushrooms on its back absorb most of the nutrition.</value>
+  </data>
+  <data name="gen-1-pokemon-47-description-label" xml:space="preserve">
+    <value>The bug host is drained of energy by the mushroom on its back. The mushroom appears to do all the thinking.</value>
+  </data>
+  <data name="gen-1-pokemon-48-description-label" xml:space="preserve">
+    <value>Its large eyes act as radar. In a bright place, you can see that they are clusters of many tiny eyes.</value>
+  </data>
+  <data name="gen-1-pokemon-49-description-label" xml:space="preserve">
+    <value>The powdery scales on its wings are hard to remove from skin. They also contain poison that leaks out on contact.</value>
+  </data>
+  <data name="gen-1-pokemon-50-description-label" xml:space="preserve">
+    <value>If a Diglett digs through a field, it leaves the soil perfectly tilled and ideal for planting crops.</value>
+  </data>
+  <data name="gen-1-pokemon-51-description-label" xml:space="preserve">
+    <value>A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground.</value>
+  </data>
+  <data name="gen-1-pokemon-52-description-label" xml:space="preserve">
+    <value>It loves to collect shiny things. If it’s in a good mood, it might even let its Trainer have a look at its hoard of treasures.</value>
+  </data>
+  <data name="gen-1-pokemon-53-description-label" xml:space="preserve">
+    <value>Getting this prideful Pokémon to warm up to you takes a lot of effort, and it will claw at you the moment it gets annoyed.</value>
+  </data>
+  <data name="gen-1-pokemon-54-description-label" xml:space="preserve">
+    <value>Psyduck is constantly beset by headaches. If the Pokémon lets its strange power erupt, apparently the pain subsides for a while.</value>
+  </data>
+  <data name="gen-1-pokemon-55-description-label" xml:space="preserve">
+    <value>This Pokémon lives in gently flowing rivers. It paddles through the water with its long limbs, putting its graceful swimming skills on display.</value>
+  </data>
+  <data name="gen-1-pokemon-56-description-label" xml:space="preserve">
+    <value>An agile Pokémon that lives in trees. It angers easily and will not hesitate to attack anything.</value>
+  </data>
+  <data name="gen-1-pokemon-57-description-label" xml:space="preserve">
+    <value>It stops being angry only when nobody else is around. To view this moment is very difficult.</value>
+  </data>
+  <data name="gen-1-pokemon-58-description-label" xml:space="preserve">
+    <value>It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes.</value>
+  </data>
+  <data name="gen-1-pokemon-59-description-label" xml:space="preserve">
+    <value>The sight of it running over 6,200 miles in a single day and night has captivated many people.</value>
+  </data>
+  <data name="gen-1-pokemon-60-description-label" xml:space="preserve">
+    <value>For Poliwag, swimming is easier than walking. The swirl pattern on its belly is actually part of the Pokémon’s innards showing through the skin.</value>
+  </data>
+  <data name="gen-1-pokemon-61-description-label" xml:space="preserve">
+    <value>Staring at the swirl on its belly causes drowsiness. This trait of Poliwhirl’s has been used in place of lullabies to get children to go to sleep.</value>
+  </data>
+  <data name="gen-1-pokemon-62-description-label" xml:space="preserve">
+    <value>Its body is solid muscle. When swimming through cold seas, Poliwrath uses its impressive arms to smash through drift ice and plow forward.</value>
+  </data>
+  <data name="gen-1-pokemon-63-description-label" xml:space="preserve">
+    <value>This Pokémon uses its psychic powers while it sleeps. The contents of Abra’s dreams affect the powers that the Pokémon wields.</value>
+  </data>
+  <data name="gen-1-pokemon-64-description-label" xml:space="preserve">
+    <value>Using its psychic power, Kadabra levitates as it sleeps. It uses its springy tail as a pillow.</value>
+  </data>
+  <data name="gen-1-pokemon-65-description-label" xml:space="preserve">
+    <value>It has an incredibly high level of intelligence. Some say that Alakazam remembers everything that ever happens to it, from birth till death.</value>
+  </data>
+  <data name="gen-1-pokemon-66-description-label" xml:space="preserve">
+    <value>Its whole body is composed of muscles. Even though it’s the size of a human child, it can hurl 100 grown-ups.</value>
+  </data>
+  <data name="gen-1-pokemon-67-description-label" xml:space="preserve">
+    <value>Its muscular body is so powerful, it must wear a power-save belt to be able to regulate its motions.</value>
+  </data>
+  <data name="gen-1-pokemon-68-description-label" xml:space="preserve">
+    <value>It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles.</value>
+  </data>
+  <data name="gen-1-pokemon-69-description-label" xml:space="preserve">
+    <value>Prefers hot and humid places. It ensnares tiny bugs with its vines and devours them.</value>
+  </data>
+  <data name="gen-1-pokemon-70-description-label" xml:space="preserve">
+    <value>When hungry, it swallows anything that moves. Its hapless prey is dissolved by strong acids.</value>
+  </data>
+  <data name="gen-1-pokemon-71-description-label" xml:space="preserve">
+    <value>Lures prey with the sweet aroma of honey. Swallowed whole, the prey is dissolved in a day, bones and all.</value>
+  </data>
+  <data name="gen-1-pokemon-72-description-label" xml:space="preserve">
+    <value>Tentacool is not a particularly strong swimmer. It drifts across the surface of shallow seas as it searches for prey.</value>
+  </data>
+  <data name="gen-1-pokemon-73-description-label" xml:space="preserve">
+    <value>When the red orbs on Tentacruel’s head glow brightly, watch out. The Pokémon is about to fire off a burst of ultrasonic waves.</value>
+  </data>
+  <data name="gen-1-pokemon-74-description-label" xml:space="preserve">
+    <value>Commonly found near mountain trails and the like. If you step on one by accident, it gets angry.</value>
+  </data>
+  <data name="gen-1-pokemon-75-description-label" xml:space="preserve">
+    <value>Often seen rolling down mountain trails. Obstacles are just things to roll straight over, not avoid.</value>
+  </data>
+  <data name="gen-1-pokemon-76-description-label" xml:space="preserve">
+    <value>Once it sheds its skin, its body turns tender and whitish. Its hide hardens when it’s exposed to air.</value>
+  </data>
+  <data name="gen-1-pokemon-77-description-label" xml:space="preserve">
+    <value>It can’t run properly when it’s newly born. As it races around with others of its kind, its legs grow stronger.</value>
+  </data>
+  <data name="gen-1-pokemon-78-description-label" xml:space="preserve">
+    <value>This Pokémon can be seen galloping through fields at speeds of up to 150 mph, its fiery mane fluttering in the wind.</value>
+  </data>
+  <data name="gen-1-pokemon-79-description-label" xml:space="preserve">
+    <value>Slow-witted and oblivious, this Pokémon won’t feel any pain if its tail gets eaten. It won’t notice when its tail grows back, either.</value>
+  </data>
+  <data name="gen-1-pokemon-80-description-label" xml:space="preserve">
+    <value>Slowpoke became Slowbro when a Shellder bit on to its tail. Sweet flavors seeping from the tail make the Shellder feel as if its life is a dream.</value>
+  </data>
+  <data name="gen-1-pokemon-81-description-label" xml:space="preserve">
+    <value>At times, Magnemite runs out of electricity and ends up on the ground. If you give batteries to a grounded Magnemite, it’ll start moving again.</value>
+  </data>
+  <data name="gen-1-pokemon-82-description-label" xml:space="preserve">
+    <value>This Pokémon is three Magnemite that have linked together. Magneton sends out powerful radio waves to study its surroundings.</value>
+  </data>
+  <data name="gen-1-pokemon-83-description-label" xml:space="preserve">
+    <value>The stalk this Pokémon carries in its wings serves as a sword to cut down opponents. In a dire situation, the stalk can also serve as food.</value>
+  </data>
+  <data name="gen-1-pokemon-84-description-label" xml:space="preserve">
+    <value>Its short wings make flying difficult. Instead, this Pokémon runs at high speed on developed legs.</value>
+  </data>
+  <data name="gen-1-pokemon-85-description-label" xml:space="preserve">
+    <value>One of Doduo’s two heads splits to form a unique species. It runs close to 40 mph in prairies.</value>
+  </data>
+  <data name="gen-1-pokemon-86-description-label" xml:space="preserve">
+    <value>Loves freezing-cold conditions. Relishes swimming in a frigid climate of around 14 degrees Fahrenheit.</value>
+  </data>
+  <data name="gen-1-pokemon-87-description-label" xml:space="preserve">
+    <value>Its entire body is a snowy white. Unharmed by even intense cold, it swims powerfully in icy waters.</value>
+  </data>
+  <data name="gen-1-pokemon-88-description-label" xml:space="preserve">
+    <value>Made of congealed sludge. It smells too putrid to touch. Even weeds won’t grow in its path.</value>
+  </data>
+  <data name="gen-1-pokemon-89-description-label" xml:space="preserve">
+    <value>Smells so awful, it can cause fainting. Through degeneration of its nose, it lost its sense of smell.</value>
+  </data>
+  <data name="gen-1-pokemon-90-description-label" xml:space="preserve">
+    <value>It swims facing backward by opening and closing its two-piece shell. It is surprisingly fast.</value>
+  </data>
+  <data name="gen-1-pokemon-91-description-label" xml:space="preserve">
+    <value>Its shell is extremely hard. It cannot be shattered, even with a bomb. The shell opens only when it is attacking.</value>
+  </data>
+  <data name="gen-1-pokemon-92-description-label" xml:space="preserve">
+    <value>Born from gases, anyone would faint if engulfed by its gaseous body, which contains poison.</value>
+  </data>
+  <data name="gen-1-pokemon-93-description-label" xml:space="preserve">
+    <value>Its tongue is made of gas. If licked, its victim starts shaking constantly until death eventually comes.</value>
+  </data>
+  <data name="gen-1-pokemon-94-description-label" xml:space="preserve">
+    <value>On the night of a full moon, if shadows move on their own and laugh, it must be Gengar’s doing.</value>
+  </data>
+  <data name="gen-1-pokemon-95-description-label" xml:space="preserve">
+    <value>As it digs through the ground, it absorbs many hard objects. This is what makes its body so solid.</value>
+  </data>
+  <data name="gen-1-pokemon-96-description-label" xml:space="preserve">
+    <value>If you sleep by it all the time, it will sometimes show you dreams it had eaten in the past.</value>
+  </data>
+  <data name="gen-1-pokemon-97-description-label" xml:space="preserve">
+    <value>Avoid eye contact if you come across one. It will try to put you to sleep by using its pendulum.</value>
+  </data>
+  <data name="gen-1-pokemon-98-description-label" xml:space="preserve">
+    <value>It can be found near the sea. The large pincers grow back if they are torn out of their sockets.</value>
+  </data>
+  <data name="gen-1-pokemon-99-description-label" xml:space="preserve">
+    <value>Its large and hard pincer has 10,000-horsepower strength. However, being so big, it is unwieldy to move.</value>
+  </data>
+  <data name="gen-1-pokemon-100-description-label" xml:space="preserve">
+    <value>It is said to camouflage itself as a Poké Ball. It will self-destruct with very little stimulus.</value>
+  </data>
+  <data name="gen-1-pokemon-101-description-label" xml:space="preserve">
+    <value>Stores electrical energy inside its body. Even the slightest shock could trigger a huge explosion.</value>
+  </data>
+  <data name="gen-1-pokemon-102-description-label" xml:space="preserve">
+    <value>Though it may look like it’s just a bunch of eggs, it’s a proper Pokémon. Exeggcute communicates with others of its kind via telepathy, apparently.</value>
+  </data>
+  <data name="gen-1-pokemon-103-description-label" xml:space="preserve">
+    <value>Each of Exeggutor’s three heads is thinking different thoughts. The three don’t seem to be very interested in one another.</value>
+  </data>
+  <data name="gen-1-pokemon-104-description-label" xml:space="preserve">
+    <value>When the memory of its departed mother brings it to tears, its cries echo mournfully within the skull it wears on its head.</value>
+  </data>
+  <data name="gen-1-pokemon-105-description-label" xml:space="preserve">
+    <value>This Pokémon overcame its sorrow to evolve a sturdy new body. Marowak faces its opponents bravely, using a bone as a weapon.</value>
+  </data>
+  <data name="gen-1-pokemon-106-description-label" xml:space="preserve">
+    <value>This amazing Pokémon has an awesome sense of balance. It can kick in succession from any position.</value>
+  </data>
+  <data name="gen-1-pokemon-107-description-label" xml:space="preserve">
+    <value>Its punches slice the air. They are launched at such high speed, even a slight graze could cause a burn.</value>
+  </data>
+  <data name="gen-1-pokemon-108-description-label" xml:space="preserve">
+    <value>If this Pokémon’s sticky saliva gets on you and you don’t clean it off, an intense itch will set in. The itch won’t go away, either.</value>
+  </data>
+  <data name="gen-1-pokemon-109-description-label" xml:space="preserve">
+    <value>Its body is full of poisonous gas. It floats into garbage dumps, seeking out the fumes of raw, rotting trash.</value>
+  </data>
+  <data name="gen-1-pokemon-110-description-label" xml:space="preserve">
+    <value>It mixes gases between its two bodies. It’s said that these Pokémon were seen all over the Galar region back in the day.</value>
+  </data>
+  <data name="gen-1-pokemon-111-description-label" xml:space="preserve">
+    <value>Strong, but not too bright, this Pokémon can shatter even a skyscraper with its charging tackles.</value>
+  </data>
+  <data name="gen-1-pokemon-112-description-label" xml:space="preserve">
+    <value>It begins walking on its hind legs after evolution. It can punch holes through boulders with its horn.</value>
+  </data>
+  <data name="gen-1-pokemon-113-description-label" xml:space="preserve">
+    <value>The egg Chansey carries is not only delicious but also packed with nutrition. It’s used as a high-class cooking ingredient.</value>
+  </data>
+  <data name="gen-1-pokemon-114-description-label" xml:space="preserve">
+    <value>Hidden beneath a tangle of vines that grows nonstop even if the vines are torn off, this Pokémon’s true appearance remains a mystery.</value>
+  </data>
+  <data name="gen-1-pokemon-115-description-label" xml:space="preserve">
+    <value>Although it’s carrying its baby in a pouch on its belly, Kangaskhan is swift on its feet. It intimidates its opponents with quick jabs.</value>
+  </data>
+  <data name="gen-1-pokemon-116-description-label" xml:space="preserve">
+    <value>Horsea makes its home in oceans with gentle currents. If this Pokémon is under attack, it spits out pitch-black ink and escapes.</value>
+  </data>
+  <data name="gen-1-pokemon-117-description-label" xml:space="preserve">
+    <value>It’s the males that raise the offspring. While Seadra are raising young, the spines on their backs secrete thicker and stronger poison.</value>
+  </data>
+  <data name="gen-1-pokemon-118-description-label" xml:space="preserve">
+    <value>Its dorsal, pectoral, and tail fins wave elegantly in water. That is why it is known as the Water Dancer.</value>
+  </data>
+  <data name="gen-1-pokemon-119-description-label" xml:space="preserve">
+    <value>In autumn, its body becomes more fatty in preparing to propose to a mate. It takes on beautiful colors.</value>
+  </data>
+  <data name="gen-1-pokemon-120-description-label" xml:space="preserve">
+    <value>If you visit a beach at the end of summer, you’ll be able to see groups of Staryu lighting up in a steady rhythm.</value>
+  </data>
+  <data name="gen-1-pokemon-121-description-label" xml:space="preserve">
+    <value>This Pokémon has an organ known as its core. The organ glows in seven colors when Starmie is unleashing its potent psychic powers.</value>
+  </data>
+  <data name="gen-1-pokemon-122-description-label" xml:space="preserve">
+    <value>The broadness of its hands may be no coincidence—many scientists believe its palms became enlarged specifically for pantomiming.</value>
+  </data>
+  <data name="gen-1-pokemon-123-description-label" xml:space="preserve">
+    <value>As Scyther fights more and more battles, its scythes become sharper and sharper. With a single slice, Scyther can fell a massive tree.</value>
+  </data>
+  <data name="gen-1-pokemon-124-description-label" xml:space="preserve">
+    <value>In certain parts of Galar, Jynx was once feared and worshiped as the Queen of Ice.</value>
+  </data>
+  <data name="gen-1-pokemon-125-description-label" xml:space="preserve">
+    <value>Many power plants keep Ground-type Pokémon around as a defense against Electabuzz that come seeking electricity.</value>
+  </data>
+  <data name="gen-1-pokemon-126-description-label" xml:space="preserve">
+    <value>Magmar dispatches its prey with fire. But it regrets this habit once it realizes that it has burned its intended prey to a charred crisp.</value>
+  </data>
+  <data name="gen-1-pokemon-127-description-label" xml:space="preserve">
+    <value>These Pokémon judge one another based on pincers. Thicker, more impressive pincers make for more popularity with the opposite gender.</value>
+  </data>
+  <data name="gen-1-pokemon-128-description-label" xml:space="preserve">
+    <value>When Tauros begins whipping itself with its tails, it’s a warning that the Pokémon is about to charge with astounding speed.</value>
+  </data>
+  <data name="gen-1-pokemon-129-description-label" xml:space="preserve">
+    <value>It is virtually worthless in terms of both power and speed. It is the most weak and pathetic Pokémon in the world.</value>
+  </data>
+  <data name="gen-1-pokemon-130-description-label" xml:space="preserve">
+    <value>It has an extremely aggressive nature. The Hyper Beam it shoots from its mouth totally incinerates all targets.</value>
+  </data>
+  <data name="gen-1-pokemon-131-description-label" xml:space="preserve">
+    <value>A smart and kindhearted Pokémon, it glides across the surface of the sea while its beautiful song echoes around it.</value>
+  </data>
+  <data name="gen-1-pokemon-132-description-label" xml:space="preserve">
+    <value>It can reconstitute its entire cellular structure to change into what it sees, but it returns to normal when it relaxes.</value>
+  </data>
+  <data name="gen-1-pokemon-133-description-label" xml:space="preserve">
+    <value>It has the ability to alter the composition of its body to suit its surrounding environment.</value>
+  </data>
+  <data name="gen-1-pokemon-134-description-label" xml:space="preserve">
+    <value>When Vaporeon’s fins begin to vibrate, it is a sign that rain will come within a few hours.</value>
+  </data>
+  <data name="gen-1-pokemon-135-description-label" xml:space="preserve">
+    <value>If it is angered or startled, the fur all over its body bristles like sharp needles that pierce foes.</value>
+  </data>
+  <data name="gen-1-pokemon-136-description-label" xml:space="preserve">
+    <value>Once it has stored up enough heat, this Pokémon’s body temperature can reach up to 1,700 degrees Fahrenheit.</value>
+  </data>
+  <data name="gen-1-pokemon-137-description-label" xml:space="preserve">
+    <value>State-of-the-art technology was used to create Porygon. It was the first artificial Pokémon to be created via computer programming.</value>
+  </data>
+  <data name="gen-1-pokemon-138-description-label" xml:space="preserve">
+    <value>Because some Omanyte manage to escape after being restored or are released into the wild by people, this species is becoming a problem.</value>
+  </data>
+  <data name="gen-1-pokemon-139-description-label" xml:space="preserve">
+    <value>Weighed down by a large and heavy shell, Omastar couldn’t move very fast. Some say it went extinct because it was unable to catch food.</value>
+  </data>
+  <data name="gen-1-pokemon-140-description-label" xml:space="preserve">
+    <value>This species is almost entirely extinct. Kabuto molt every three days, making their shells harder and harder.</value>
+  </data>
+  <data name="gen-1-pokemon-141-description-label" xml:space="preserve">
+    <value>Kabutops slices its prey apart and sucks out the fluids. The discarded body parts become food for other Pokémon.</value>
+  </data>
+  <data name="gen-1-pokemon-142-description-label" xml:space="preserve">
+    <value>This is a ferocious Pokémon from ancient times. Apparently even modern technology is incapable of producing a perfectly restored specimen.</value>
+  </data>
+  <data name="gen-1-pokemon-143-description-label" xml:space="preserve">
+    <value>It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.</value>
+  </data>
+  <data name="gen-1-pokemon-144-description-label" xml:space="preserve">
+    <value>It’s said that this Pokémon’s beautiful blue wings are made of ice. Articuno flies over snowy mountains, its long tail fluttering along behind it.</value>
+  </data>
+  <data name="gen-1-pokemon-145-description-label" xml:space="preserve">
+    <value>This Pokémon has complete control over electricity. There are tales of Zapdos nesting in the dark depths of pitch-black thunderclouds.</value>
+  </data>
+  <data name="gen-1-pokemon-146-description-label" xml:space="preserve">
+    <value>It’s one of the legendary bird Pokémon. When Moltres flaps its flaming wings, they glimmer with a dazzling red glow.</value>
+  </data>
+  <data name="gen-1-pokemon-147-description-label" xml:space="preserve">
+    <value>Dratini dwells near bodies of rapidly flowing water, such as the plunge pools of waterfalls. As it grows, Dratini will shed its skin many times.</value>
+  </data>
+  <data name="gen-1-pokemon-148-description-label" xml:space="preserve">
+    <value>This Pokémon lives in pristine oceans and lakes. It can control the weather, and it uses this power to fly into the sky, riding on the wind.</value>
+  </data>
+  <data name="gen-1-pokemon-149-description-label" xml:space="preserve">
+    <value>It’s a kindhearted Pokémon. If it spots a drowning person or Pokémon, Dragonite simply must help them.</value>
+  </data>
+  <data name="gen-1-pokemon-150-description-label" xml:space="preserve">
+    <value>Its DNA is almost the same as Mew’s. However, its size and disposition are vastly different.</value>
+  </data>
+  <data name="gen-1-pokemon-151-description-label" xml:space="preserve">
+    <value>When viewed through a microscope, this Pokémon’s short, fine, delicate hair can be seen.</value>
+  </data>
 </root>

@@ -1,0 +1,2241 @@
+[
+  {
+    "id": 1,
+    "name": "gen-1-pokemon-1-name-label",
+    "description": "gen-1-pokemon-1-description-label",
+    "type": [
+      "type-grass-label",
+      "type-poison-label"
+    ],
+    "height": 0.4,
+    "weight": 4.0,
+    "abilities": [
+      "ability-overgrow-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-1-sprite.png"
+  },
+  {
+    "id": 2,
+    "name": "gen-1-pokemon-2-name-label",
+    "description": "gen-1-pokemon-2-description-label",
+    "type": [
+      "type-grass-label",
+      "type-poison-label"
+    ],
+    "height": 0.7,
+    "weight": 6.9,
+    "abilities": [
+      "ability-overgrow-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-2-sprite.png"
+  },
+  {
+    "id": 3,
+    "name": "gen-1-pokemon-3-name-label",
+    "description": "gen-1-pokemon-3-description-label",
+    "type": [
+      "type-grass-label",
+      "type-poison-label"
+    ],
+    "height": 1.0,
+    "weight": 13.0,
+    "abilities": [
+      "ability-overgrow-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-3-sprite.png"
+  },
+  {
+    "id": 4,
+    "name": "gen-1-pokemon-4-name-label",
+    "description": "gen-1-pokemon-4-description-label",
+    "type": [
+      "type-fire-label"
+    ],
+    "height": 0.6,
+    "weight": 8.5,
+    "abilities": [
+      "ability-blaze-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-4-sprite.png"
+  },
+  {
+    "id": 5,
+    "name": "gen-1-pokemon-5-name-label",
+    "description": "gen-1-pokemon-5-description-label",
+    "type": [
+      "type-fire-label"
+    ],
+    "height": 1.1,
+    "weight": 19.0,
+    "abilities": [
+      "ability-blaze-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-5-sprite.png"
+  },
+  {
+    "id": 6,
+    "name": "gen-1-pokemon-6-name-label",
+    "description": "gen-1-pokemon-6-description-label",
+    "type": [
+      "type-fire-label",
+      "type-flying-label"
+    ],
+    "height": 1.7,
+    "weight": 90.5,
+    "abilities": [
+      "ability-blaze-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-6-sprite.png"
+  },
+  {
+    "id": 7,
+    "name": "gen-1-pokemon-7-name-label",
+    "description": "gen-1-pokemon-7-description-label",
+    "type": [
+      "type-water-label"
+    ],
+    "height": 0.5,
+    "weight": 9.0,
+    "abilities": [
+      "ability-torrent-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-7-sprite.png"
+  },
+  {
+    "id": 8,
+    "name": "gen-1-pokemon-8-name-label",
+    "description": "gen-1-pokemon-8-description-label",
+    "type": [
+      "type-water-label"
+    ],
+    "height": 1.0,
+    "weight": 22.5,
+    "abilities": [
+      "ability-torrent-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-8-sprite.png"
+  },
+  {
+    "id": 9,
+    "name": "gen-1-pokemon-9-name-label",
+    "description": "gen-1-pokemon-9-description-label",
+    "type": [
+      "type-water-label",
+      "type-ice-label"
+    ],
+    "height": 1.6,
+    "weight": 85.5,
+    "abilities": [
+      "ability-torrent-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-9-sprite.png"
+  },
+  {
+    "id": 10,
+    "name": "gen-1-pokemon-10-name-label",
+    "description": "gen-1-pokemon-10-description-label",
+    "type": [
+      "type-bug-label"
+    ],
+    "height": 0.3,
+    "weight": 2.9,
+    "abilities": [
+      "ability-shield-dust-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-10-sprite.png"
+  },
+  {
+    "id": 11,
+    "name": "gen-1-pokemon-11-name-label",
+    "description": "gen-1-pokemon-11-description-label",
+    "type": [
+      "type-bug-label"
+    ],
+    "height": 0.7,
+    "weight": 9.9,
+    "abilities": [
+      "ability-shield-dust-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-11-sprite.png"
+  },
+  {
+    "id": 12,
+    "name": "gen-1-pokemon-12-name-label",
+    "description": "gen-1-pokemon-12-description-label",
+    "type": [
+      "type-bug-label",
+      "type-flying-label"
+    ],
+    "height": 1.0,
+    "weight": 32.0,
+    "abilities": [
+      "ability-shield-dust-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-12-sprite.png"
+  },
+  {
+    "id": 13,
+    "name": "gen-1-pokemon-13-name-label",
+    "description": "gen-1-pokemon-13-description-label",
+    "type": [
+      "type-bug-label",
+      "type-poison-label"
+    ],
+    "height": 0.3,
+    "weight": 3.2,
+    "abilities": [
+      "ability-poison-point-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-13-sprite.png"
+  },
+  {
+    "id": 14,
+    "name": "gen-1-pokemon-14-name-label",
+    "description": "gen-1-pokemon-14-description-label",
+    "type": [
+      "type-bug-label",
+      "type-poison-label"
+    ],
+    "height": 0.6,
+    "weight": 10.0,
+    "abilities": [
+      "ability-poison-point-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-14-sprite.png"
+  },
+  {
+    "id": 15,
+    "name": "gen-1-pokemon-15-name-label",
+    "description": "gen-1-pokemon-15-description-label",
+    "type": [
+      "type-bug-label",
+      "type-poison-label"
+    ],
+    "height": 1.0,
+    "weight": 29.5,
+    "abilities": [
+      "ability-poison-point-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-15-sprite.png"
+  },
+  {
+    "id": 16,
+    "name": "gen-1-pokemon-16-name-label",
+    "description": "gen-1-pokemon-16-description-label",
+    "type": [
+      "type-normal-label",
+      "type-flying-label"
+    ],
+    "height": 0.3,
+    "weight": 1.8,
+    "abilities": [
+      "ability-keen-eye-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-16-sprite.png"
+  },
+  {
+    "id": 17,
+    "name": "gen-1-pokemon-17-name-label",
+    "description": "gen-1-pokemon-17-description-label",
+    "type": [
+      "type-normal-label",
+      "type-flying-label"
+    ],
+    "height": 1.2,
+    "weight": 30.0,
+    "abilities": [
+      "ability-keen-eye-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-17-sprite.png"
+  },
+  {
+    "id": 18,
+    "name": "gen-1-pokemon-18-name-label",
+    "description": "gen-1-pokemon-18-description-label",
+    "type": [
+      "type-normal-label",
+      "type-flying-label"
+    ],
+    "height": 1.6,
+    "weight": 39.5,
+    "abilities": [
+      "ability-keen-eye-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-18-sprite.png"
+  },
+  {
+    "id": 19,
+    "name": "gen-1-pokemon-19-name-label",
+    "description": "gen-1-pokemon-19-description-label",
+    "type": [
+      "type-normal-label"
+    ],
+    "height": 0.5,
+    "weight": 3.5,
+    "abilities": [
+      "ability-run-away-label",
+      "ability-guts-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-19-sprite.png"
+  },
+  {
+    "id": 20,
+    "name": "gen-1-pokemon-20-name-label",
+    "description": "gen-1-pokemon-20-description-label",
+    "type": [
+      "type-normal-label"
+    ],
+    "height": 0.7,
+    "weight": 18.5,
+    "abilities": [
+      "ability-run-away-label",
+      "ability-guts-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-20-sprite.png"
+  },
+  {
+    "id": 21,
+    "name": "gen-1-pokemon-21-name-label",
+    "description": "gen-1-pokemon-21-description-label",
+    "type": [
+      "type-normal-label",
+      "type-flying-label"
+    ],
+    "height": 1.2,
+    "weight": 38.0,
+    "abilities": [
+      "ability-keen-eye-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-21-sprite.png"
+  },
+  {
+    "id": 22,
+    "name": "gen-1-pokemon-22-name-label",
+    "description": "gen-1-pokemon-22-description-label",
+    "type": [
+      "type-bug-label",
+      "type-flying-label"
+    ],
+    "height": 0.3,
+    "weight": 1.5,
+    "abilities": [
+      "ability-keen-eye-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-22-sprite.png"
+  },
+  {
+    "id": 23,
+    "name": "gen-1-pokemon-23-name-label",
+    "description": "gen-1-pokemon-23-description-label",
+    "type": [
+      "type-bug-label",
+      "type-flying-label"
+    ],
+    "height": 1.0,
+    "weight": 10.0,
+    "abilities": [
+      "ability-keen-eye-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-23-sprite.png"
+  },
+  {
+    "id": 24,
+    "name": "gen-1-pokemon-24-name-label",
+    "description": "gen-1-pokemon-24-description-label",
+    "type": [
+      "type-bug-label",
+      "type-poison-label"
+    ],
+    "height": 0.3,
+    "weight": 3.2,
+    "abilities": [
+      "ability-poison-point-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-24-sprite.png"
+  },
+  {
+    "id": 25,
+    "name": "gen-1-pokemon-25-name-label",
+    "description": "gen-1-pokemon-25-description-label",
+    "type": [
+      "type-electric-label"
+    ],
+    "height": 0.4,
+    "weight": 6.0,
+    "abilities": [
+      "ability-static-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-25-sprite.png"
+  },
+  {
+    "id": 26,
+    "name": "gen-1-pokemon-26-name-label",
+    "description": "gen-1-pokemon-26-description-label",
+    "type": [
+      "type-electric-label"
+    ],
+    "height": 0.8,
+    "weight": 30.0,
+    "abilities": [
+      "ability-static-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-26-sprite.png"
+  },
+  {
+    "id": 27,
+    "name": "gen-1-pokemon-27-name-label",
+    "description": "gen-1-pokemon-27-description-label",
+    "type": [
+      "type-ground-label"
+    ],
+    "height": 0.7,
+    "weight": 12.0,
+    "abilities": [
+      "ability-sand-veil-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-27-sprite.png"
+  },
+  {
+    "id": 28,
+    "name": "gen-1-pokemon-28-name-label",
+    "description": "gen-1-pokemon-28-description-label",
+    "type": [
+      "type-ground-label"
+    ],
+    "height": 1.0,
+    "weight": 29.5,
+    "abilities": [
+      "ability-sand-veil-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-28-sprite.png"
+  },
+  {
+    "id": 29,
+    "name": "gen-1-pokemon-29-name-label",
+    "description": "gen-1-pokemon-29-description-label",
+    "type": [
+      "type-poison-label"
+    ],
+    "height": 0.6,
+    "weight": 6.9,
+    "abilities": [
+      "ability-poison-point-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-29-sprite.png"
+  },
+  {
+    "id": 30,
+    "name": "gen-1-pokemon-30-name-label",
+    "description": "gen-1-pokemon-30-description-label",
+    "type": [
+      "type-poison-label",
+      "type-ground-label"
+    ],
+    "height": 1.0,
+    "weight": 29.0,
+    "abilities": [
+      "ability-poison-point-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-30-sprite.png"
+  },
+  {
+    "id": 31,
+    "name": "gen-1-pokemon-31-name-label",
+    "description": "gen-1-pokemon-31-description-label",
+    "type": [
+      "type-normal-label"
+    ],
+    "height": 0.5,
+    "weight": 5.4,
+    "abilities": [
+      "ability-run-away-label",
+      "ability-guts-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-31-sprite.png"
+  },
+  {
+    "id": 32,
+    "name": "gen-1-pokemon-32-name-label",
+    "description": "gen-1-pokemon-32-description-label",
+    "type": [
+      "type-normal-label"
+    ],
+    "height": 1.0,
+    "weight": 28.0,
+    "abilities": [
+      "ability-run-away-label",
+      "ability-guts-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-32-sprite.png"
+  },
+  {
+    "id": 33,
+    "name": "gen-1-pokemon-33-name-label",
+    "description": "gen-1-pokemon-33-description-label",
+    "type": [
+      "type-water-label"
+    ],
+    "height": 0.3,
+    "weight": 8.5,
+    "abilities": [
+      "ability-water-absorb-label",
+      "ability-damp-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-33-sprite.png"
+  },
+  {
+    "id": 34,
+    "name": "gen-1-pokemon-34-name-label",
+    "description": "gen-1-pokemon-34-description-label",
+    "type": [
+      "type-water-label"
+    ],
+    "height": 0.7,
+    "weight": 19.0,
+    "abilities": [
+      "ability-water-absorb-label",
+      "ability-damp-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-34-sprite.png"
+  },
+  {
+    "id": 35,
+    "name": "gen-1-pokemon-35-name-label",
+    "description": "gen-1-pokemon-35-description-label",
+    "type": [
+      "type-fairy-label"
+    ],
+    "height": 0.6,
+    "weight": 7.5,
+    "abilities": [
+      "ability-cute-charm-label",
+      "ability-competitive-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-35-sprite.png"
+  },
+  {
+    "id": 36,
+    "name": "gen-1-pokemon-36-name-label",
+    "description": "gen-1-pokemon-36-description-label",
+    "type": [
+      "type-fairy-label"
+    ],
+    "height": 1.3,
+    "weight": 40.0,
+    "abilities": [
+      "ability-cute-charm-label",
+      "ability-competitive-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-36-sprite.png"
+  },
+  {
+    "id": 37,
+    "name": "gen-1-pokemon-37-name-label",
+    "description": "gen-1-pokemon-37-description-label",
+    "type": [
+      "type-normal-label",
+      "type-flying-label"
+    ],
+    "height": 0.3,
+    "weight": 1.0,
+    "abilities": [
+      "ability-keen-eye-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-37-sprite.png"
+  },
+  {
+    "id": 38,
+    "name": "gen-1-pokemon-38-name-label",
+    "description": "gen-1-pokemon-38-description-label",
+    "type": [
+      "type-normal-label",
+      "type-flying-label"
+    ],
+    "height": 1.2,
+    "weight": 39.5,
+    "abilities": [
+      "ability-keen-eye-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-38-sprite.png"
+  },
+  {
+    "id": 39,
+    "name": "gen-1-pokemon-39-name-label",
+    "description": "gen-1-pokemon-39-description-label",
+    "type": [
+      "type-normal-label"
+    ],
+    "height": 0.6,
+    "weight": 12.0,
+    "abilities": [
+      "ability-early-bird-label",
+      "ability-scrappy-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-39-sprite.png"
+  },
+  {
+    "id": 40,
+    "name": "gen-1-pokemon-40-name-label",
+    "description": "gen-1-pokemon-40-description-label",
+    "type": [
+      "type-normal-label"
+    ],
+    "height": 1.0,
+    "weight": 32.4,
+    "abilities": [
+      "ability-early-bird-label",
+      "ability-scrappy-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-40-sprite.png"
+  },
+  {
+    "id": 41,
+    "name": "gen-1-pokemon-41-name-label",
+    "description": "gen-1-pokemon-41-description-label",
+    "type": [
+      "type-water-label"
+    ],
+    "height": 0.5,
+    "weight": 5.5,
+    "abilities": [
+      "ability-water-absorb-label",
+      "ability-damp-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-41-sprite.png"
+  },
+  {
+    "id": 42,
+    "name": "gen-1-pokemon-42-name-label",
+    "description": "gen-1-pokemon-42-description-label",
+    "type": [
+      "type-water-label"
+    ],
+    "height": 1.0,
+    "weight": 39.0,
+    "abilities": [
+      "ability-water-absorb-label",
+      "ability-damp-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-42-sprite.png"
+  },
+  {
+    "id": 43,
+    "name": "gen-1-pokemon-43-name-label",
+    "description": "gen-1-pokemon-43-description-label",
+    "type": [
+      "type-normal-label"
+    ],
+    "height": 0.4,
+    "weight": 6.5,
+    "abilities": [
+      "ability-pickup-label",
+      "ability-technician-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-43-sprite.png"
+  },
+  {
+    "id": 44,
+    "name": "gen-1-pokemon-44-name-label",
+    "description": "gen-1-pokemon-44-description-label",
+    "type": [
+      "type-normal-label"
+    ],
+    "height": 1.0,
+    "weight": 32.0,
+    "abilities": [
+      "ability-pickup-label",
+      "ability-technician-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-44-sprite.png"
+  },
+  {
+    "id": 45,
+    "name": "gen-1-pokemon-45-name-label",
+    "description": "gen-1-pokemon-45-description-label",
+    "type": [
+      "type-poison-label"
+    ],
+    "height": 1.2,
+    "weight": 6.9,
+    "abilities": [
+      "ability-pickup-label",
+      "ability-technician-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-45-sprite.png"
+  },
+  {
+    "id": 46,
+    "name": "gen-1-pokemon-46-name-label",
+    "description": "gen-1-pokemon-46-description-label",
+    "type": [
+      "type-poison-label"
+    ],
+    "height": 1.5,
+    "weight": 65.0,
+    "abilities": [
+      "ability-pickup-label",
+      "ability-technician-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-46-sprite.png"
+  },
+  {
+    "id": 47,
+    "name": "gen-1-pokemon-47-name-label",
+    "description": "gen-1-pokemon-47-description-label",
+    "type": [
+      "type-bug-label",
+      "type-poison-label"
+    ],
+    "height": 0.4,
+    "weight": 5.4,
+    "abilities": [
+      "ability-shield-dust-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-47-sprite.png"
+  },
+  {
+    "id": 48,
+    "name": "gen-1-pokemon-48-name-label",
+    "description": "gen-1-pokemon-48-description-label",
+    "type": [
+      "type-bug-label",
+      "type-poison-label"
+    ],
+    "height": 1.0,
+    "weight": 29.5,
+    "abilities": [
+      "ability-shield-dust-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-48-sprite.png"
+  },
+  {
+    "id": 49,
+    "name": "gen-1-pokemon-49-name-label",
+    "description": "gen-1-pokemon-49-description-label",
+    "type": [
+      "type-bug-label",
+      "type-poison-label"
+    ],
+    "height": 1.5,
+    "weight": 12.5,
+    "abilities": [
+      "ability-shield-dust-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-49-sprite.png"
+  },
+  {
+    "id": 50,
+    "name": "gen-1-pokemon-50-name-label",
+    "description": "gen-1-pokemon-50-description-label",
+    "type": [
+      "type-water-label"
+    ],
+    "height": 0.4,
+    "weight": 8.0,
+    "abilities": [
+      "ability-illuminate-label",
+      "ability-swift-swim-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-50-sprite.png"
+  },
+  {
+    "id": 51,
+    "name": "gen-1-pokemon-51-name-label",
+    "description": "gen-1-pokemon-51-description-label",
+    "type": [
+      "type-water-label"
+    ],
+    "height": 1.0,
+    "weight": 45.0,
+    "abilities": [
+      "ability-illuminate-label",
+      "ability-swift-swim-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-51-sprite.png"
+  },
+  {
+    "id": 52,
+    "name": "gen-1-pokemon-52-name-label",
+    "description": "gen-1-pokemon-52-description-label",
+    "type": [
+      "type-grass-label"
+    ],
+    "height": 0.3,
+    "weight": 4.0,
+    "abilities": [
+      "ability-chlorophyll-label",
+      "ability-overgrow-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-52-sprite.png"
+  },
+  {
+    "id": 53,
+    "name": "gen-1-pokemon-53-name-label",
+    "description": "gen-1-pokemon-53-description-label",
+    "type": [
+      "type-grass-label"
+    ],
+    "height": 0.7,
+    "weight": 7.0,
+    "abilities": [
+      "ability-chlorophyll-label",
+      "ability-overgrow-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-53-sprite.png"
+  },
+  {
+    "id": 54,
+    "name": "gen-1-pokemon-54-name-label",
+    "description": "gen-1-pokemon-54-description-label",
+    "type": [
+      "type-grass-label",
+      "type-poison-label"
+    ],
+    "height": 1.0,
+    "weight": 18.6,
+    "abilities": [
+      "ability-chlorophyll-label",
+      "ability-overgrow-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-54-sprite.png"
+  },
+  {
+    "id": 55,
+    "name": "gen-1-pokemon-55-name-label",
+    "description": "gen-1-pokemon-55-description-label",
+    "type": [
+      "type-fighting-label"
+    ],
+    "height": 0.8,
+    "weight": 19.5,
+    "abilities": [
+      "ability-guts-label",
+      "ability-anger-point-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-55-sprite.png"
+  },
+  {
+    "id": 56,
+    "name": "gen-1-pokemon-56-name-label",
+    "description": "gen-1-pokemon-56-description-label",
+    "type": [
+      "type-fighting-label"
+    ],
+    "height": 1.5,
+    "weight": 70.5,
+    "abilities": [
+      "ability-guts-label",
+      "ability-anger-point-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-56-sprite.png"
+  },
+  {
+    "id": 57,
+    "name": "gen-1-pokemon-57-name-label",
+    "description": "gen-1-pokemon-57-description-label",
+    "type": [
+      "type-fighting-label"
+    ],
+    "height": 1.0,
+    "weight": 32.0,
+    "abilities": [
+      "ability-guts-label",
+      "ability-anger-point-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-57-sprite.png"
+  },
+  {
+    "id": 58,
+    "name": "gen-1-pokemon-58-name-label",
+    "description": "gen-1-pokemon-58-description-label",
+    "type": [
+      "type-fire-label"
+    ],
+    "height": 0.6,
+    "weight": 19.0,
+    "abilities": [
+      "ability-flash-fire-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-58-sprite.png"
+  },
+  {
+    "id": 59,
+    "name": "gen-1-pokemon-59-name-label",
+    "description": "gen-1-pokemon-59-description-label",
+    "type": [
+      "type-fire-label"
+    ],
+    "height": 1.1,
+    "weight": 90.5,
+    "abilities": [
+      "ability-flash-fire-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-59-sprite.png"
+  },
+  {
+    "id": 60,
+    "name": "gen-1-pokemon-60-name-label",
+    "description": "gen-1-pokemon-60-description-label",
+    "type": [
+      "type-fire-label"
+    ],
+    "height": 1.7,
+    "weight": 155.0,
+    "abilities": [
+      "ability-flash-fire-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-60-sprite.png"
+  },
+  {
+    "id": 61,
+    "name": "gen-1-pokemon-61-name-label",
+    "description": "gen-1-pokemon-61-description-label",
+    "type": [
+      "type-grass-label"
+    ],
+    "height": 0.7,
+    "weight": 6.4,
+    "abilities": [
+      "ability-chlorophyll-label",
+      "ability-overgrow-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-61-sprite.png"
+  },
+  {
+    "id": 62,
+    "name": "gen-1-pokemon-62-name-label",
+    "description": "gen-1-pokemon-62-description-label",
+    "type": [
+      "type-grass-label"
+    ],
+    "height": 1.0,
+    "weight": 15.5,
+    "abilities": [
+      "ability-chlorophyll-label",
+      "ability-overgrow-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-62-sprite.png"
+  },
+  {
+    "id": 63,
+    "name": "gen-1-pokemon-63-name-label",
+    "description": "gen-1-pokemon-63-description-label",
+    "type": [
+      "type-grass-label",
+      "type-poison-label"
+    ],
+    "height": 1.5,
+    "weight": 55.0,
+    "abilities": [
+      "ability-chlorophyll-label",
+      "ability-overgrow-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-63-sprite.png"
+  },
+  {
+    "id": 64,
+    "name": "gen-1-pokemon-64-name-label",
+    "description": "gen-1-pokemon-64-description-label",
+    "type": [
+      "type-fighting-label"
+    ],
+    "height": 0.9,
+    "weight": 49.8,
+    "abilities": [
+      "ability-keen-eye-label",
+      "ability-vital-spirit-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-64-sprite.png"
+  },
+  {
+    "id": 65,
+    "name": "gen-1-pokemon-65-name-label",
+    "description": "gen-1-pokemon-65-description-label",
+    "type": [
+      "type-fighting-label"
+    ],
+    "height": 1.5,
+    "weight": 130.0,
+    "abilities": [
+      "ability-keen-eye-label",
+      "ability-vital-spirit-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-65-sprite.png"
+  },
+  {
+    "id": 66,
+    "name": "gen-1-pokemon-66-name-label",
+    "description": "gen-1-pokemon-66-description-label",
+    "type": [
+      "type-ground-label"
+    ],
+    "height": 0.7,
+    "weight": 20.0,
+    "abilities": [
+      "ability-rock-head-label",
+      "ability-lightning-rod-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-66-sprite.png"
+  },
+  {
+    "id": 67,
+    "name": "gen-1-pokemon-67-name-label",
+    "description": "gen-1-pokemon-67-description-label",
+    "type": [
+      "type-ground-label"
+    ],
+    "height": 1.0,
+    "weight": 105.0,
+    "abilities": [
+      "ability-rock-head-label",
+      "ability-lightning-rod-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-67-sprite.png"
+  },
+  {
+    "id": 68,
+    "name": "gen-1-pokemon-68-name-label",
+    "description": "gen-1-pokemon-68-description-label",
+    "type": [
+      "type-ground-label"
+    ],
+    "height": 1.9,
+    "weight": 300.0,
+    "abilities": [
+      "ability-rock-head-label",
+      "ability-lightning-rod-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-68-sprite.png"
+  },
+  {
+    "id": 69,
+    "name": "gen-1-pokemon-69-name-label",
+    "description": "gen-1-pokemon-69-description-label",
+    "type": [
+      "type-water-label"
+    ],
+    "height": 0.4,
+    "weight": 4.0,
+    "abilities": [
+      "ability-damp-label",
+      "ability-cloud-nine-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-69-sprite.png"
+  },
+  {
+    "id": 70,
+    "name": "gen-1-pokemon-70-name-label",
+    "description": "gen-1-pokemon-70-description-label",
+    "type": [
+      "type-water-label"
+    ],
+    "height": 1.0,
+    "weight": 39.0,
+    "abilities": [
+      "ability-damp-label",
+      "ability-cloud-nine-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-70-sprite.png"
+  },
+  {
+    "id": 71,
+    "name": "gen-1-pokemon-71-name-label",
+    "description": "gen-1-pokemon-71-description-label",
+    "type": [
+      "type-water-label"
+    ],
+    "height": 1.3,
+    "weight": 85.5,
+    "abilities": [
+      "ability-damp-label",
+      "ability-cloud-nine-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-71-sprite.png"
+  },
+  {
+    "id": 72,
+    "name": "gen-1-pokemon-72-name-label",
+    "description": "gen-1-pokemon-72-description-label",
+    "type": [
+      "type-psychic-label"
+    ],
+    "height": 1.3,
+    "weight": 56.5,
+    "abilities": [
+      "ability-synchronize-label",
+      "ability-early-bird-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-72-sprite.png"
+  },
+  {
+    "id": 73,
+    "name": "gen-1-pokemon-73-name-label",
+    "description": "gen-1-pokemon-73-description-label",
+    "type": [
+      "type-psychic-label"
+    ],
+    "height": 1.5,
+    "weight": 120.0,
+    "abilities": [
+      "ability-synchronize-label",
+      "ability-early-bird-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-73-sprite.png"
+  },
+  {
+    "id": 74,
+    "name": "gen-1-pokemon-74-name-label",
+    "description": "gen-1-pokemon-74-description-label",
+    "type": [
+      "type-rock-label",
+      "type-ground-label"
+    ],
+    "height": 1.0,
+    "weight": 210.0,
+    "abilities": [
+      "ability-rock-head-label",
+      "ability-pressure-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-74-sprite.png"
+  },
+  {
+    "id": 75,
+    "name": "gen-1-pokemon-75-name-label",
+    "description": "gen-1-pokemon-75-description-label",
+    "type": [
+      "type-rock-label",
+      "type-ground-label"
+    ],
+    "height": 1.4,
+    "weight": 300.0,
+    "abilities": [
+      "ability-rock-head-label",
+      "ability-pressure-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-75-sprite.png"
+  },
+  {
+    "id": 76,
+    "name": "gen-1-pokemon-76-name-label",
+    "description": "gen-1-pokemon-76-description-label",
+    "type": [
+      "type-rock-label",
+      "type-psychic-label"
+    ],
+    "height": 1.0,
+    "weight": 120.0,
+    "abilities": [
+      "ability-clear-body-label",
+      "ability-pressure-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-76-sprite.png"
+  },
+  {
+    "id": 77,
+    "name": "gen-1-pokemon-77-name-label",
+    "description": "gen-1-pokemon-77-description-label",
+    "type": [
+      "type-rock-label",
+      "type-psychic-label"
+    ],
+    "height": 1.5,
+    "weight": 300.0,
+    "abilities": [
+      "ability-clear-body-label",
+      "ability-pressure-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-77-sprite.png"
+  },
+  {
+    "id": 78,
+    "name": "gen-1-pokemon-78-name-label",
+    "description": "gen-1-pokemon-78-description-label",
+    "type": [
+      "type-fighting-label"
+    ],
+    "height": 1.4,
+    "weight": 50.2,
+    "abilities": [
+      "ability-guts-label",
+      "ability-no-guard-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-78-sprite.png"
+  },
+  {
+    "id": 79,
+    "name": "gen-1-pokemon-79-name-label",
+    "description": "gen-1-pokemon-79-description-label",
+    "type": [
+      "type-fighting-label"
+    ],
+    "height": 1.5,
+    "weight": 48.0,
+    "abilities": [
+      "ability-guts-label",
+      "ability-no-guard-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-79-sprite.png"
+  },
+  {
+    "id": 80,
+    "name": "gen-1-pokemon-80-name-label",
+    "description": "gen-1-pokemon-80-description-label",
+    "type": [
+      "type-fighting-label",
+      "type-psychic-label"
+    ],
+    "height": 1.3,
+    "weight": 49.5,
+    "abilities": [
+      "ability-guts-label",
+      "ability-no-guard-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-80-sprite.png"
+  },
+  {
+    "id": 81,
+    "name": "gen-1-pokemon-81-name-label",
+    "description": "gen-1-pokemon-81-description-label",
+    "type": [
+      "type-normal-label",
+      "type-flying-label"
+    ],
+    "height": 1.5,
+    "weight": 90.5,
+    "abilities": [
+      "ability-keen-eye-label",
+      "ability-tangled-feet-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-81-sprite.png"
+  },
+  {
+    "id": 82,
+    "name": "gen-1-pokemon-82-name-label",
+    "description": "gen-1-pokemon-82-description-label",
+    "type": [
+      "type-normal-label",
+      "type-flying-label"
+    ],
+    "height": 1.4,
+    "weight": 39.2,
+    "abilities": [
+      "ability-keen-eye-label",
+      "ability-tangled-feet-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-82-sprite.png"
+  },
+  {
+    "id": 83,
+    "name": "gen-1-pokemon-83-name-label",
+    "description": "gen-1-pokemon-83-description-label",
+    "type": [
+      "type-normal-label",
+      "type-flying-label"
+    ],
+    "height": 1.6,
+    "weight": 85.2,
+    "abilities": [
+      "ability-keen-eye-label",
+      "ability-tangled-feet-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-83-sprite.png"
+  },
+  {
+    "id": 84,
+    "name": "gen-1-pokemon-84-name-label",
+    "description": "gen-1-pokemon-84-description-label",
+    "type": [
+      "type-bug-label",
+      "type-poison-label"
+    ],
+    "height": 0.3,
+    "weight": 3.2,
+    "abilities": [
+      "ability-shield-dust-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-84-sprite.png"
+  },
+  {
+    "id": 85,
+    "name": "gen-1-pokemon-85-name-label",
+    "description": "gen-1-pokemon-85-description-label",
+    "type": [
+      "type-bug-label",
+      "type-poison-label"
+    ],
+    "height": 1.0,
+    "weight": 29.5,
+    "abilities": [
+      "ability-shield-dust-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-85-sprite.png"
+  },
+  {
+    "id": 86,
+    "name": "gen-1-pokemon-86-name-label",
+    "description": "gen-1-pokemon-86-description-label",
+    "type": [
+      "type-ice-label"
+    ],
+    "height": 1.3,
+    "weight": 55.0,
+    "abilities": [
+      "ability-inner-focus-label",
+      "ability-ice-body-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-86-sprite.png"
+  },
+  {
+    "id": 87,
+    "name": "gen-1-pokemon-87-name-label",
+    "description": "gen-1-pokemon-87-description-label",
+    "type": [
+      "type-ice-label"
+    ],
+    "height": 1.8,
+    "weight": 120.0,
+    "abilities": [
+      "ability-inner-focus-label",
+      "ability-ice-body-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-87-sprite.png"
+  },
+  {
+    "id": 88,
+    "name": "gen-1-pokemon-88-name-label",
+    "description": "gen-1-pokemon-88-description-label",
+    "type": [
+      "type-ground-label"
+    ],
+    "height": 0.4,
+    "weight": 12.0,
+    "abilities": [
+      "ability-rock-head-label",
+      "ability-lightning-rod-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-88-sprite.png"
+  },
+  {
+    "id": 89,
+    "name": "gen-1-pokemon-89-name-label",
+    "description": "gen-1-pokemon-89-description-label",
+    "type": [
+      "type-ground-label"
+    ],
+    "height": 0.8,
+    "weight": 105.0,
+    "abilities": [
+      "ability-rock-head-label",
+      "ability-lightning-rod-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-89-sprite.png"
+  },
+  {
+    "id": 90,
+    "name": "gen-1-pokemon-90-name-label",
+    "description": "gen-1-pokemon-90-description-label",
+    "type": [
+      "type-water-label"
+    ],
+    "height": 0.6,
+    "weight": 39.0,
+    "abilities": [
+      "ability-shell-armor-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-90-sprite.png"
+  },
+  {
+    "id": 91,
+    "name": "gen-1-pokemon-91-name-label",
+    "description": "gen-1-pokemon-91-description-label",
+    "type": [
+      "type-water-label",
+      "type-psychic-label"
+    ],
+    "height": 1.3,
+    "weight": 85.2,
+    "abilities": [
+      "ability-shell-armor-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-91-sprite.png"
+  },
+  {
+    "id": 92,
+    "name": "gen-1-pokemon-92-name-label",
+    "description": "gen-1-pokemon-92-description-label",
+    "type": [
+      "type-water-label"
+    ],
+    "height": 0.5,
+    "weight": 8.0,
+    "abilities": [
+      "ability-swift-swim-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-92-sprite.png"
+  },
+  {
+    "id": 93,
+    "name": "gen-1-pokemon-93-name-label",
+    "description": "gen-1-pokemon-93-description-label",
+    "type": [
+      "type-water-label"
+    ],
+    "height": 1.0,
+    "weight": 25.0,
+    "abilities": [
+      "ability-swift-swim-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-93-sprite.png"
+  },
+  {
+    "id": 94,
+    "name": "gen-1-pokemon-94-name-label",
+    "description": "gen-1-pokemon-94-description-label",
+    "type": [
+      "type-ground-label"
+    ],
+    "height": 0.7,
+    "weight": 14.5,
+    "abilities": [
+      "ability-rock-head-label",
+      "ability-lightning-rod-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-94-sprite.png"
+  },
+  {
+    "id": 95,
+    "name": "gen-1-pokemon-95-name-label",
+    "description": "gen-1-pokemon-95-description-label",
+    "type": [
+      "type-ground-label"
+    ],
+    "height": 1.0,
+    "weight": 120.0,
+    "abilities": [
+      "ability-rock-head-label",
+      "ability-lightning-rod-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-95-sprite.png"
+  },
+  {
+    "id": 96,
+    "name": "gen-1-pokemon-96-name-label",
+    "description": "gen-1-pokemon-96-description-label",
+    "type": [
+      "type-normal-label"
+    ],
+    "height": 0.8,
+    "weight": 36.0,
+    "abilities": [
+      "ability-keen-eye-label",
+      "ability-early-bird-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-96-sprite.png"
+  },
+  {
+    "id": 97,
+    "name": "gen-1-pokemon-97-name-label",
+    "description": "gen-1-pokemon-97-description-label",
+    "type": [
+      "type-normal-label"
+    ],
+    "height": 1.6,
+    "weight": 78.5,
+    "abilities": [
+      "ability-keen-eye-label",
+      "ability-early-bird-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-97-sprite.png"
+  },
+  {
+    "id": 98,
+    "name": "gen-1-pokemon-98-name-label",
+    "description": "gen-1-pokemon-98-description-label",
+    "type": [
+      "type-normal-label"
+    ],
+    "height": 0.5,
+    "weight": 6.5,
+    "abilities": [
+      "ability-keen-eye-label",
+      "ability-frisk-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-98-sprite.png"
+  },
+  {
+    "id": 99,
+    "name": "gen-1-pokemon-99-name-label",
+    "description": "gen-1-pokemon-99-description-label",
+    "type": [
+      "type-normal-label"
+    ],
+    "height": 1.0,
+    "weight": 65.0,
+    "abilities": [
+      "ability-keen-eye-label",
+      "ability-frisk-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-99-sprite.png"
+  },
+  {
+    "id": 100,
+    "name": "gen-1-pokemon-100-name-label",
+    "description": "gen-1-pokemon-100-description-label",
+    "type": [
+      "type-electric-label"
+    ],
+    "height": 0.4,
+    "weight": 6.0,
+    "abilities": [
+      "ability-static-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-100-sprite.png"
+  },
+  {
+    "id": 101,
+    "name": "gen-1-pokemon-101-name-label",
+    "description": "gen-1-pokemon-101-description-label",
+    "type": [
+      "type-electric-label"
+    ],
+    "height": 0.8,
+    "weight": 30.0,
+    "abilities": [
+      "ability-static-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-101-sprite.png"
+  },
+  {
+    "id": 102,
+    "name": "gen-1-pokemon-102-name-label",
+    "description": "gen-1-pokemon-102-description-label",
+    "type": [
+      "type-electric-label"
+    ],
+    "height": 1.2,
+    "weight": 66.6,
+    "abilities": [
+      "ability-static-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-102-sprite.png"
+  },
+  {
+    "id": 103,
+    "name": "gen-1-pokemon-103-name-label",
+    "description": "gen-1-pokemon-103-description-label",
+    "type": [
+      "type-grass-label",
+      "type-poison-label"
+    ],
+    "height": 0.7,
+    "weight": 6.9,
+    "abilities": [
+      "ability-chlorophyll-label",
+      "ability-effect-spore-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-103-sprite.png"
+  },
+  {
+    "id": 104,
+    "name": "gen-1-pokemon-104-name-label",
+    "description": "gen-1-pokemon-104-description-label",
+    "type": [
+      "type-grass-label",
+      "type-poison-label"
+    ],
+    "height": 1.0,
+    "weight": 35.0,
+    "abilities": [
+      "ability-chlorophyll-label",
+      "ability-effect-spore-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-104-sprite.png"
+  },
+  {
+    "id": 105,
+    "name": "gen-1-pokemon-105-name-label",
+    "description": "gen-1-pokemon-105-description-label",
+    "type": [
+      "type-grass-label",
+      "type-poison-label"
+    ],
+    "height": 1.7,
+    "weight": 69.0,
+    "abilities": [
+      "ability-chlorophyll-label",
+      "ability-effect-spore-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-105-sprite.png"
+  },
+  {
+    "id": 106,
+    "name": "gen-1-pokemon-106-name-label",
+    "description": "gen-1-pokemon-106-description-label",
+    "type": [
+      "type-fighting-label"
+    ],
+    "height": 1.5,
+    "weight": 50.0,
+    "abilities": [
+      "ability-guts-label",
+      "ability-no-guard-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-106-sprite.png"
+  },
+  {
+    "id": 107,
+    "name": "gen-1-pokemon-107-name-label",
+    "description": "gen-1-pokemon-107-description-label",
+    "type": [
+      "type-fighting-label"
+    ],
+    "height": 1.4,
+    "weight": 50.2,
+    "abilities": [
+      "ability-guts-label",
+      "ability-no-guard-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-107-sprite.png"
+  },
+  {
+    "id": 108,
+    "name": "gen-1-pokemon-108-name-label",
+    "description": "gen-1-pokemon-108-description-label",
+    "type": [
+      "type-water-label"
+    ],
+    "height": 1.6,
+    "weight": 90.0,
+    "abilities": [
+      "ability-swift-swim-label",
+      "ability-water-veil-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-108-sprite.png"
+  },
+  {
+    "id": 109,
+    "name": "gen-1-pokemon-109-name-label",
+    "description": "gen-1-pokemon-109-description-label",
+    "type": [
+      "type-water-label"
+    ],
+    "height": 0.4,
+    "weight": 8.0,
+    "abilities": [
+      "ability-swift-swim-label",
+      "ability-water-veil-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-109-sprite.png"
+  },
+  {
+    "id": 110,
+    "name": "gen-1-pokemon-110-name-label",
+    "description": "gen-1-pokemon-110-description-label",
+    "type": [
+      "type-water-label",
+      "type-electric-label"
+    ],
+    "height": 0.8,
+    "weight": 24.0,
+    "abilities": [
+      "ability-swift-swim-label",
+      "ability-water-veil-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-110-sprite.png"
+  },
+  {
+    "id": 111,
+    "name": "gen-1-pokemon-111-name-label",
+    "description": "gen-1-pokemon-111-description-label",
+    "type": [
+      "type-poison-label"
+    ],
+    "height": 1.3,
+    "weight": 60.0,
+    "abilities": [
+      "ability-levitate-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-111-sprite.png"
+  },
+  {
+    "id": 112,
+    "name": "gen-1-pokemon-112-name-label",
+    "description": "gen-1-pokemon-112-description-label",
+    "type": [
+      "type-poison-label"
+    ],
+    "height": 1.6,
+    "weight": 95.0,
+    "abilities": [
+      "ability-levitate-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-112-sprite.png"
+  },
+  {
+    "id": 113,
+    "name": "gen-1-pokemon-113-name-label",
+    "description": "gen-1-pokemon-113-description-label",
+    "type": [
+      "type-normal-label"
+    ],
+    "height": 0.4,
+    "weight": 6.5,
+    "abilities": [
+      "ability-cute-charm-label",
+      "ability-technician-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-113-sprite.png"
+  },
+  {
+    "id": 114,
+    "name": "gen-1-pokemon-114-name-label",
+    "description": "gen-1-pokemon-114-description-label",
+    "type": [
+      "type-normal-label"
+    ],
+    "height": 1.1,
+    "weight": 32.4,
+    "abilities": [
+      "ability-cute-charm-label",
+      "ability-technician-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-114-sprite.png"
+  },
+  {
+    "id": 115,
+    "name": "gen-1-pokemon-115-name-label",
+    "description": "gen-1-pokemon-115-description-label",
+    "type": [
+      "type-rock-label"
+    ],
+    "height": 1.4,
+    "weight": 55.0,
+    "abilities": [
+      "ability-rock-head-label",
+      "ability-pressure-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-115-sprite.png"
+  },
+  {
+    "id": 116,
+    "name": "gen-1-pokemon-116-name-label",
+    "description": "gen-1-pokemon-116-description-label",
+    "type": [
+      "type-electric-label"
+    ],
+    "height": 0.4,
+    "weight": 6.0,
+    "abilities": [
+      "ability-static-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-116-sprite.png"
+  },
+  {
+    "id": 117,
+    "name": "gen-1-pokemon-117-name-label",
+    "description": "gen-1-pokemon-117-description-label",
+    "type": [
+      "type-electric-label"
+    ],
+    "height": 0.8,
+    "weight": 30.0,
+    "abilities": [
+      "ability-static-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-117-sprite.png"
+  },
+  {
+    "id": 118,
+    "name": "gen-1-pokemon-118-name-label",
+    "description": "gen-1-pokemon-118-description-label",
+    "type": [
+      "type-water-label"
+    ],
+    "height": 0.4,
+    "weight": 4.5,
+    "abilities": [
+      "ability-swift-swim-label",
+      "ability-water-veil-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-118-sprite.png"
+  },
+  {
+    "id": 119,
+    "name": "gen-1-pokemon-119-name-label",
+    "description": "gen-1-pokemon-119-description-label",
+    "type": [
+      "type-water-label",
+      "type-ice-label"
+    ],
+    "height": 1.3,
+    "weight": 132.5,
+    "abilities": [
+      "ability-swift-swim-label",
+      "ability-water-veil-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-119-sprite.png"
+  },
+  {
+    "id": 120,
+    "name": "gen-1-pokemon-120-name-label",
+    "description": "gen-1-pokemon-120-description-label",
+    "type": [
+      "type-ice-label"
+    ],
+    "height": 0.4,
+    "weight": 8.7,
+    "abilities": [
+      "ability-ice-body-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-120-sprite.png"
+  },
+  {
+    "id": 121,
+    "name": "gen-1-pokemon-121-name-label",
+    "description": "gen-1-pokemon-121-description-label",
+    "type": [
+      "type-ice-label",
+      "type-psychic-label"
+    ],
+    "height": 1.4,
+    "weight": 55.0,
+    "abilities": [
+      "ability-ice-body-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-121-sprite.png"
+  },
+  {
+    "id": 122,
+    "name": "gen-1-pokemon-122-name-label",
+    "description": "gen-1-pokemon-122-description-label",
+    "type": [
+      "type-normal-label"
+    ],
+    "height": 1.8,
+    "weight": 54.5,
+    "abilities": [
+      "ability-oblivious-label",
+      "ability-own-tempo-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-122-sprite.png"
+  },
+  {
+    "id": 123,
+    "name": "gen-1-pokemon-123-name-label",
+    "description": "gen-1-pokemon-123-description-label",
+    "type": [
+      "type-normal-label"
+    ],
+    "height": 1.4,
+    "weight": 39.5,
+    "abilities": [
+      "ability-anger-point-label",
+      "ability-vital-spirit-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-123-sprite.png"
+  },
+  {
+    "id": 124,
+    "name": "gen-1-pokemon-124-name-label",
+    "description": "gen-1-pokemon-124-description-label",
+    "type": [
+      "type-ice-label"
+    ],
+    "height": 1.1,
+    "weight": 40.6,
+    "abilities": [
+      "ability-snow-cloak-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-124-sprite.png"
+  },
+  {
+    "id": 125,
+    "name": "gen-1-pokemon-125-name-label",
+    "description": "gen-1-pokemon-125-description-label",
+    "type": [
+      "type-electric-label"
+    ],
+    "height": 0.8,
+    "weight": 30.0,
+    "abilities": [
+      "ability-static-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-125-sprite.png"
+  },
+  {
+    "id": 126,
+    "name": "gen-1-pokemon-126-name-label",
+    "description": "gen-1-pokemon-126-description-label",
+    "type": [
+      "type-electric-label"
+    ],
+    "height": 1.7,
+    "weight": 44.5,
+    "abilities": [
+      "ability-static-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-126-sprite.png"
+  },
+  {
+    "id": 127,
+    "name": "gen-1-pokemon-127-name-label",
+    "description": "gen-1-pokemon-127-description-label",
+    "type": [
+      "type-fire-label"
+    ],
+    "height": 0.4,
+    "weight": 19.0,
+    "abilities": [
+      "ability-flame-body-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-127-sprite.png"
+  },
+  {
+    "id": 128,
+    "name": "gen-1-pokemon-128-name-label",
+    "description": "gen-1-pokemon-128-description-label",
+    "type": [
+      "type-water-label"
+    ],
+    "height": 1.7,
+    "weight": 85.5,
+    "abilities": [
+      "ability-water-absorb-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-128-sprite.png"
+  },
+  {
+    "id": 129,
+    "name": "gen-1-pokemon-129-name-label",
+    "description": "gen-1-pokemon-129-description-label",
+    "type": [
+      "type-water-label"
+    ],
+    "height": 6.5,
+    "weight": 235.0,
+    "abilities": [
+      "ability-water-absorb-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-129-sprite.png"
+  },
+  {
+    "id": 130,
+    "name": "gen-1-pokemon-130-name-label",
+    "description": "gen-1-pokemon-130-description-label",
+    "type": [
+      "type-water-label",
+      "type-psychic-label"
+    ],
+    "height": 2.5,
+    "weight": 220.0,
+    "abilities": [
+      "ability-inner-focus-label",
+      "ability-pressure-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-130-sprite.png"
+  },
+  {
+    "id": 131,
+    "name": "gen-1-pokemon-131-name-label",
+    "description": "gen-1-pokemon-131-description-label",
+    "type": [
+      "type-normal-label"
+    ],
+    "height": 2.0,
+    "weight": 122.0,
+    "abilities": [
+      "ability-natural-cure-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-131-sprite.png"
+  },
+  {
+    "id": 132,
+    "name": "gen-1-pokemon-132-name-label",
+    "description": "gen-1-pokemon-132-description-label",
+    "type": [
+      "type-normal-label"
+    ],
+    "height": 0.3,
+    "weight": 3.5,
+    "abilities": [
+      "ability-cute-charm-label",
+      "ability-technician-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-132-sprite.png"
+  },
+  {
+    "id": 133,
+    "name": "gen-1-pokemon-133-name-label",
+    "description": "gen-1-pokemon-133-description-label",
+    "type": [
+      "type-normal-label"
+    ],
+    "height": 0.3,
+    "weight": 1.8,
+    "abilities": [
+      "ability-run-away-label",
+      "ability-adaptability-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-133-sprite.png"
+  },
+  {
+    "id": 134,
+    "name": "gen-1-pokemon-134-name-label",
+    "description": "gen-1-pokemon-134-description-label",
+    "type": [
+      "type-water-label"
+    ],
+    "height": 0.8,
+    "weight": 24.5,
+    "abilities": [
+      "ability-water-absorb-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-134-sprite.png"
+  },
+  {
+    "id": 135,
+    "name": "gen-1-pokemon-135-name-label",
+    "description": "gen-1-pokemon-135-description-label",
+    "type": [
+      "type-electric-label"
+    ],
+    "height": 0.8,
+    "weight": 25.0,
+    "abilities": [
+      "ability-volt-absorb-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-135-sprite.png"
+  },
+  {
+    "id": 136,
+    "name": "gen-1-pokemon-136-name-label",
+    "description": "gen-1-pokemon-136-description-label",
+    "type": [
+      "type-fire-label"
+    ],
+    "height": 0.7,
+    "weight": 21.0,
+    "abilities": [
+      "ability-flash-fire-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-136-sprite.png"
+  },
+  {
+    "id": 137,
+    "name": "gen-1-pokemon-137-name-label",
+    "description": "gen-1-pokemon-137-description-label",
+    "type": [
+      "type-normal-label"
+    ],
+    "height": 0.6,
+    "weight": 29.0,
+    "abilities": [
+      "ability-natural-cure-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-137-sprite.png"
+  },
+  {
+    "id": 138,
+    "name": "gen-1-pokemon-138-name-label",
+    "description": "gen-1-pokemon-138-description-label",
+    "type": [
+      "type-water-label"
+    ],
+    "height": 0.8,
+    "weight": 35.0,
+    "abilities": [
+      "ability-swift-swim-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-138-sprite.png"
+  },
+  {
+    "id": 139,
+    "name": "gen-1-pokemon-139-name-label",
+    "description": "gen-1-pokemon-139-description-label",
+    "type": [
+      "type-water-label"
+    ],
+    "height": 1.6,
+    "weight": 79.5,
+    "abilities": [
+      "ability-swift-swim-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-139-sprite.png"
+  },
+  {
+    "id": 140,
+    "name": "gen-1-pokemon-140-name-label",
+    "description": "gen-1-pokemon-140-description-label",
+    "type": [
+      "type-poison-label"
+    ],
+    "height": 0.4,
+    "weight": 7.0,
+    "abilities": [
+      "ability-poison-point-label",
+      "ability-swarm-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-140-sprite.png"
+  },
+  {
+    "id": 141,
+    "name": "gen-1-pokemon-141-name-label",
+    "description": "gen-1-pokemon-141-description-label",
+    "type": [
+      "type-poison-label"
+    ],
+    "height": 1.3,
+    "weight": 40.5,
+    "abilities": [
+      "ability-poison-point-label",
+      "ability-swarm-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-141-sprite.png"
+  },
+  {
+    "id": 142,
+    "name": "gen-1-pokemon-142-name-label",
+    "description": "gen-1-pokemon-142-description-label",
+    "type": [
+      "type-poison-label",
+      "type-flying-label"
+    ],
+    "height": 1.8,
+    "weight": 55.0,
+    "abilities": [
+      "ability-pressure-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-142-sprite.png"
+  },
+  {
+    "id": 143,
+    "name": "gen-1-pokemon-143-name-label",
+    "description": "gen-1-pokemon-143-description-label",
+    "type": [
+      "type-normal-label"
+    ],
+    "height": 2.0,
+    "weight": 460.0,
+    "abilities": [
+      "ability-pressure-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-143-sprite.png"
+  },
+  {
+    "id": 144,
+    "name": "gen-1-pokemon-144-name-label",
+    "description": "gen-1-pokemon-144-description-label",
+    "type": [
+      "type-ice-label",
+      "type-flying-label"
+    ],
+    "height": 1.7,
+    "weight": 55.4,
+    "abilities": [
+      "ability-pressure-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-144-sprite.png"
+  },
+  {
+    "id": 145,
+    "name": "gen-1-pokemon-145-name-label",
+    "description": "gen-1-pokemon-145-description-label",
+    "type": [
+      "type-electric-label",
+      "type-flying-label"
+    ],
+    "height": 1.6,
+    "weight": 52.6,
+    "abilities": [
+      "ability-pressure-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-145-sprite.png"
+  },
+  {
+    "id": 146,
+    "name": "gen-1-pokemon-146-name-label",
+    "description": "gen-1-pokemon-146-description-label",
+    "type": [
+      "type-fire-label",
+      "type-flying-label"
+    ],
+    "height": 2.0,
+    "weight": 60.0,
+    "abilities": [
+      "ability-pressure-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-146-sprite.png"
+  },
+  {
+    "id": 147,
+    "name": "gen-1-pokemon-147-name-label",
+    "description": "gen-1-pokemon-147-description-label",
+    "type": [
+      "type-normal-label"
+    ],
+    "height": 0.5,
+    "weight": 9.0,
+    "abilities": [
+      "ability-hustle-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-147-sprite.png"
+  },
+  {
+    "id": 148,
+    "name": "gen-1-pokemon-148-name-label",
+    "description": "gen-1-pokemon-148-description-label",
+    "type": [
+      "type-psychic-label"
+    ],
+    "height": 1.6,
+    "weight": 48.0,
+    "abilities": [
+      "ability-synchronize-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-148-sprite.png"
+  },
+  {
+    "id": 149,
+    "name": "gen-1-pokemon-149-name-label",
+    "description": "gen-1-pokemon-149-description-label",
+    "type": [
+      "type-ice-label",
+      "type-psychic-label"
+    ],
+    "height": 2.0,
+    "weight": 55.4,
+    "abilities": [
+      "ability-pressure-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-149-sprite.png"
+  },
+  {
+    "id": 150,
+    "name": "gen-1-pokemon-150-name-label",
+    "description": "gen-1-pokemon-150-description-label",
+    "type": [
+      "type-psychic-label"
+    ],
+    "height": 2.0,
+    "weight": 122.0,
+    "abilities": [
+      "ability-pressure-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-150-sprite.png"
+  },
+  {
+    "id": 151,
+    "name": "gen-1-pokemon-151-name-label",
+    "description": "gen-1-pokemon-151-description-label",
+    "type": [
+      "type-grass-label",
+      "type-poison-label"
+    ],
+    "height": 0.7,
+    "weight": 6.9,
+    "abilities": [
+      "ability-overgrow-label"
+    ],
+    "spriteLocalUrl": "gen-1-pokemon-151-sprite.png"
+  }
+]

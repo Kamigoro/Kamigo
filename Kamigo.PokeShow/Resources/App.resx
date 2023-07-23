@@ -189,4 +189,761 @@
   <data name="your-game-list_label" xml:space="preserve">
     <value>Liste de vos jeux</value>
   </data>
+  <data name="gen-1-pokemon-1-name-label" xml:space="preserve">
+    <value>Bulbizarre</value>
+</data>
+<data name="gen-1-pokemon-2-name-label" xml:space="preserve">
+    <value>Herbizarre</value>
+</data>
+<data name="gen-1-pokemon-3-name-label" xml:space="preserve">
+    <value>Florizarre</value>
+</data>
+<data name="gen-1-pokemon-4-name-label" xml:space="preserve">
+    <value>Salamèche</value>
+</data>
+<data name="gen-1-pokemon-5-name-label" xml:space="preserve">
+    <value>Reptincel</value>
+</data>
+<data name="gen-1-pokemon-6-name-label" xml:space="preserve">
+    <value>Dracaufeu</value>
+</data>
+<data name="gen-1-pokemon-7-name-label" xml:space="preserve">
+    <value>Carapuce</value>
+</data>
+<data name="gen-1-pokemon-8-name-label" xml:space="preserve">
+    <value>Carabaffe</value>
+</data>
+<data name="gen-1-pokemon-9-name-label" xml:space="preserve">
+    <value>Tortank</value>
+</data>
+<data name="gen-1-pokemon-10-name-label" xml:space="preserve">
+    <value>Chenipan</value>
+</data>
+<data name="gen-1-pokemon-11-name-label" xml:space="preserve">
+    <value>Chrysacier</value>
+</data>
+<data name="gen-1-pokemon-12-name-label" xml:space="preserve">
+    <value>Papilusion</value>
+</data>
+<data name="gen-1-pokemon-13-name-label" xml:space="preserve">
+    <value>Aspicot</value>
+</data>
+<data name="gen-1-pokemon-14-name-label" xml:space="preserve">
+    <value>Coconfort</value>
+</data>
+<data name="gen-1-pokemon-15-name-label" xml:space="preserve">
+    <value>Dardargnan</value>
+</data>
+<data name="gen-1-pokemon-16-name-label" xml:space="preserve">
+    <value>Roucool</value>
+</data>
+<data name="gen-1-pokemon-17-name-label" xml:space="preserve">
+    <value>Roucoups</value>
+</data>
+<data name="gen-1-pokemon-18-name-label" xml:space="preserve">
+    <value>Roucarnage</value>
+</data>
+<data name="gen-1-pokemon-19-name-label" xml:space="preserve">
+    <value>Rattata</value>
+</data>
+<data name="gen-1-pokemon-20-name-label" xml:space="preserve">
+    <value>Rattatac</value>
+</data>
+<data name="gen-1-pokemon-21-name-label" xml:space="preserve">
+    <value>Piafabec</value>
+</data>
+<data name="gen-1-pokemon-22-name-label" xml:space="preserve">
+    <value>Rapasdepic</value>
+</data>
+<data name="gen-1-pokemon-23-name-label" xml:space="preserve">
+    <value>Abo</value>
+</data>
+<data name="gen-1-pokemon-24-name-label" xml:space="preserve">
+    <value>Arbok</value>
+</data>
+<data name="gen-1-pokemon-25-name-label" xml:space="preserve">
+    <value>Pikachu</value>
+</data>
+<data name="gen-1-pokemon-26-name-label" xml:space="preserve">
+    <value>Raichu</value>
+</data>
+<data name="gen-1-pokemon-27-name-label" xml:space="preserve">
+    <value>Sabelette</value>
+</data>
+<data name="gen-1-pokemon-28-name-label" xml:space="preserve">
+    <value>Sablaireau</value>
+</data>
+<data name="gen-1-pokemon-29-name-label" xml:space="preserve">
+    <value>Nidoran♀</value>
+</data>
+<data name="gen-1-pokemon-30-name-label" xml:space="preserve">
+    <value>Nidorina</value>
+</data>
+<data name="gen-1-pokemon-31-name-label" xml:space="preserve">
+    <value>Nidoqueen</value>
+</data>
+<data name="gen-1-pokemon-32-name-label" xml:space="preserve">
+    <value>Nidoran♂</value>
+</data>
+<data name="gen-1-pokemon-33-name-label" xml:space="preserve">
+    <value>Nidorino</value>
+</data>
+<data name="gen-1-pokemon-34-name-label" xml:space="preserve">
+    <value>Nidoking</value>
+</data>
+<data name="gen-1-pokemon-35-name-label" xml:space="preserve">
+    <value>Mélofée</value>
+</data>
+<data name="gen-1-pokemon-36-name-label" xml:space="preserve">
+    <value>Mélodelfe</value>
+</data>
+<data name="gen-1-pokemon-37-name-label" xml:space="preserve">
+    <value>Goupix</value>
+</data>
+<data name="gen-1-pokemon-38-name-label" xml:space="preserve">
+    <value>Feunard</value>
+</data>
+<data name="gen-1-pokemon-39-name-label" xml:space="preserve">
+    <value>Rondoudou</value>
+</data>
+<data name="gen-1-pokemon-40-name-label" xml:space="preserve">
+    <value>Grodoudou</value>
+</data>
+<data name="gen-1-pokemon-41-name-label" xml:space="preserve">
+    <value>Nosferapti</value>
+</data>
+<data name="gen-1-pokemon-42-name-label" xml:space="preserve">
+    <value>Nosferalto</value>
+</data>
+<data name="gen-1-pokemon-43-name-label" xml:space="preserve">
+    <value>Mystherbe</value>
+</data>
+<data name="gen-1-pokemon-44-name-label" xml:space="preserve">
+    <value>Ortide</value>
+</data>
+<data name="gen-1-pokemon-45-name-label" xml:space="preserve">
+    <value>Rafflesia</value>
+</data>
+<data name="gen-1-pokemon-46-name-label" xml:space="preserve">
+    <value>Paras</value>
+</data>
+<data name="gen-1-pokemon-47-name-label" xml:space="preserve">
+    <value>Parasect</value>
+</data>
+<data name="gen-1-pokemon-48-name-label" xml:space="preserve">
+    <value>Mimitoss</value>
+</data>
+<data name="gen-1-pokemon-49-name-label" xml:space="preserve">
+    <value>Aéromite</value>
+</data>
+<data name="gen-1-pokemon-50-name-label" xml:space="preserve">
+    <value>Taupiqueur</value>
+</data>
+<data name="gen-1-pokemon-51-name-label" xml:space="preserve">
+    <value>Triopikeur</value>
+</data>
+<data name="gen-1-pokemon-52-name-label" xml:space="preserve">
+    <value>Miaouss</value>
+</data>
+<data name="gen-1-pokemon-53-name-label" xml:space="preserve">
+    <value>Persian</value>
+</data>
+<data name="gen-1-pokemon-54-name-label" xml:space="preserve">
+    <value>Psykokwak</value>
+</data>
+<data name="gen-1-pokemon-55-name-label" xml:space="preserve">
+    <value>Akwakwak</value>
+</data>
+<data name="gen-1-pokemon-56-name-label" xml:space="preserve">
+    <value>Férosinge</value>
+</data>
+<data name="gen-1-pokemon-57-name-label" xml:space="preserve">
+    <value>Colossinge</value>
+</data>
+<data name="gen-1-pokemon-58-name-label" xml:space="preserve">
+    <value>Caninos</value>
+</data>
+<data name="gen-1-pokemon-59-name-label" xml:space="preserve">
+    <value>Arcanin</value>
+</data>
+<data name="gen-1-pokemon-60-name-label" xml:space="preserve">
+    <value>Ptitard</value>
+</data>
+<data name="gen-1-pokemon-61-name-label" xml:space="preserve">
+    <value>Têtarte</value>
+</data>
+<data name="gen-1-pokemon-62-name-label" xml:space="preserve">
+    <value>Tartard</value>
+</data>
+<data name="gen-1-pokemon-63-name-label" xml:space="preserve">
+    <value>Abra</value>
+</data>
+<data name="gen-1-pokemon-64-name-label" xml:space="preserve">
+    <value>Kadabra</value>
+</data>
+<data name="gen-1-pokemon-65-name-label" xml:space="preserve">
+    <value>Alakazam</value>
+</data>
+<data name="gen-1-pokemon-66-name-label" xml:space="preserve">
+    <value>Machoc</value>
+</data>
+<data name="gen-1-pokemon-67-name-label" xml:space="preserve">
+    <value>Machopeur</value>
+</data>
+<data name="gen-1-pokemon-68-name-label" xml:space="preserve">
+    <value>Mackogneur</value>
+</data>
+<data name="gen-1-pokemon-69-name-label" xml:space="preserve">
+    <value>Chétiflor</value>
+</data>
+<data name="gen-1-pokemon-70-name-label" xml:space="preserve">
+    <value>Boustiflor</value>
+</data>
+<data name="gen-1-pokemon-71-name-label" xml:space="preserve">
+    <value>Empiflor</value>
+</data>
+<data name="gen-1-pokemon-72-name-label" xml:space="preserve">
+    <value>Tentacool</value>
+</data>
+<data name="gen-1-pokemon-73-name-label" xml:space="preserve">
+    <value>Tentacruel</value>
+</data>
+<data name="gen-1-pokemon-74-name-label" xml:space="preserve">
+    <value>Racaillou</value>
+</data>
+<data name="gen-1-pokemon-75-name-label" xml:space="preserve">
+    <value>Gravalanch</value>
+</data>
+<data name="gen-1-pokemon-76-name-label" xml:space="preserve">
+    <value>Grolem</value>
+</data>
+<data name="gen-1-pokemon-77-name-label" xml:space="preserve">
+    <value>Ponyta</value>
+</data>
+<data name="gen-1-pokemon-78-name-label" xml:space="preserve">
+    <value>Galopa</value>
+</data>
+<data name="gen-1-pokemon-79-name-label" xml:space="preserve">
+    <value>Ramoloss</value>
+</data>
+<data name="gen-1-pokemon-80-name-label" xml:space="preserve">
+    <value>Flagadoss</value>
+</data>
+<data name="gen-1-pokemon-81-name-label" xml:space="preserve">
+    <value>Magnéti</value>
+</data>
+<data name="gen-1-pokemon-82-name-label" xml:space="preserve">
+    <value>Magnéton</value>
+</data>
+<data name="gen-1-pokemon-83-name-label" xml:space="preserve">
+    <value>Canarticho</value>
+</data>
+<data name="gen-1-pokemon-84-name-label" xml:space="preserve">
+    <value>Doduo</value>
+</data>
+<data name="gen-1-pokemon-85-name-label" xml:space="preserve">
+    <value>Dodrio</value>
+</data>
+<data name="gen-1-pokemon-86-name-label" xml:space="preserve">
+    <value>Otaria</value>
+</data>
+<data name="gen-1-pokemon-87-name-label" xml:space="preserve">
+    <value>Lamantine</value>
+</data>
+<data name="gen-1-pokemon-88-name-label" xml:space="preserve">
+    <value>Tadmorv</value>
+</data>
+<data name="gen-1-pokemon-89-name-label" xml:space="preserve">
+    <value>Grotadmorv</value>
+</data>
+<data name="gen-1-pokemon-90-name-label" xml:space="preserve">
+    <value>Kokiyas</value>
+</data>
+<data name="gen-1-pokemon-91-name-label" xml:space="preserve">
+    <value>Crustabri</value>
+</data>
+<data name="gen-1-pokemon-92-name-label" xml:space="preserve">
+    <value>Fantominus</value>
+</data>
+<data name="gen-1-pokemon-93-name-label" xml:space="preserve">
+    <value>Spectrum</value>
+</data>
+<data name="gen-1-pokemon-94-name-label" xml:space="preserve">
+    <value>Ectoplasma</value>
+</data>
+<data name="gen-1-pokemon-95-name-label" xml:space="preserve">
+    <value>Onix</value>
+</data>
+<data name="gen-1-pokemon-96-name-label" xml:space="preserve">
+    <value>Soporifik</value>
+</data>
+<data name="gen-1-pokemon-97-name-label" xml:space="preserve">
+    <value>Hypnomade</value>
+</data>
+<data name="gen-1-pokemon-98-name-label" xml:space="preserve">
+    <value>Krabby</value>
+</data>
+<data name="gen-1-pokemon-99-name-label" xml:space="preserve">
+    <value>Krabboss</value>
+</data>
+<data name="gen-1-pokemon-100-name-label" xml:space="preserve">
+    <value>Voltorbe</value>
+</data>
+<data name="gen-1-pokemon-101-name-label" xml:space="preserve">
+    <value>Électrode</value>
+</data>
+<data name="gen-1-pokemon-102-name-label" xml:space="preserve">
+    <value>Noeunoeuf</value>
+</data>
+<data name="gen-1-pokemon-103-name-label" xml:space="preserve">
+    <value>Noadkoko</value>
+</data>
+<data name="gen-1-pokemon-104-name-label" xml:space="preserve">
+    <value>Osselait</value>
+</data>
+<data name="gen-1-pokemon-105-name-label" xml:space="preserve">
+    <value>Ossatueur</value>
+</data>
+<data name="gen-1-pokemon-106-name-label" xml:space="preserve">
+    <value>Kicklee</value>
+</data>
+<data name="gen-1-pokemon-107-name-label" xml:space="preserve">
+    <value>Tygnon</value>
+</data>
+<data name="gen-1-pokemon-108-name-label" xml:space="preserve">
+    <value>Excelangue</value>
+</data>
+<data name="gen-1-pokemon-109-name-label" xml:space="preserve">
+    <value>Smogo</value>
+</data>
+<data name="gen-1-pokemon-110-name-label" xml:space="preserve">
+    <value>Smogogo</value>
+</data>
+<data name="gen-1-pokemon-111-name-label" xml:space="preserve">
+    <value>Rhinocorne</value>
+</data>
+<data name="gen-1-pokemon-112-name-label" xml:space="preserve">
+    <value>Rhinoferos</value>
+</data>
+<data name="gen-1-pokemon-113-name-label" xml:space="preserve">
+    <value>Leveinard</value>
+</data>
+<data name="gen-1-pokemon-114-name-label" xml:space="preserve">
+    <value>Saquedeneu</value>
+</data>
+<data name="gen-1-pokemon-115-name-label" xml:space="preserve">
+    <value>Kangourex</value>
+</data>
+<data name="gen-1-pokemon-116-name-label" xml:space="preserve">
+    <value>Hypotrempe</value>
+</data>
+<data name="gen-1-pokemon-117-name-label" xml:space="preserve">
+    <value>Hypocéan</value>
+</data>
+<data name="gen-1-pokemon-118-name-label" xml:space="preserve">
+    <value>Poissirène</value>
+</data>
+<data name="gen-1-pokemon-119-name-label" xml:space="preserve">
+    <value>Poissoroy</value>
+</data>
+<data name="gen-1-pokemon-120-name-label" xml:space="preserve">
+    <value>Stari</value>
+</data>
+<data name="gen-1-pokemon-121-name-label" xml:space="preserve">
+    <value>Staross</value>
+</data>
+<data name="gen-1-pokemon-122-name-label" xml:space="preserve">
+    <value>M. Mime</value>
+</data>
+<data name="gen-1-pokemon-123-name-label" xml:space="preserve">
+    <value>Insécateur</value>
+</data>
+<data name="gen-1-pokemon-124-name-label" xml:space="preserve">
+    <value>Lippouttou</value>
+</data>
+<data name="gen-1-pokemon-125-name-label" xml:space="preserve">
+    <value>Élektek</value>
+</data>
+<data name="gen-1-pokemon-126-name-label" xml:space="preserve">
+    <value>Magmar</value>
+</data>
+<data name="gen-1-pokemon-127-name-label" xml:space="preserve">
+    <value>Scarabrute</value>
+</data>
+<data name="gen-1-pokemon-128-name-label" xml:space="preserve">
+    <value>Tauros</value>
+</data>
+<data name="gen-1-pokemon-129-name-label" xml:space="preserve">
+    <value>Magicarpe</value>
+</data>
+<data name="gen-1-pokemon-130-name-label" xml:space="preserve">
+    <value>Léviator</value>
+</data>
+<data name="gen-1-pokemon-131-name-label" xml:space="preserve">
+    <value>Lokhlass</value>
+</data>
+<data name="gen-1-pokemon-132-name-label" xml:space="preserve">
+    <value>Métamorph</value>
+</data>
+<data name="gen-1-pokemon-133-name-label" xml:space="preserve">
+    <value>Évoli</value>
+</data>
+<data name="gen-1-pokemon-134-name-label" xml:space="preserve">
+    <value>Aquali</value>
+</data>
+<data name="gen-1-pokemon-135-name-label" xml:space="preserve">
+    <value>Voltali</value>
+</data>
+<data name="gen-1-pokemon-136-name-label" xml:space="preserve">
+    <value>Pyroli</value>
+</data>
+<data name="gen-1-pokemon-137-name-label" xml:space="preserve">
+    <value>Porygon</value>
+</data>
+<data name="gen-1-pokemon-138-name-label" xml:space="preserve">
+    <value>Amonita</value>
+</data>
+<data name="gen-1-pokemon-139-name-label" xml:space="preserve">
+    <value>Amonistar</value>
+</data>
+<data name="gen-1-pokemon-140-name-label" xml:space="preserve">
+    <value>Kabuto</value>
+</data>
+<data name="gen-1-pokemon-141-name-label" xml:space="preserve">
+    <value>Kabutops</value>
+</data>
+<data name="gen-1-pokemon-142-name-label" xml:space="preserve">
+    <value>Ptéra</value>
+</data>
+<data name="gen-1-pokemon-143-name-label" xml:space="preserve">
+    <value>Ronflex</value>
+</data>
+<data name="gen-1-pokemon-144-name-label" xml:space="preserve">
+    <value>Artikodin</value>
+</data>
+<data name="gen-1-pokemon-145-name-label" xml:space="preserve">
+    <value>Électhor</value>
+</data>
+<data name="gen-1-pokemon-146-name-label" xml:space="preserve">
+    <value>Sulfura</value>
+</data>
+<data name="gen-1-pokemon-147-name-label" xml:space="preserve">
+    <value>Minidraco</value>
+</data>
+<data name="gen-1-pokemon-148-name-label" xml:space="preserve">
+    <value>Draco</value>
+</data>
+<data name="gen-1-pokemon-149-name-label" xml:space="preserve">
+    <value>Dracolosse</value>
+</data>
+<data name="gen-1-pokemon-150-name-label" xml:space="preserve">
+    <value>Mewtwo</value>
+</data>
+<data name="gen-1-pokemon-151-name-label" xml:space="preserve">
+    <value>Mew</value>
+</data>
+<data name="gen-1-pokemon-1-description-label" xml:space="preserve">
+    <value>Bulbizarre passe son temps à faire la sieste sous le soleil. Il y a une graine sur son dos. Il absorbe les rayons du soleil pour faire doucement pousser la graine.</value>
+</data><data name="gen-1-pokemon-10-description-label" xml:space="preserve">
+    <value>Chenipan a un appétit d'ogre. Il peut engloutir des feuilles plus grosses que lui. Les antennes de ce Pokémon dégagent une odeur particulièrement entêtante.</value>
+</data><data name="gen-1-pokemon-100-description-label" xml:space="preserve">
+    <value>La première fois qu'on a vu Voltorbe, c'était dans une usine qui fabrique des Poké Balls. Personne n'a jamais pu expliquer le lien entre cet évènement et la ressemblance frappante de ce Pokémon avec une Poké Ball.</value>
+</data><data name="gen-1-pokemon-101-description-label" xml:space="preserve">
+    <value>Électrode mange l'électricité qui se trouve dans l'atmosphère. Les jours d'orage, on peut voir ce Pokémon exploser sans arrêt parce qu'il a avalé trop d'électricité.</value>
+</data><data name="gen-1-pokemon-102-description-label" xml:space="preserve">
+    <value>Ce Pokémon est constitué de six œufs formant une grappe serrée. Ces six œufs s'attirent mutuellement et pivotent. Quand des fissures apparaissent sur les coquilles, ça signifie que Noeunoeuf est sur le point d'évoluer.</value>
+</data><data name="gen-1-pokemon-103-description-label" xml:space="preserve">
+    <value>Noadkoko vient des tropiques. À force de vivre sous un soleil ardent, ses têtes ont rapidement grandi. On raconte que lorsque ses têtes tombent, elles se rassemblent et forment un Noeunoeuf.</value>
+</data><data name="gen-1-pokemon-104-description-label" xml:space="preserve">
+    <value>La maman d'Osselait lui manque terriblement et il ne la reverra jamais. La lune le fait pleurer, car elle lui rappelle sa mère. Les taches sur le crâne que porte ce Pokémon sont les marques de ses larmes.</value>
+</data><data name="gen-1-pokemon-105-description-label" xml:space="preserve">
+    <value>Ossatueur est la forme évoluée d'Osselait. il a surmonté le chagrin causé par la perte de sa maman et s'est endurci. Le tempérament décidé et entier de ce Pokémon le rend très difficile à amadouer.</value>
+</data><data name="gen-1-pokemon-106-description-label" xml:space="preserve">
+    <value>Les jambes de Kicklee peuvent se contracter et s'étirer à volonté. Grâce à ces jambes à ressort, il terrasse ses ennemis en les rouant de coups de pied. Après les combats, il masse ses jambes pour éviter de sentir la fatigue.</value>
+</data><data name="gen-1-pokemon-107-description-label" xml:space="preserve">
+    <value>On raconte que Tygnon dispose de l'état d'esprit d'un boxeur qui s'entraîne pour le championnat du monde. Ce Pokémon est doté d'une ténacité à toute épreuve et n'abandonne jamais face à l'adversité.</value>
+</data><data name="gen-1-pokemon-108-description-label" xml:space="preserve">
+    <value>Chaque fois qu'Excelangue découvre quelque chose de nouveau, il le lèche. Sa mémoire est basée sur le goût et la texture des objets. Il n'aime pas les choses acides.</value>
+</data><data name="gen-1-pokemon-109-description-label" xml:space="preserve">
+    <value>Lorsque Smogo s'agite, ça augmente la toxicité de ses gaz internes. Il les projette ensuite par les nombreux orifices de son corps. Ce Pokémon peut aussi gonfler son corps et le faire exploser.</value>
+</data><data name="gen-1-pokemon-11-description-label" xml:space="preserve">
+    <value>La carapace protégeant ce Pokémon est dure comme du métal. Chrysacier ne bouge pas beaucoup. Il reste immobile pour préparer les organes à l'intérieur de sa carapace en vue d'une évolution future.</value>
+</data><data name="gen-1-pokemon-110-description-label" xml:space="preserve">
+    <value>Smogogo adore les gaz qui se dégagent des aliments pourris dans les poubelles. Ce Pokémon cherche généralement les maisons sales et mal tenues pour y habiter. La nuit, quand tout le monde est endormi, il fouille les détritus.</value>
+</data><data name="gen-1-pokemon-111-description-label" xml:space="preserve">
+    <value>Rhinocorne charge droit devant lui, détruisant tout sur son passage. Il ne s'arrête jamais, même lorsqu'il charge un bloc d'acier. Malgré tout, il sent la douleur le lendemain.</value>
+</data><data name="gen-1-pokemon-112-description-label" xml:space="preserve">
+    <value>La corne de Rhinoféros peut même casser du diamant brut. Et avec un simple coup de queue, il peut détruire un bâtiment. La peau de ce Pokémon est incroyablement dure. Un boulet de canon ne lui ferait même pas une égratignure.</value>
+</data><data name="gen-1-pokemon-113-description-label" xml:space="preserve">
+    <value>Leveinard pond tous les jours des œufs pleins de vitamines. Ces œufs sont tellement bons que les gens les mangent même quand ils n'ont pas faim.</value>
+</data><data name="gen-1-pokemon-114-description-label" xml:space="preserve">
+    <value>Les lianes de Saquedeneu se brisent facilement lorsqu'on les attrape. Cela ne lui fait pas mal et lui permet simplement de s'échapper rapidement. Les lianes cassées repoussent le lendemain.</value>
+</data><data name="gen-1-pokemon-115-description-label" xml:space="preserve">
+    <value>Lorsqu'on rencontre un petit Kangourex qui joue tout seul, il ne faut jamais le déranger ou essayer de l'attraper. Les parents du bébé Pokémon sont sûrement dans le coin et ils risquent d'entrer dans une colère noire.</value>
+</data><data name="gen-1-pokemon-116-description-label" xml:space="preserve">
+    <value>Hypotrempe mange des petits insectes et de la mousse trouvée sur les cailloux. Lorsque les courants océaniques sont trop forts, ce Pokémon peut s'ancrer en accrochant sa queue aux rochers ou aux coraux.</value>
+</data><data name="gen-1-pokemon-117-description-label" xml:space="preserve">
+    <value>Hypocéan s'accroche aux récifs de corail avant de s'endormir. Les pêcheurs de coraux se font parfois piquer par les aiguillons de ce Pokémon lorsqu'ils ne font pas attention.</value>
+</data><data name="gen-1-pokemon-118-description-label" xml:space="preserve">
+    <value>Poissirène est un Pokémon magnifique doté de nageoires qui ondulent élégamment dans les profondeurs. Il ne faut pourtant pas baisser sa garde face à ce Pokémon, car il peut charger avec sa puissante corne.</value>
+</data><data name="gen-1-pokemon-119-description-label" xml:space="preserve">
+    <value>En automne, on peut voir les Poissoroy mâles effectuer des danses nuptiales dans les rivières pour plaire aux femelles. C'est pendant cette saison que le corps de ce Pokémon prend ses plus belles couleurs.</value>
+</data><data name="gen-1-pokemon-12-description-label" xml:space="preserve">
+    <value>Papilusion est très doué pour repérer le délicieux nectar qu'il butine dans les fleurs. Il peut détecter, extraire et transporter le nectar de fleurs situées à plus de 10 km de son nid.</value>
+</data><data name="gen-1-pokemon-120-description-label" xml:space="preserve">
+    <value>Au centre de Stari se trouve un organe rouge et brillant appelé le cœur. À la fin de l'été, sur les plages, les cœurs de ces Pokémon brillent comme les étoiles dans le ciel.</value>
+</data><data name="gen-1-pokemon-121-description-label" xml:space="preserve">
+    <value>Le centre de Staross, son cœur, resplendit de sept différentes couleurs. Du fait de sa brillance naturelle, on appelle ce Pokémon le «joyau des mers».</value>
+</data><data name="gen-1-pokemon-122-description-label" xml:space="preserve">
+    <value>M. Mime est un pantomime hors pair. Ses gestes et ses mouvements parviennent à faire croire que quelque chose d'invisible existe réellement. Lorsqu'on y croit, ces choses deviennent palpables.</value>
+</data><data name="gen-1-pokemon-123-description-label" xml:space="preserve">
+    <value>Insécateur est incroyablement rapide. Sa vitesse fulgurante améliore l'efficacité des deux lames situées sur ses avant-bras. Elles sont si coupantes qu'elles peuvent trancher un énorme tronc d'arbre en un coup.</value>
+</data><data name="gen-1-pokemon-124-description-label" xml:space="preserve">
+    <value>Lippoutou marche en rythme, ondule de tout son corps et se déhanche comme s'il dansait. Ses mouvements sont si communicatifs que les gens qui le voient sont soudain pris d'une terrible envie de bouger les hanches, sans réfléchir.</value>
+</data><data name="gen-1-pokemon-125-description-label" xml:space="preserve">
+    <value>Lorsqu'une tempête approche, des groupes entiers de ce Pokémon se battent pour grimper sur les hauteurs, où la foudre a le plus de chance de tomber. Certaines villes se servent d'Élektek en guise de paratonnerres.</value>
+</data><data name="gen-1-pokemon-126-description-label" xml:space="preserve">
+    <value>Lorsqu'il se bat, Magmar fait jaillir des flammes de son corps pour intimider son adversaire. Les explosions enflammées de ce Pokémon déclenchent des vagues de chaleur qui embrasent la végétation environnante.</value>
+</data><data name="gen-1-pokemon-127-description-label" xml:space="preserve">
+    <value>Scarabrute est incroyablement fort. Il peut attraper un ennemi qui pèse deux fois son poids dans ses mandibules et le soulever sans le moindre problème. Lorsqu'il fait froid, les mouvements de ce Pokémon sont un peu ralentis.</value>
+</data><data name="gen-1-pokemon-128-description-label" xml:space="preserve">
+    <value>Ce Pokémon n'est pas satisfait s'il ne détruit pas tout sur son passage. Lorsque Tauros ne trouve pas d'adversaire, il se rue sur de gros arbres et les déracine pour passer ses nerfs.</value>
+</data><data name="gen-1-pokemon-129-description-label" xml:space="preserve">
+    <value>Magicarpe est un Pokémon ridicule qui ne sait faire que des ronds dans l'eau ou se laisser porter par les courants. Son comportement a donné envie aux savants d'étudier son cas.</value>
+</data><data name="gen-1-pokemon-13-description-label" xml:space="preserve">
+    <value>L'odorat d'Aspicot est extrêmement développé. Il lui suffit de renifler ses feuilles préférées avec son gros appendice nasal pour les reconnaître entre mille.</value>
+</data><data name="gen-1-pokemon-130-description-label" xml:space="preserve">
+    <value>Quand Magicarpe évolue et devient Léviator, la structure de ses cellules cérébrales est modifiée. On pense que l'extrême violence de ce Pokémon découle de cette modification.</value>
+</data><data name="gen-1-pokemon-131-description-label" xml:space="preserve">
+    <value>Les Lokhlass sont en voie d'extinction. Le soir, on entend ce Pokémon chantonner une complainte mélancolique, espérant retrouver ses rares congénères.</value>
+</data><data name="gen-1-pokemon-132-description-label" xml:space="preserve">
+    <value>Métamorph peut modifier sa structure moléculaire pour prendre d'autres formes. Lorsqu'il essaie de se transformer de mémoire, il lui arrive de se tromper sur certains détails.</value>
+</data><data name="gen-1-pokemon-133-description-label" xml:space="preserve">
+    <value>Évoli a une structure génétique instable qui se transforme en fonction de l'environnement dans lequel il vit. Ce Pokémon peut évoluer grâce aux radiations de diverses pierres.</value>
+</data><data name="gen-1-pokemon-134-description-label" xml:space="preserve">
+    <value>Aquali a subi une mutation spontanée. Des nageoires et des branchies sont apparues sur son corps, ce qui lui permet de vivre dans les fonds marins. Ce Pokémon peut contrôler l'eau à volonté.</value>
+</data><data name="gen-1-pokemon-135-description-label" xml:space="preserve">
+    <value>Les cellules de Voltali génèrent un courant de faible intensité. Ce pouvoir est amplifié par l'électricité statique de ses poils, ce qui lui permet d'envoyer des éclairs. Sa fourrure hérissée est faite d'aiguilles chargées d'électricité.</value>
+</data><data name="gen-1-pokemon-136-description-label" xml:space="preserve">
+    <value>La fourrure soyeuse de Pyroli a une fonction anatomique. Elle rejette la chaleur dans l'air pour que son corps ne surchauffe pas. La température du corps de ce Pokémon peut atteindre 900 °C.</value>
+</data><data name="gen-1-pokemon-137-description-label" xml:space="preserve">
+    <value>Porygon est capable de se décompiler et de retourner à l'état de programme informatique pour entrer dans le cyberespace. Ce Pokémon est protégé contre le piratage, il est donc impossible de le copier.</value>
+</data><data name="gen-1-pokemon-138-description-label" xml:space="preserve">
+    <value>Amonita est l'un des Pokémon disparus depuis longtemps et qui furent ressuscités à partir de fossiles. Lorsqu'il est attaqué par un ennemi, il se rétracte dans sa coquille.</value>
+</data><data name="gen-1-pokemon-139-description-label" xml:space="preserve">
+    <value>Amonistar utilise ses tentacules pour capturer ses proies. On pense que l'espèce s'est éteinte parce que sa coquille était devenue trop grande et trop lourde, ce qui rendait ses mouvements lents et pesants.</value>
+</data><data name="gen-1-pokemon-14-description-label" xml:space="preserve">
+    <value>Coconfort est la plupart du temps immobile et reste accroché à un arbre. Cependant, intérieurement, il est très actif, car il se prépare pour sa prochaine évolution. En touchant sa carapace, on peut sentir sa chaleur.</value>
+</data><data name="gen-1-pokemon-140-description-label" xml:space="preserve">
+    <value>Kabuto est un Pokémon ressuscité à partir d'un fossile. Cependant, on a découvert des spécimens vivants. Ce Pokémon n'a pas changé depuis 300 millions d'années.</value>
+</data><data name="gen-1-pokemon-141-description-label" xml:space="preserve">
+    <value>Jadis, Kabutops plongeait dans les profondeurs pour trouver ses proies. Apparemment, ce Pokémon vivant sur terre est l'évolution d'une créature marine, comme le prouvent les changements dans ses branchies.</value>
+</data><data name="gen-1-pokemon-142-description-label" xml:space="preserve">
+    <value>Ptéra est un Pokémon de l'ère des dinosaures. Il fut ressuscité à partir de cellules extraites d'un morceau d'ambre. On pense qu'il était le roi des cieux à l'époque préhistorique.</value>
+</data><data name="gen-1-pokemon-143-description-label" xml:space="preserve">
+    <value>Les journées de Ronflex se résument aux repas et aux siestes. C'est un Pokémon tellement gentil que les enfants n'hésitent pas à jouer sur son énorme ventre.</value>
+</data><data name="gen-1-pokemon-144-description-label" xml:space="preserve">
+    <value>Artikodin est un Pokémon Oiseau légendaire qui peut contrôler la glace. Le battement de ses ailes gèle l'air tout autour de lui. C'est pourquoi on dit que lorsque ce Pokémon vole, il va neiger.</value>
+</data><data name="gen-1-pokemon-145-description-label" xml:space="preserve">
+    <value>Électhor est un Pokémon Oiseau légendaire capable de contrôler l'électricité. Il vit généralement dans les nuages orageux. Ce Pokémon gagne en puissance lorsqu'il est frappé par la foudre.</value>
+</data><data name="gen-1-pokemon-146-description-label" xml:space="preserve">
+    <value>Sulfura est un Pokémon Oiseau légendaire capable de contrôler le feu. On raconte que lorsque ce Pokémon est blessé, il se baigne dans le magma en ébullition d'un volcan pour se soigner.</value>
+</data><data name="gen-1-pokemon-147-description-label" xml:space="preserve">
+    <value>Minidraco mue constamment, renouvelant sans arrêt sa peau. En effet, l'énergie vitale de son corps augmente régulièrement et sa mue lui permet d'éviter d'atteindre des niveaux incontrôlables.</value>
+</data><data name="gen-1-pokemon-148-description-label" xml:space="preserve">
+    <value>Draco stocke une quantité d'énergie considérable dans son corps. On raconte qu'il peut modifier les conditions climatiques autour de lui en déchargeant l'énergie contenue dans les cristaux de son cou et de sa queue.</value>
+</data><data name="gen-1-pokemon-149-description-label" xml:space="preserve">
+    <value>Dracolosse est capable de faire le tour de la planète en seize heures à peine. C'est un Pokémon au grand cœur qui ramène à bon port les navires perdus dans les tempêtes.</value>
+</data><data name="gen-1-pokemon-15-description-label" xml:space="preserve">
+    <value>Dardargnan est extrêmement possessif. Il vaut mieux ne pas toucher à son nid si on veut éviter d'avoir des ennuis. Lorsqu'ils sont en colère, ces Pokémon attaquent en masse.</value>
+</data><data name="gen-1-pokemon-150-description-label" xml:space="preserve">
+    <value>Mewtwo est un Pokémon créé par manipulation génétique. Cependant, bien que les connaissances scientifiques des humains aient réussi à créer son corps, elles n'ont pas pu doter Mewtwo d'un cœur sensible.</value>
+</data><data name="gen-1-pokemon-151-description-label" xml:space="preserve">
+    <value>On dit que Mew possède le code génétique de tous les autres Pokémon. Il peut se rendre invisible à sa guise, ce qui lui permet de ne pas se faire remarquer quand il s'approche des gens.</value>
+</data><data name="gen-1-pokemon-16-description-label" xml:space="preserve">
+    <value>Roucool a un excellent sens de l'orientation. Il est capable de retrouver son nid sans jamais se tromper, même s'il est très loin de chez lui et dans un environnement qu'il ne connaît pas.</value>
+</data><data name="gen-1-pokemon-17-description-label" xml:space="preserve">
+    <value>Roucoups utilise une vaste surface pour son territoire. Ce Pokémon surveille régulièrement son espace aérien. Si quelqu'un pénètre sur son territoire, il corrige l'ennemi sans pitié d'un coup de ses terribles serres.</value>
+</data><data name="gen-1-pokemon-18-description-label" xml:space="preserve">
+    <value>Ce Pokémon est doté d'un plumage magnifique et luisant. Bien des Dresseurs sont captivés par la beauté fatale de sa huppe et décident de choisir Roucarnage comme leur Pokémon favori.</value>
+</data><data name="gen-1-pokemon-19-description-label" xml:space="preserve">
+    <value>Rattata est extrêmement prudent. Même lorsqu'il est endormi, il fait pivoter ses oreilles pour écouter autour de lui. En ce qui concerne son habitat, il n'est vraiment pas difficile. Il peut faire son nid n'importe où.</value>
+</data><data name="gen-1-pokemon-2-description-label" xml:space="preserve">
+    <value>Un bourgeon a poussé sur le dos de ce Pokémon. Pour en supporter le poids, Herbizarre a dû se muscler les pattes. Lorsqu'il commence à se prélasser au soleil, ça signifie que son bourgeon va éclore, donnant naissance à une fleur.</value>
+</data><data name="gen-1-pokemon-20-description-label" xml:space="preserve">
+    <value>Les crocs robustes de Rattatac poussent constamment. Pour éviter qu'ils raclent le sol, il se fait les dents sur des cailloux ou des troncs d'arbre. Il lui arrive même de ronger les murs des maisons.</value>
+</data><data name="gen-1-pokemon-21-description-label" xml:space="preserve">
+    <value>Piafabec crie tellement fort qu'il peut être entendu à 1km de distance. Ces Pokémon se préviennent d'un danger en entonnant une mélopée très aiguë, qu'ils se renvoient les uns les autres, comme un écho.</value>
+</data><data name="gen-1-pokemon-22-description-label" xml:space="preserve">
+    <value>On reconnaît un Rapasdepic à son long cou et à son bec allongé. Ces attributs lui permettent d'attraper facilement ses proies dans la terre ou dans l'eau. Il bouge son bec long et fin avec une grande agilité.</value>
+</data><data name="gen-1-pokemon-23-description-label" xml:space="preserve">
+    <value>Abo s'enroule en spirale pour dormir. Sa tête reste relevée de telle sorte que cette position lui permette de réagir rapidement si une menace survenait.</value>
+</data><data name="gen-1-pokemon-24-description-label" xml:space="preserve">
+    <value>Ce Pokémon doté d'une force extraordinaire peut étrangler ses proies avec son corps. Il peut même écraser des tonneaux métalliques. Une fois sous l'étreinte d'Arbok, il est impossible de lui échapper.</value>
+</data><data name="gen-1-pokemon-25-description-label" xml:space="preserve">
+    <value>Chaque fois que Pikachu découvre quelque chose de nouveau, il envoie un arc électrique. Lorsqu'on tombe sur une Baie carbonisée, ça signifie sans doute qu'un de ces Pokémon a envoyé une charge trop forte.</value>
+</data><data name="gen-1-pokemon-26-description-label" xml:space="preserve">
+    <value>Si ses joues contiennent trop d'électricité, Raichu plante sa queue dans le sol pour se décharger. On trouve des parcelles de terre brûlée à proximité du nid de ce Pokémon.</value>
+</data><data name="gen-1-pokemon-27-description-label" xml:space="preserve">
+    <value>Le corps de Sabelette lui permet d'économiser l'eau qu'il absorbe, afin de survivre longtemps dans le désert. Ce Pokémon s'enroule sur lui-même pour se protéger de ses ennemis.</value>
+</data><data name="gen-1-pokemon-28-description-label" xml:space="preserve">
+    <value>Le corps de Sablaireau est recouvert de pointes très dures, qui sont des extensions de sa peau. Une fois par an, ce Pokémon mue et les vieilles pointes tombent, remplacées par de nouvelles.</value>
+</data><data name="gen-1-pokemon-29-description-label" xml:space="preserve">
+    <value>Ne doit pas être confondu avec Nidoran♂.</value>
+</data><data name="gen-1-pokemon-3-description-label" xml:space="preserve">
+    <value>Une belle fleur se trouve sur le dos de Florizarre. Elle prend une couleur vive lorsqu'elle est bien nourrie et bien ensoleillée. Le parfum de cette fleur peut apaiser les gens.</value>
+</data><data name="gen-1-pokemon-30-description-label" xml:space="preserve">
+    <value>Lorsqu'un Nidorina est avec ses amis ou sa famille, il replie ses pointes pour ne pas blesser ses proches. Ce Pokémon devient vite nerveux lorsqu'il est séparé de son groupe.</value>
+</data><data name="gen-1-pokemon-31-description-label" xml:space="preserve">
+    <value>Le corps de Nidoqueen est protégé par des écailles extrêmement dures. Il aime envoyer ses ennemis voler en leur fonçant dessus. Ce Pokémon utilise toute sa puissance lorsqu'il protège ses petits.</value>
+</data><data name="gen-1-pokemon-32-description-label" xml:space="preserve">
+    <value>Ne doit pas être confondu avec Nidoran♀.</value>
+</data><data name="gen-1-pokemon-33-description-label" xml:space="preserve">
+    <value>Nidorino dispose d'une corne plus dure que du diamant. S'il sent une présence hostile, toutes les pointes de son dos se hérissent d'un coup, puis il défie son ennemi.</value>
+</data><data name="gen-1-pokemon-34-description-label" xml:space="preserve">
+    <value>L'épaisse queue de Nidoking est d'une puissance incroyable. En un seul coup, il peut renverser une tour métallique. Lorsque ce Pokémon se déchaîne, plus rien ne peut l'arrêter.</value>
+</data><data name="gen-1-pokemon-35-description-label" xml:space="preserve">
+    <value>Les nuits de pleine lune, des groupes de ces Pokémon sortent jouer. Lorsque l'aube commence à poindre, les Mélofée fatigués rentrent dans leur retraite montagneuse et vont dormir, blottis les uns contre les autres.</value>
+</data><data name="gen-1-pokemon-36-description-label" xml:space="preserve">
+    <value>Les Mélodelfe se déplacent en sautant doucement, comme s'ils volaient. Leur démarche légère leur permet même de marcher sur l'eau. On raconte qu'ils se promènent sur les lacs, les soirs où la lune est claire.</value>
+</data><data name="gen-1-pokemon-37-description-label" xml:space="preserve">
+    <value>À sa naissance, Goupix a une queue blanche. Cette queue se divise en six si le Pokémon reçoit de l'amitié de la part de son Dresseur. Les six queues sont courbées et magnifiques.</value>
+</data><data name="gen-1-pokemon-38-description-label" xml:space="preserve">
+    <value>Feunard peut envoyer un inquiétant rayon avec ses yeux rouge vif pour prendre le contrôle de l'esprit de son ennemi. On raconte que ce Pokémon peut vivre 1 000 ans.</value>
+</data><data name="gen-1-pokemon-39-description-label" xml:space="preserve">
+    <value>Rondoudou utilise ses cordes vocales pour ajuster librement la longueur d'onde de sa voix. Cela permet à ce Pokémon de chanter en utilisant une longueur d'onde qui endort ses ennemis.</value>
+</data><data name="gen-1-pokemon-4-description-label" xml:space="preserve">
+    <value>La flamme qui brûle au bout de sa queue indique l'humeur de ce Pokémon. Elle vacille lorsque Salamèche est content. En revanche, lorsqu'il s'énerve, la flamme prend de l'importance et brûle plus ardemment.</value>
+</data><data name="gen-1-pokemon-40-description-label" xml:space="preserve">
+    <value>Grodoudou a des yeux immenses et écarquillés. La surface de ses yeux est couverte d'une fine couche de larmes. Si de la poussière est projetée dans les yeux de ce Pokémon, elle est rapidement évacuée.</value>
+</data><data name="gen-1-pokemon-41-description-label" xml:space="preserve">
+    <value>Nosferapti reste calme et immobile dans un coin sombre pendant la journée. En effet, une exposition trop longue à la lumière du soleil lui brûle légèrement la peau.</value>
+</data><data name="gen-1-pokemon-42-description-label" xml:space="preserve">
+    <value>Nosferalto adore boire le sang des créatures vivantes. Il est particulièrement actif pendant les nuits noires. Ce Pokémon se balade dans les cieux étoilés, à la recherche de sang frais.</value>
+</data><data name="gen-1-pokemon-43-description-label" xml:space="preserve">
+    <value>Pendant la journée, Mystherbe s'enterre dans le sol pour absorber avec son corps tout entier les nutriments présents dans la terre. Plus le sol est fertile, plus ses feuilles sont brillantes.</value>
+</data><data name="gen-1-pokemon-44-description-label" xml:space="preserve">
+    <value>La plupart du temps, Ortide dégage un parfum immonde du pistil de sa fleur. Lorsqu'il se sent en danger, la puanteur est encore pire. Lorsque ce Pokémon se sent bien en sécurité, il ne dégage aucune odeur nauséabonde.</value>
+</data><data name="gen-1-pokemon-45-description-label" xml:space="preserve">
+    <value>Le pollen toxique de Rafflesia déclenche d'affreuses réactions allergiques. C'est pourquoi il est conseillé de ne jamais s'approcher des jolies fleurs trouvées dans la jungle, même lorsqu'elles sont magnifiques.</value>
+</data><data name="gen-1-pokemon-46-description-label" xml:space="preserve">
+    <value>Paras accueille des champignons parasites appelés tochukaso qui poussent sur son dos. Ils grandissent grâce aux nutriments trouvés sur le dos de ce Pokémon Insecte.</value>
+</data><data name="gen-1-pokemon-47-description-label" xml:space="preserve">
+    <value>On sait que les Parasect vivent en groupe dans les grands arbres et se nourrissent des nutriments contenus dans le tronc et les racines. Lorsqu'un arbre infesté meurt, ils se précipitent vers le prochain.</value>
+</data><data name="gen-1-pokemon-48-description-label" xml:space="preserve">
+    <value>On raconte que Mimitoss a évolué avec une fourrure de poils fins et drus qui protège son corps tout entier. Il est doté de grands yeux capables de repérer ses proies, même minuscules.</value>
+</data><data name="gen-1-pokemon-49-description-label" xml:space="preserve">
+    <value>Aéromite est un Pokémon nocturne, il ne sort donc que la nuit. Ses proies préférées sont les petits insectes qui se rassemblent autour des réverbères, attirés par la lumière.</value>
+</data><data name="gen-1-pokemon-5-description-label" xml:space="preserve">
+    <value>Reptincel lacère ses ennemis sans pitié grâce à ses griffes acérées. S'il rencontre un ennemi puissant, il devient agressif et la flamme au bout de sa queue s'embrase et prend une couleur bleu clair.</value>
+</data><data name="gen-1-pokemon-50-description-label" xml:space="preserve">
+    <value>Les Taupiqueur sont élevés dans la plupart des fermes. En effet, lorsque ce Pokémon creuse quelque part, le sol est comme labouré, prêt à recevoir les semences. On peut alors y planter de délicieux légumes.</value>
+</data><data name="gen-1-pokemon-51-description-label" xml:space="preserve">
+    <value>Les Triopikeur sont en fait des triplés qui ont émergé du même corps. C'est pourquoi chaque triplé pense exactement comme les deux autres. Ils creusent inlassablement, dans une coopération parfaite.</value>
+</data><data name="gen-1-pokemon-52-description-label" xml:space="preserve">
+    <value>Miaouss peut rentrer ses griffes dans ses pattes pour rôder gracieusement sans laisser de traces. Étrangement, ce Pokémon raffole des pièces d'or qui brillent à la lumière.</value>
+</data><data name="gen-1-pokemon-53-description-label" xml:space="preserve">
+    <value>Persian a six grosses vibrisses qui lui donnent un air costaud et lui permettent de sentir les mouvements de l'air pour savoir ce qui se trouve à proximité. Il devient docile lorsqu'on l'attrape par les moustaches.</value>
+</data><data name="gen-1-pokemon-54-description-label" xml:space="preserve">
+    <value>Psykokwak utilise un mystérieux pouvoir. Ce Pokémon peut générer des ondes cérébrales normalement observées chez les dormeurs. Cette découverte a lancé une polémique dans le milieu universitaire.</value>
+</data><data name="gen-1-pokemon-55-description-label" xml:space="preserve">
+    <value>Les pattes avant et arrière palmées et le corps aérodynamique d'Akwakwak lui donnent une vitesse effrayante. Ce Pokémon est bien plus rapide que les plus grands champions de natation.</value>
+</data><data name="gen-1-pokemon-56-description-label" xml:space="preserve">
+    <value>Lorsque Férosinge commence à trembler et que sa respiration devient haletante, cela signifie qu'il est en colère. En outre, la moutarde lui monte au nez tellement vite qu'il est presque impossible d'échapper à sa colère.</value>
+</data><data name="gen-1-pokemon-57-description-label" xml:space="preserve">
+    <value>Lorsque Colossinge devient furieux, sa circulation sanguine s'accélère. Du coup, ses muscles sont encore plus puissants. En revanche, il devient bien moins intelligent.</value>
+</data><data name="gen-1-pokemon-58-description-label" xml:space="preserve">
+    <value>Caninos a un odorat très développé. Ce Pokémon n'oublie jamais un parfum, quel qu'il soit. Il utilise son puissant sens olfactif pour deviner les émotions des autres créatures vivantes.</value>
+</data><data name="gen-1-pokemon-59-description-label" xml:space="preserve">
+    <value>Arcanin est célèbre pour son extraordinaire vitesse. On le dit capable de parcourir plus de 10 000 km en 24 h. Le feu qui fait rage à l'intérieur du corps de ce Pokémon est la source de son pouvoir.</value>
+</data><data name="gen-1-pokemon-6-description-label" xml:space="preserve">
+    <value>Dracaufeu parcourt les cieux pour trouver des adversaires à sa mesure. Il crache de puissantes flammes capables de faire fondre n'importe quoi. Mais il ne dirige jamais son souffle destructeur vers un ennemi plus faible.</value>
+</data><data name="gen-1-pokemon-60-description-label" xml:space="preserve">
+    <value>Ptitard a une peau très fine. On peut même voir les entrailles en spirale de ce Pokémon à travers sa peau. Malgré sa finesse, cette peau est aussi très élastique. Même les crocs les plus acérés rebondissent dessus.</value>
+</data><data name="gen-1-pokemon-61-description-label" xml:space="preserve">
+    <value>La peau de Têtarte est toujours maintenue humide par un liquide huileux. Grâce à cette protection graisseuse, il peut facilement se glisser hors de l'étreinte de n'importe quel ennemi.</value>
+</data><data name="gen-1-pokemon-62-description-label" xml:space="preserve">
+    <value>Les muscles solides et surdéveloppés de Tartard ne se fatiguent jamais, quels que soient les efforts qu'il produit. Ce Pokémon est tellement endurant qu'il peut traverser un océan à la nage avec une étonnante facilité.</value>
+</data><data name="gen-1-pokemon-63-description-label" xml:space="preserve">
+    <value>Abra dort dix-huit heures par jour. Pourtant, il peut sentir la présence de ses ennemis, même endormi. Dans ce genre de situation, ce Pokémon se téléporte en lieu sûr.</value>
+</data><data name="gen-1-pokemon-64-description-label" xml:space="preserve">
+    <value>Kadabra émet une onde alpha si particulière qu'elle vous donne mal à la tête. Seuls les gens avec un psychisme puissant peuvent espérer devenir Dresseur de ce Pokémon.</value>
+</data><data name="gen-1-pokemon-65-description-label" xml:space="preserve">
+    <value>Le cerveau d'Alakazam grossit sans arrêt, si bien que sa tête devient trop lourde pour son cou. Ce Pokémon maintient sa tête relevée grâce à son pouvoir télékinétique.</value>
+</data><data name="gen-1-pokemon-66-description-label" xml:space="preserve">
+    <value>Les muscles de Machoc sont spéciaux. Quels que soient les efforts qu'il produit, il n'a jamais de courbature. Ce Pokémon est assez puissant pour lancer une centaine d'hommes adultes.</value>
+</data><data name="gen-1-pokemon-67-description-label" xml:space="preserve">
+    <value>Les muscles toniques de Machopeur sont durs comme de l'acier. Ce Pokémon est si fort qu'il peut facilement soulever un sumo avec un seul doigt.</value>
+</data><data name="gen-1-pokemon-68-description-label" xml:space="preserve">
+    <value>Mackogneur est capable de déplacer n'importe quelle masse. Cependant ses bras s'emmêlent dès qu'il essaie de réaliser un travail délicat ou minutieux. Ce Pokémon a tendance à cogner d'abord et à réfléchir ensuite.</value>
+</data><data name="gen-1-pokemon-69-description-label" xml:space="preserve">
+    <value>Le corps long et flexible de Chétiflor lui permet de se tordre et d'osciller pour éviter tout type d'attaque, mêmes les plus puissantes. Ce Pokémon crache un fluide corrosif qui peut même dissoudre le fer.</value>
+</data><data name="gen-1-pokemon-7-description-label" xml:space="preserve">
+    <value>La carapace de Carapuce ne sert pas qu'à le protéger. La forme ronde de sa carapace et ses rainures lui permettent d'améliorer son hydrodynamisme. Ce Pokémon nage extrêmement vite.</value>
+</data><data name="gen-1-pokemon-70-description-label" xml:space="preserve">
+    <value>Boustiflor est doté d'un gros crochet. La nuit, ce Pokémon s'accroche à une branche pour s'endormir. Quand il a le sommeil agité, il se réveille par terre.</value>
+</data><data name="gen-1-pokemon-71-description-label" xml:space="preserve">
+    <value>Empiflor est doté d'une longue liane qui part de sa tête. Cette liane se balance et remue comme un animal pour attirer ses proies. Lorsque l'une d'elles s'approche un peu trop près, ce Pokémon l'avale entièrement.</value>
+</data><data name="gen-1-pokemon-72-description-label" xml:space="preserve">
+    <value>Le corps de Tentacool est principalement aqueux. Si on le retire de l'eau, il se déshydrate complètement. Si cela arrive, il suffit de le replonger dans un liquide pour qu'il reprenne sa forme normale.</value>
+</data><data name="gen-1-pokemon-73-description-label" xml:space="preserve">
+    <value>Tentacruel a deux gros globes sur la tête. Les globes s'illuminent lorsqu'il va envoyer un violent rayon d'ultrasons. Lorsque ce Pokémon se déchaîne, il crée d'énormes vagues autour de lui.</value>
+</data><data name="gen-1-pokemon-74-description-label" xml:space="preserve">
+    <value>Lorsqu'un Racaillou prend de l'âge, ses bords s'ébrèchent et s'usent, ce qui lui donne une apparence plus ronde. Cependant, le cœur de ce Pokémon reste dur, rocailleux et rugueux.</value>
+</data><data name="gen-1-pokemon-75-description-label" xml:space="preserve">
+    <value>Gravalanch grandit en se nourrissant de cailloux. Apparemment, il a une préférence pour les cailloux recouverts de mousse. En moyenne, il mange une tonne de rochers par jour.</value>
+</data><data name="gen-1-pokemon-76-description-label" xml:space="preserve">
+    <value>Grolem vit à la montagne. Lorsqu'il y a un tremblement de terre, ces Pokémon roulent en groupe vers les contreforts montagneux.</value>
+</data><data name="gen-1-pokemon-77-description-label" xml:space="preserve">
+    <value>À sa naissance, Ponyta est très faible. Il peut à peine tenir debout. Ce Pokémon se muscle en trébuchant et en tombant, lorsqu'il essaie de suivre ses parents.</value>
+</data><data name="gen-1-pokemon-78-description-label" xml:space="preserve">
+    <value>On voit souvent Galopa trotter dans les champs et les plaines. Cependant, lorsque ce Pokémon s'en donne la peine, il peut galoper à plus de 240 km/h et sa crinière flamboyante s'embrase.</value>
+</data><data name="gen-1-pokemon-79-description-label" xml:space="preserve">
+    <value>Ramoloss trempe sa queue dans l'eau au bord des rivières pour attraper ses proies. Cependant, ce Pokémon oublie souvent ce qu'il fait là et passe des jours entiers à traîner au bord de l'eau.</value>
+</data><data name="gen-1-pokemon-8-description-label" xml:space="preserve">
+    <value>Carabaffe a une large queue recouverte d'une épaisse fourrure. Elle devient de plus en plus foncée avec l'âge. Les éraflures sur la carapace de ce Pokémon témoignent de son expérience aux combats.</value>
+</data><data name="gen-1-pokemon-80-description-label" xml:space="preserve">
+    <value>Flagadoss a un Kokiyas solidement attaché à sa queue. Du coup, il ne peut plus l'utiliser pour pêcher. Flagadoss s'est donc obligé, à contrecœur, de nager pour attraper ses proies.</value>
+</data><data name="gen-1-pokemon-81-description-label" xml:space="preserve">
+    <value>Magnéti s'attache aux lignes à haute tension pour se charger en électricité. Si une maison a une panne de courant, il est conseillé de vérifier les fusibles car on trouve parfois ces Pokémon amassés sur la boîte à fusibles.</value>
+</data><data name="gen-1-pokemon-82-description-label" xml:space="preserve">
+    <value>Magnéton émet un puissant champ magnétique qui neutralise les appareils électroniques. Lorsque ces Pokémon débarquent en masse, les villes sonnent l'alarme et préviennent les habitants.</value>
+</data><data name="gen-1-pokemon-83-description-label" xml:space="preserve">
+    <value>On voit souvent des Canarticho avec une tige, récupérée sur une plante quelconque. Apparemment, ils peuvent distinguer les bonnes des mauvaises. On a vu ces Pokémon se battre pour des histoires de tiges.</value>
+</data><data name="gen-1-pokemon-84-description-label" xml:space="preserve">
+    <value>Les deux têtes de Doduo ne dorment jamais en même temps. Elles se reposent à tour de rôle pour que l'une puisse monter la garde pendant que l'autre dort.</value>
+</data><data name="gen-1-pokemon-85-description-label" xml:space="preserve">
+    <value>Il faut se méfier lorsque les trois têtes de Dodrio regardent dans des directions différentes. Cela signifie qu'il est sur ses gardes. Si c'est le cas, il vaut mieux ne pas s'approcher de ce Pokémon, il pourrait décider d'attaquer.</value>
+</data><data name="gen-1-pokemon-86-description-label" xml:space="preserve">
+    <value>Otaria chasse ses proie dans l'eau gelée, sous la couche de glace. Lorsqu'il cherche à respirer, il perce un trou en frappant la glace avec la partie saillante de sa tête.</value>
+</data><data name="gen-1-pokemon-87-description-label" xml:space="preserve">
+    <value>Lamantine adore piquer un roupillon à même la glace. Il y a très longtemps, un marin ayant aperçu ce Pokémon dormant sur un glacier a cru voir une sirène.</value>
+</data><data name="gen-1-pokemon-88-description-label" xml:space="preserve">
+    <value>Le corps boueux et gélatineux de Tadmorv peut s'enfoncer dans n'importe quelle ouverture, même la plus petite. Ce Pokémon se promène dans les tuyaux des égouts pour boire de l'eau croupie.</value>
+</data><data name="gen-1-pokemon-89-description-label" xml:space="preserve">
+    <value>Un fluide nauséabond suinte du corps de Grotadmorv, agressant les narines de ses ennemis. Une seule goutte de ce fluide suffit à faire croupir un bassin d'eau propre.</value>
+</data><data name="gen-1-pokemon-9-description-label" xml:space="preserve">
+    <value>Tortank dispose de canons à eau émergeant de sa carapace. Ils sont très précis et peuvent envoyer des balles d'eau capables de faire mouche sur une cible située à plus de 50 m.</value>
+</data><data name="gen-1-pokemon-90-description-label" xml:space="preserve">
+    <value>La nuit, ce Pokémon utilise sa grande langue pour creuser un trou dans le sable des fonds marins afin d'y dormir. Une fois endormi, Kokiyas referme sa coquille, mais laisse sa langue dépasser.</value>
+</data><data name="gen-1-pokemon-91-description-label" xml:space="preserve">
+    <value>Crustabri est capable de se déplacer dans les fonds marins en avalant de l'eau et en la rejetant vers l'arrière. Ce Pokémon envoie des pointes en utilisant la même méthode.</value>
+</data><data name="gen-1-pokemon-92-description-label" xml:space="preserve">
+    <value>Fantominus est principalement constitué de matière gazeuse. Lorsqu'il est exposé au vent, son corps gazeux se disperse et diminue. Des groupes de ce Pokémon se rassemblent sous les auvents des maisons pour se protéger.</value>
+</data><data name="gen-1-pokemon-93-description-label" xml:space="preserve">
+    <value>Spectrum est un Pokémon dangereux. Si l'un d'entre eux fait signe d'approcher, il ne faut jamais l'écouter. Ce Pokémon risque de sortir sa langue pour essayer de voler votre vie.</value>
+</data><data name="gen-1-pokemon-94-description-label" xml:space="preserve">
+    <value>Parfois, pendant les nuits noires, une ombre projetée par une réverbère peut tout à coup vous dépasser. Il s'agit d'un Ectoplasma qui court, en se faisant passer pour l'ombre de quelqu'un d'autre.</value>
+</data><data name="gen-1-pokemon-95-description-label" xml:space="preserve">
+    <value>Onix a dans le cerveau un aimant qui lui sert de boussole. Il permet à ce Pokémon de ne pas se perdre pendant qu'il creuse. En prenant de l'âge, son corps s'arrondit et se polit.</value>
+</data><data name="gen-1-pokemon-96-description-label" xml:space="preserve">
+    <value>Lorsque les enfants ont le nez qui les démange en dormant, c'est sans doute parce que ce Pokémon se tient au-dessus de leur oreiller, afin d'essayer de manger leurs rêves par leurs narines.</value>
+</data><data name="gen-1-pokemon-97-description-label" xml:space="preserve">
+    <value>Hypnomade tient un pendule dans sa main. Le mouvement de balancier et les reflets brillants du pendule hypnotisent profondément son ennemi. Lorsque ce Pokémon cherche ses proies, il nettoie son pendule.</value>
+</data><data name="gen-1-pokemon-98-description-label" xml:space="preserve">
+    <value>Krabby vit sur les plages, enterré dans le sable. Sur les plages où on trouve un peu de nourriture, on peut voir ces Pokémon se disputer pour défendre leur territoire.</value>
+</data><data name="gen-1-pokemon-99-description-label" xml:space="preserve">
+    <value>Krabboss est doté d'une pince gigantesque, surdimensionnée. Il l'agite en l'air pour communiquer avec ses semblables. En revanche, sa pince est tellement lourde que ce Pokémon se fatigue très vite.</value>
+</data>
+
 </root>

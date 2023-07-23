@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\Sprites\Gen1\gen-1-pokemon-1-sprite.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="..\.editorconfig" Link=".editorconfig" />
   </ItemGroup>
 
@@ -22,7 +26,6 @@
     <PackageReference Include="Microsoft.Extensions.Localization" Version="7.0.9" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.18.1" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.8" />
-    <PackageReference Include="PokeApiNet" Version="3.0.10" />
   </ItemGroup>
 
   <ItemGroup>
@@ -30,6 +33,12 @@
     <ProjectReference Include="..\BlazorIdentity.UI\BlazorIdentity.UI.csproj" />
     <ProjectReference Include="..\BlazorIdentity\BlazorIdentity.csproj" />
     <ProjectReference Include="..\Kamigo.Data\Kamigo.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="wwwroot\Sprites\Gen1\gen-1-pokemon-1-sprite.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>

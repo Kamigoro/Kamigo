@@ -7,7 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Models\PokedexEntries\Gen1\pokedex-red-blue-yellow.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.35.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Models\PokedexEntries\Gen1\pokedex-red-blue-yellow.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>
