@@ -11,10 +11,12 @@
         <li class="list-group-item">@Localizer["game-generation_label"] : @Game.Generation</li>
         <li class="list-group-item">@Localizer["game-region_label"] : @Game.Region</li>
     </ul>
-    <a href="/pokedex/@Game.Id" class="btn btn-primary">@Localizer["my-pokedex_button"]</a>
+    <a href="/@PlayerId/pokedex/generation/@Game.Generation/region/@Game.Region" class="btn btn-primary">@Localizer["my-pokedex_button"]</a>
 </div>
 
 @code {
     [Parameter]
     public PokemonGame Game { get; set; }
+    [Parameter]
+    public string PlayerId { get; set; }
 }

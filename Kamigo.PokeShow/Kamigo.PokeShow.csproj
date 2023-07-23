@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="wwwroot\Sprites\Gen1\gen-1-pokemon-1-sprite.png" />
+    <Content Remove="wwwroot\sprites\Gen-1\gen-1-pokemon-1-sprite.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -36,7 +36,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="wwwroot\Sprites\Gen1\gen-1-pokemon-1-sprite.png">
+    <Resource Include="wwwroot\sprites\Gen-1\gen-1-pokemon-1-sprite.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>

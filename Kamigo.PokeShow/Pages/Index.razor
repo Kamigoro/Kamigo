@@ -27,7 +27,7 @@
                     <div class="row justify-content-center">
                         @foreach (var game in GamesPlayerOwns.OrderBy(g => g.Id))
                         {
-                            <PokemonGameCard Game="@game" />
+                            <PokemonGameCard Game="@game" PlayerId="@CurrentUserId" />
                         }
                     </div>
                 </div>

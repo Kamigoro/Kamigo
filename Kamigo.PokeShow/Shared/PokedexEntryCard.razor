@@ -1,17 +1,35 @@
 ﻿@using Kamigo.Data.Models;
 @using Microsoft.Extensions.Localization;
+@using Kamigo.Data.Models.Pokedex;
 @inject IStringLocalizer<App> Localizer;
 
 <div class="card gx-3 pokedex-entry-card">
-    <img class="card-pokemon-dex-entry-img-top" src=/Sprites/Gen1/@PokedexEntry.SpriteLocalUrl>
+    @if (IsShiny)
+    {
+        <img class="card-pokemon-dex-entry-img-top" src=/Sprites/Gen-@Generation/Shinies/@PokedexEntry.SpriteLocalUrl>
+    }
+    else
+    {
+        <img class="card-pokemon-dex-entry-img-top" src=/Sprites/Gen-@Generation/@PokedexEntry.SpriteLocalUrl>
+    }
     <div class="card-body">
         <h6 class="card-subtitle mb-2 text-muted text-center">@PokedexEntry.Id</h6>
         <h5 class="card-title">@Localizer[@PokedexEntry.Name]</h5>
         <p class="card-text pokedex-entry-card-description-text">@Localizer[@PokedexEntry.Description]</p>
+        @if(Generation > 1)
+        {
+            <button class="btn">Shiny</button>
+        }
     </div>
 </div>
 
 @code {
     [Parameter]
     public PokedexEntry PokedexEntry { get; set; }
+    [Parameter]
+    public int Generation { get; set; }
+    [Parameter]
+    public bool IsShiny { get; set; } = false;
+    [Parameter]
+    public bool IsOwned { get; set; } = false;
 }

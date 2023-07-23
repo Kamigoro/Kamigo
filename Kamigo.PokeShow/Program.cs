@@ -1,4 +1,5 @@
 using BlazorStrap;
+using Kamigo.Data.Models.Pokedex;
 using Kamigo.Data.Repositories;
 using Kamigo.PokeShow.Data;
 using Kamigo.PokeShow.Identity;
@@ -26,6 +27,7 @@ namespace Kamigo.PokeShow
             .AddEntityFrameworkStores<ApplicationDbContext>()
             .AddDefaultTokenProviders();
 
+            builder.Services.AddMemoryCache();
             builder.Services.AddControllers();
             builder.Services.AddLocalization(options => options.ResourcesPath = "Resources");
             builder.Services.AddRazorPages();
@@ -48,6 +50,7 @@ namespace Kamigo.PokeShow
                 return new CosmosPlayerGameRepository(container);
             });
             builder.Services.AddSingleton<PlayerGamesService>();
+            builder.Services.AddSingleton<PokedexProvider>();
 
             var app = builder.Build();
 

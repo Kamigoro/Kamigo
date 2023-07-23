@@ -1,14 +1,16 @@
-﻿@page "/pokedex/{gameId}"
-@using Kamigo.Data.Models.PokedexEntries.Gen1;
+﻿@page "/{PlayerId}/pokedex/generation/{Generation:int}/region/{Region}"
+@using Kamigo.Data.Models.Pokedex.Gen1;
 @using Microsoft.Extensions.Localization;
 @using Kamigo.Data.Models;
+@using Kamigo.Data.Models.Pokedex;
 @inject IStringLocalizer<App> Localizer;
+@inject PokedexProvider PokedexProvider;
 
 <div class="container-fluid">
     <div class="row">
         @foreach (var pokedexEntry in PokedexEntries)
         {
-            <PokedexEntryCard PokedexEntry="@pokedexEntry"/>
+            <PokedexEntryCard PokedexEntry="@pokedexEntry" Generation="@Generation" />
         }
     </div>
 </div>
@@ -16,16 +18,20 @@
 @code{
 
     [Parameter]
-    public string gameId { get; set; }
+    public string PlayerId { get; set; }
+    [Parameter]
+    public int Generation { get; set; }
+    [Parameter]
+    public string Region { get; set; }
 
-    public PokemonGame CurrentPokemonGame { get; set; }
-    public List<PokedexEntry> PokedexEntries { get; set; } = new List<PokedexEntry>();
+    private PokemonGame CurrentPokemonGame { get; set; }
+    private List<PokedexEntry> PokedexEntries { get; set; } = new List<PokedexEntry>();
 
     protected override async Task OnInitializedAsync()
     {
         await base.OnInitializedAsync();
-        CurrentPokemonGame = PokemonGamesList.Games.FirstOrDefault(g => g.Id == int.Parse(gameId));
-        var gen = new Gen1PokedexProvider();
-        PokedexEntries = await gen.GetPokedexEntriesAsync();
+        CurrentPokemonGame = PokemonGamesList.Games.First(g => g.Generation == Generation && g.Region.ToString() == Region);
+        var pokedex = await PokedexProvider.GetPokedexAsync(Generation, Region);
+        PokedexEntries = pokedex.Entries;
     }
 }
